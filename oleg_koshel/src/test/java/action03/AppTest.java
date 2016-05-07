@@ -1,4 +1,4 @@
-package oleg_koshel.oleg_koshel;
+package action03;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
