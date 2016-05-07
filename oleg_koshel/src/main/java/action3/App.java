@@ -1,4 +1,4 @@
-package oleg_koshel.oleg_koshel;
+package action3;
 
 /**
  * Hello world!
@@ -11,6 +11,8 @@ public class App
         System.out.println( "Hello World!" );
         
         //System.out.println( "Hello World!" );
+        
+        //Test
         
     }
 }
