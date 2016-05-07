@@ -1,7 +1,7 @@
 package action03;
 
 /**
- * Hello world!rxdtfshdfkghjlkpohds
+ * Hello world!
  *
  */
 public class App {
