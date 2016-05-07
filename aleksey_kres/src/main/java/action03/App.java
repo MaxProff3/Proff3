@@ -9,5 +9,6 @@ public class App {
 		System.out.println("Hello World!");
 		System.out.println("Привет Витя");
 		System.out.println("QQQQQQQQQ");
+		System.out.println("QQQQQQQQQ");
 	}
 }
