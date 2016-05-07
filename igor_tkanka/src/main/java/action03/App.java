@@ -10,7 +10,7 @@ public class App
     { 
     	
         System.out.println( "Hello World!" );
-        System.out.println( "Шо нибудь!" );
+        System.out.println( "РўСЂСЏРј С‚Р°СЂР°СЂР°Рј!" );
 //CHANGE
            
     }
