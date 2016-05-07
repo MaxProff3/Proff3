@@ -1,0 +1,80 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.background {
+    -fx-background-color: #1d1d1d;
+}
+
+.label {
+    -fx-font-size: 25pt;
+    -fx-font-family: "Segoe UI Semibold";
+    -fx-text-fill: white;
+    -fx-opacity: 0.8;
+}
+
+.label-bright {
+    -fx-font-size: 11pt;
+    -fx-font-family: "Segoe UI Semibold";
+    -fx-text-fill: white;
+    -fx-opacity: 1;
+} 
+
+.label-header {
+    -fx-font-size: 32pt;
+    -fx-font-family: "Segoe UI Light";
+    -fx-text-fill: white;
+    -fx-opacity: 1;
+}
+
+.button {
+    -fx-padding: 5 22 5 22;   
+    -fx-border-color: #1d1d1d;
+    -fx-border-width: 0.5;
+    -fx-background-radius: 0;
+    -fx-background-color: #B3AC86;
+    -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-font-size: 25pt;
+    -fx-text-fill: #1d1d1d;
+    -fx-background-insets: 0 0 0 0, 0, 1, 2;
+}
+
+.button:hover {
+    -fx-background-color: #3a3a3a;
+}
+
+.button:pressed, .button:default:hover:pressed {
+  -fx-background-color: white;
+  -fx-text-fill: #1d1d1d;
+}
+
+.button:focused {
+    -fx-border-color: #1d1d1d;
+    -fx-border-width: 0.5;
+    -fx-border-style: solid;
+    
+    
+}
+
+.button:disabled, .button:default:disabled {
+    -fx-opacity: 0.4;
+    -fx-background-color: #1d1d1d;
+    -fx-text-fill: white;
+}
+
+.button:default { 
+    -fx-background-color: -fx-focus-color;
+    -fx-text-fill: #ffffff;
+}
+
+.button:default:hover {
+    -fx-background-color: derive(-fx-focus-color,30%);
+    }
+.red_button {
+    -fx-padding: 5 22 5 22;   
+    -fx-border-color: #1d1d1d;
+    -fx-border-width: 0.5;
+    -fx-background-radius: 0;
+    -fx-background-color: #B37700;
+    -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-font-size: 25pt;
+    -fx-text-fill: #1d1d1d;
+    -fx-background-insets: 0 0 0 0, 0, 1, 2;
+}
