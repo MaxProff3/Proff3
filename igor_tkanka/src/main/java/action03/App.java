@@ -10,8 +10,8 @@ public class App
     { 
     	
         System.out.println( "Hello World!" );
-        System.out.println( "Прувет ГИТ!!!!!" );
-        //БАГ!!!!! ЭТО БАГГГГ!!!!
+        System.out.println( "Трям тарарам!" );
+//CHANGE
            
     }
    
