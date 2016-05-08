@@ -3,6 +3,7 @@ package action04;
 import static org.junit.Assert.*;
 
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 
 public class TestMiniCalc {
@@ -17,6 +18,7 @@ public class TestMiniCalc {
 		int res = calc.multiply(0, 10);
 		if(res != 0)fail("Error 0*X");
 	}
+	@Ignore
 	@Test
 	public void test_10_0() {
 		//fail("Not yet implemented");
