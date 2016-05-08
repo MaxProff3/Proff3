@@ -6,6 +6,7 @@ package action03;
  */
 public class App {
 	public static void main(String[] args) {
+		// chudim!!!
 		System.out.println("Hello World!");
 	}
 }
