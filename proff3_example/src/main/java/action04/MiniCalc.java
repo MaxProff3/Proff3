@@ -5,4 +5,7 @@ public class MiniCalc {
 		int res = (a/2) * 2 * b;
 		return res;
 	}
+	public int divide(int a, int b){
+		return a/b;
+	}
 }
