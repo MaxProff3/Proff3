@@ -2,7 +2,7 @@ package action04;
 
 import java.util.HashMap;
 import java.util.Map;
-
+ 
 public class ProductShop {
 	Map<Product, String> contructors = new HashMap<Product, String>();
 	
