@@ -6,9 +6,11 @@ public class MainProductShop {
 		
 		ProductShop productSh = new ProductShop();
 		
-		productSh.printContructor();
+//		productSh.printContructor();
+//		
+//		productSh.printReverseContructor();
 		
-		productSh.printReverseContructor();
+		productSh.printNameProductByType(TypeProduct.Bread);
 		
 	}
 	

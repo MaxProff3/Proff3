@@ -1,8 +1,11 @@
 package action04;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collection;
 import java.util.Comparator;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Map;
 import java.util.Set;
@@ -36,11 +39,13 @@ public class ProductShop {
 
 	public void printContructor() {
 		
-		TypeProduct[] arrFirms = TypeProduct.values();
+		
+		
+		Collection<String> arrFirms = contructors.values();
 		
 		Set treeSet = new TreeSet();
 		
-		for (TypeProduct el: arrFirms){
+		for (String el: arrFirms){
 			
 			treeSet.add(el.toString());
 		}
@@ -57,9 +62,73 @@ public class ProductShop {
 	}
 
 	public void printReverseContructor() {
+		
+		Collection<String> arrFirms = contructors.values();
+		
+		Set treeSet = new TreeSet();
+		
+		for (String el: arrFirms){
+			
+			treeSet.add(el.toString());
+		}
+		
+			
+		Iterator iterator = treeSet.iterator();
+		
+		String[] arr = new String[treeSet.size()]; 
+		
+		
+		int n=0;
+		while (iterator.hasNext()){
+			
+			arr[arr.length-1-n] = (String) iterator.next();
+		
+			n++;
+		}
+		
+		
+		for (int i=0;i<arr.length;i++){
+			
+			System.out.println(arr[i]);
+			
+		}
+		
+		
 	}
 
 	public void printNameProductByType(TypeProduct type) {
+		
+		HashSet prSet = new HashSet<>(); 
+		
+		Collection<Product> arrProducts = contructors.keySet();
+		
+		Iterator iterator = arrProducts.iterator();
+		
+		
+		while (iterator.hasNext()){
+			
+			Product pr = (Product) iterator.next();
+			
+			if (pr.getTypeProduct() == type){
+				
+				prSet.add(pr);
+			}
+			
+			
+			
+		}
+		
+		
+		
+		Iterator iterHashSet = prSet.iterator();
+		
+		while (iterHashSet.hasNext()){
+			
+			System.out.println(iterHashSet.next());
+			
+		}
+		
+		
 	}
 }
 
@@ -72,6 +141,37 @@ class Product {
 		this.name = name;
 		this.type = type;
 		this.party = party;
+				
+	}
+	
+	@Override
+	public int hashCode(){
+		
+		return name.hashCode()*30 +type.hashCode() ;
+		
+	}
+	
+	@Override
+	public boolean equals(Object o){
+		
+		Product pr = (Product)o;
+		
+		if (this.type == pr.type && this.name.equals(pr.name)) return true;
+		else return false;
+		
+	}
+	
+	public TypeProduct getTypeProduct(){
+		
+		return type;
+		
+	}
+	
+	@Override
+	public String toString(){
+		
+		return "Name: "+name+"  TypeProduct: "+getTypeProduct();
+		
 	}
 	
 
