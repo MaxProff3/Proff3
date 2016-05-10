@@ -1,4 +1,4 @@
-package base;
+package hw_mayskie_prazdniki.base;
 
 import java.io.Serializable;
 import java.text.SimpleDateFormat;

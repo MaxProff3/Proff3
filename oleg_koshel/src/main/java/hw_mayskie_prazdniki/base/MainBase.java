@@ -1,4 +1,4 @@
-package base;
+package hw_mayskie_prazdniki.base;
 
 import java.io.IOException;
 import java.text.ParseException;
@@ -13,10 +13,10 @@ public class MainBase {
 // Test add
 //		
 		GregorianCalendar dateOfExpireUser1 = new GregorianCalendar(1975,12, 31);
-		User user1 = new User("Олег","111","Олег",dateOfExpireUser1);
+		User user1 = new User("пїЅпїЅпїЅпїЅ","111","пїЅпїЅпїЅпїЅ",dateOfExpireUser1);
 	
 		GregorianCalendar dateOfExpireUser2 = new GregorianCalendar(1900,11, 20);
-		User user2 = new User("Ulia","222","Олег",dateOfExpireUser2);
+		User user2 = new User("Ulia","222","пїЅпїЅпїЅпїЅ",dateOfExpireUser2);
 //			
 //		System.out.println(user1);
 //		System.out.println(user2);
@@ -24,7 +24,7 @@ public class MainBase {
 		Base.add(user1);
 		Base.add(user2);
 //		
-//		System.out.println(Base.auth("Олег", "111"));
+//		System.out.println(Base.auth("пїЅпїЅпїЅпїЅ", "111"));
 		
 		
 		

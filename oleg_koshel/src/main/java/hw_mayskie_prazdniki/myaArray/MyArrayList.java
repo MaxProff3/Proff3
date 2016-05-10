@@ -1,4 +1,4 @@
-package myaArray;
+package hw_mayskie_prazdniki.myaArray;
 
 public class  MyArrayList<Q> implements Comparable<Q> {
 	

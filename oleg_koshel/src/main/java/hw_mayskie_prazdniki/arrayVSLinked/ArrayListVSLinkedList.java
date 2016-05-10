@@ -1,4 +1,4 @@
-package arrayVSLinked;
+package hw_mayskie_prazdniki.arrayVSLinked;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -88,9 +88,9 @@ public static void TestNoCapacity(){
 	      long scoreLinkLastSred = time2 - time1;
 		
 		
-	      System.out.println("NoCapacity Вставка в начало: ArrayList= "+scoreArrADD0+"    LinkedList= "+scoreLink0);
-	      System.out.println("NoCapacity Вставка в середину: ArrayList= "+scoreArrADDSred+"    LinkedList= "+scoreLinkLastSred);
-	      System.out.println("NoCapacity Вставка в конец: ArrayList= "+scoreArrADDLast+"    LinkedList= "+scoreLinkLast);
+	      System.out.println("NoCapacity пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ: ArrayList= "+scoreArrADD0+"    LinkedList= "+scoreLink0);
+	      System.out.println("NoCapacity пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ: ArrayList= "+scoreArrADDSred+"    LinkedList= "+scoreLinkLastSred);
+	      System.out.println("NoCapacity пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅ: ArrayList= "+scoreArrADDLast+"    LinkedList= "+scoreLinkLast);
 		
 		
 	}
@@ -164,9 +164,9 @@ public static void TestNoCapacity11000(){
       long scoreLinkLastSred = time2 - time1;
 	
 	
-      System.out.println("Capacity11000 Вставка в начало: ArrayList= "+scoreArrADD0+"    LinkedList= "+scoreLink0);
-      System.out.println("Capacity11000 Вставка в середину: ArrayList= "+scoreArrADDSred+"    LinkedList= "+scoreLinkLastSred);
-      System.out.println("Capacity11000 Вставка в конец: ArrayList= "+scoreArrADDLast+"    LinkedList= "+scoreLinkLast);
+      System.out.println("Capacity11000 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ: ArrayList= "+scoreArrADD0+"    LinkedList= "+scoreLink0);
+      System.out.println("Capacity11000 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ: ArrayList= "+scoreArrADDSred+"    LinkedList= "+scoreLinkLastSred);
+      System.out.println("Capacity11000 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅ: ArrayList= "+scoreArrADDLast+"    LinkedList= "+scoreLinkLast);
 	
 	      
 	}
@@ -220,7 +220,7 @@ public static void Sum(){
 
       long scoreSumLink = time2 - time1;
       
-      System.out.println("Сумирование всех эл   ArrayList "+scoreSumArr+"   LinkedList "+scoreSumLink);
+      System.out.println("пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅ   ArrayList "+scoreSumArr+"   LinkedList "+scoreSumLink);
   
 }
 
