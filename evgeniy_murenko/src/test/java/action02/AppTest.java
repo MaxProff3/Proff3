@@ -1,4 +1,4 @@
-package action03;
+package action02;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
