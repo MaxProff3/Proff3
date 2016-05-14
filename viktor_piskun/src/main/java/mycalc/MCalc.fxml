@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mycalc.Controller">
+   <children>
+      <VBox alignment="CENTER" prefHeight="330.0" prefWidth="250.0">
+         <children>
+            <StackPane prefHeight="60.0" prefWidth="200.0">
+               <children>
+                  <TextField fx:id="display" alignment="CENTER_RIGHT" editable="false" mouseTransparent="true" prefHeight="50.0" prefWidth="200.0">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </TextField>
+               </children>
+            </StackPane>
+            <HBox alignment="CENTER" prefHeight="70.0" prefWidth="200.0" spacing="10.0">
+               <children>
+                  <Button fx:id="button7" mnemonicParsing="false" onAction="#doSomething" prefHeight="50.0" prefWidth="50.0" text="7">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="button8" mnemonicParsing="false" onAction="#doSomething" prefHeight="50.0" prefWidth="50.0" text="8">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="button9" mnemonicParsing="false" onAction="#doSomething" prefHeight="50.0" prefWidth="50.0" text="9">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="mult" mnemonicParsing="false" onAction="#doSomething" prefHeight="50.0" prefWidth="50.0" text="*">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="70.0" prefWidth="200.0" spacing="10.0">
+               <children>
+                  <Button fx:id="button4" mnemonicParsing="false" onAction="#doSomething" prefHeight="50.0" prefWidth="50.0" text="4">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="button5" mnemonicParsing="false" onAction="#doSomething" prefHeight="50.0" prefWidth="50.0" text="5">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="button6" mnemonicParsing="false" onAction="#doSomething" prefHeight="50.0" prefWidth="50.0" text="6">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="div" mnemonicParsing="false" onAction="#doSomething" prefHeight="50.0" prefWidth="50.0" text="/">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="70.0" prefWidth="200.0" spacing="10.0">
+               <children>
+                  <Button fx:id="button1" mnemonicParsing="false" onAction="#doSomething" prefHeight="50.0" prefWidth="50.0" text="1">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="button2" mnemonicParsing="false" onAction="#doSomething" prefHeight="50.0" prefWidth="50.0" text="2">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="button3" mnemonicParsing="false" onAction="#doSomething" prefHeight="50.0" prefWidth="50.0" text="3">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="add" mnemonicParsing="false" onAction="#doSomething" prefHeight="50.0" prefWidth="50.0" text="+">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="70.0" prefWidth="200.0" spacing="10.0">
+               <children>
+                  <Button fx:id="button0" mnemonicParsing="false" onAction="#doSomething" prefHeight="50.0" prefWidth="110.0" text="0">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="eql" mnemonicParsing="false" onAction="#doSomething" prefHeight="50.0" prefWidth="50.0" text="=">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="sub" mnemonicParsing="false" onAction="#doSomething" prefHeight="50.0" prefWidth="50.0" text="-">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
