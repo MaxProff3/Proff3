@@ -1,11 +1,16 @@
 package hw2;
 
+import static org.junit.Assert.*;
+
 import java.util.HashMap;
 import java.util.Map;
 
-public class Main {
+import org.junit.Test;
 
-	public static void main(String[] args) {
+public class TestMyHashMap {
+
+	@Test
+	public void test() {
 		Map<Integer,String> map = new HashMap<Integer,String>();
 		map.put(3, "value3");
 		map.put(12, "value12");
@@ -18,9 +23,6 @@ public class Main {
 		map.put(0, "value0");
 		map.put(467, "value467");
 		map.put(444, "value444");
-//		System.out.println(map.remove(66));		
-//		System.out.println(map.get(66));
-//		System.out.println(map.size());
 		
 		MyHashMap<Integer,String> myMap = new MyHashMap<>();
 		myMap.put(3, "value3");
@@ -35,24 +37,10 @@ public class Main {
 		myMap.put(467, "value467");
 		myMap.put(444, "value444");
 		
-//		System.out.println(myMap.remove(66));
-//		System.out.println(myMap.get(66));
-//		System.out.println(myMap.size());
+		String s1 = map.entrySet().toString();
+		String s2 = myMap.entrySet().toString();
+		if(!s1.equals(s2))fail("Not equals!");
 		
-//		for(int i=0;i<1000;i++){
-//			myMap.put(i, "none");
-//			map.put(i, "none");
-//		}
-//		System.out.println("map="+map.size());
-//		System.out.println("myMap="+myMap.size());
-//		System.out.println(map.remove(99));
-//		System.out.println(myMap.remove(99));
-//		System.out.println("map="+map.size());
-//		System.out.println("myMap="+myMap.size());
-		
-		
-		System.out.println(map.entrySet());
-		System.out.println(myMap.entrySet());
 	}
-	
+
 }
