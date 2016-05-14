@@ -1,42 +1,38 @@
 package action05;
 
 import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.Iterator;
+import java.util.HashMap;
+
 
 public class ReflectionTask2Example {
 
-	public static void OutClassesOfObject(Class<?> cl) {
+	public static void OutClassesOfObject(Object obj) {
 
-		HashSet<String> hs = new HashSet<String>();
+		
 
 		ArrayList<Class<?>> arr = new ArrayList<Class<?>>();
 
-		arr.add(cl);
-
-		for (Class<?> el : arr) {
+		arr.add(obj.getClass());
+		
+		
+		
+		for (int i=0;i<arr.size();i++){
 			
-			if (el.getSuperclass()!=Object.class){
-				
-				arr.add(el.getSuperclass());
-
-				hs.add(el.getSuperclass().toString());
-				
+			
+			Class<?> el = arr.get(i);
+			
+			if (el!=null) {
+				arr.add(el.getSuperclass()) ;
+				System.out.println(el.getSuperclass());
 			}
-
-
-
+						
 		}
-		
-		
-		Iterator iterator =  hs.iterator();
-		
-		while (iterator.hasNext()){
-			
-			System.out.println(iterator.next());
-			
-		}
+				
 
 	}
 
+	
+	public static void main(String[] args) {
+		OutClassesOfObject(new ArrayList<>());
+	}
 }
