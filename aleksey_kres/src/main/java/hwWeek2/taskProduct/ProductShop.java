@@ -1,13 +1,16 @@
-package action04;
+package hwWeek2.taskProduct;
 
 import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
+import java.util.Set;
+import java.util.TreeMap;
+import java.util.TreeSet;
 
 public class ProductShop {
 	Map<Product, String> contructors = new HashMap<Product, String>();
@@ -15,9 +18,8 @@ public class ProductShop {
 	public static void main(String[] args) {
 		ProductShop shop = new ProductShop();
 		shop.printContructor();
-
-		//shop.printReverseContructor();
-		// shop.printNameProductByType(TypeProduct.Yogurt);
+		shop.printReverseContructor();
+		shop.printNameProductByType(TypeProduct.Yogurt);
 
 	}
 
@@ -43,61 +45,50 @@ public class ProductShop {
 		contructors.put(new Product("Yogurt for Java Developers", TypeProduct.Yogurt, 20), "Firma 2");
 
 		contructors.put(new Product("Yogurt for Java Developers", TypeProduct.Yogurt, 20), "Firma 2");
-		// System.out.println(contructors.size());
+		contructors.put(new Product("Yogurt for Java Developers", TypeProduct.Yogurt, 20), "Firma 2");
+		/* System.out.println(contructors.size()); */
 	}
 
 	public void printContructor() {
-		for (Entry<Product, String> entry : contructors.entrySet()) {
-			System.out.println(entry.getKey() + " " + entry.getValue());
+		List<Map.Entry<Product, String>> list = new ArrayList<>(contructors.entrySet());
+		Collections.sort(list, new Comparator<Map.Entry<Product, String>>() {
 
+			@Override
+			public int compare(Entry<Product, String> arg0, Entry<Product, String> arg1) {
+				return arg0.getValue().compareTo(arg1.getValue());
+			}
+		});
+		for (Entry<Product, String> entry : list) {
+			System.out.println(entry.getValue() + " " + entry.getKey());
 		}
 	}
 
 	public void printReverseContructor() {
-		List list = new ArrayList(contructors.entrySet());
-		Collections.sort(list, new Comparator<Entry<Product, String>>() {
-			public int compare(Entry<Product, String> o1, Entry<Product, String> o2) {
-				return (o1.getValue()).compareTo(o2.getValue());
+		List<Map.Entry<Product, String>> list = new ArrayList<>(contructors.entrySet());
+		Collections.sort(list, new Comparator<Map.Entry<Product, String>>() {
+
+			@Override
+			public int compare(Entry<Product, String> arg0, Entry<Product, String> arg1) {
+				return arg1.getValue().compareTo(arg0.getValue());
 			}
 		});
-		for (Entry<Product, String> entry : contructors.entrySet()) {
-			System.out.println(entry.getKey() + " " + entry.getValue());
-
+		for (Entry<Product, String> entry : list) {
+			System.out.println(entry.getValue() + " " + entry.getKey());
 		}
-
 	}
 
 	public void printNameProductByType(TypeProduct type) {
+		Map<String, TypeProduct> map = new TreeMap<>();
 		for (Entry<Product, String> entry : contructors.entrySet()) {
-			if (entry.getKey().getType().equals(type)) {
-				System.out.println(entry.getKey() + " " + entry.getValue());
+			map.put(entry.getKey().getName(), entry.getKey().getType());
+		}
+		
+		for (Entry<String, TypeProduct> entry : map.entrySet()) {
+			if (entry.getValue().equals(type)) {
+				System.out.println("name " + entry.getKey() + " type " + entry.getValue());
 			}
+			
+			
 		}
 	}
-}
-
-class Product {
-	private String name;
-	private TypeProduct type;
-	private int party;
-
-	public Product(String name, TypeProduct type, int party) {
-		this.name = name;
-		this.type = type;
-		this.party = party;
-	}
-
-	public TypeProduct getType() {
-		return type;
-	}
-
-	public void setType(TypeProduct type) {
-		this.type = type;
-	}
-
-	@Override
-	public String toString() {
-		return name+" "+type;
-	}
-
 }

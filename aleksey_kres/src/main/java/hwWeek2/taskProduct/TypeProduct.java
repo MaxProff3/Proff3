@@ -1,8 +1,8 @@
-package action04;
+package hwWeek2.taskProduct;
 
 public enum TypeProduct {
 	Bread, Yogurt, Milk;	
-	 	
+		
 }
 class Example{
 	public void main(){
