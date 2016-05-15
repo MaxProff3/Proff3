@@ -1,11 +1,10 @@
-package m.krasnoshchekov;
+package action04;
 
 import static org.junit.Assert.*;
 
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
-
-import action04.MiniCalc;
 
 public class TestMiniCalc {
 	MiniCalc calc;
@@ -19,6 +18,7 @@ public class TestMiniCalc {
 		int res = calc.multiply(0, 10);
 		if(res != 0)fail("Error 0*X");
 	}
+	@Ignore
 	@Test
 	public void test_10_0() {
 		//fail("Not yet implemented");
@@ -43,5 +43,5 @@ public class TestMiniCalc {
 	//assertTrue("name error",res1==expected);
 	//assertEquals(res.equals(expected))
 	//assertNull(res)
-
+	
 }
