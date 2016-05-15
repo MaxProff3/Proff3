@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 .settings/
 target/
 *.classpath
+=======
+.settings/
+target/
+*.classpath
+>>>>>>> branch 'master' of https://github.com/MaxProff3/Proff3.git
 *.project
