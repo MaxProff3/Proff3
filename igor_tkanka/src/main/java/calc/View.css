@@ -4,10 +4,12 @@
 }
 
 .label {
+	
     -fx-font-size: 25pt;
     -fx-font-family: "Segoe UI Semibold";
     -fx-text-fill: white;
     -fx-opacity: 0.8;
+    
 }
 
 .label-bright {
