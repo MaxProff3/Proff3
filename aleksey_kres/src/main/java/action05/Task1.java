@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.Set;
 import java.util.TreeSet;
 //Task1
-public class Monitor {
+public class Task1 {
 	public static void main(String[] args) {
 		String str = new String();
 		Class<?> c2 = str.getClass();
