@@ -1,5 +1,8 @@
 package hw2;
 
+import java.util.HashSet;
+import java.util.Set;
+
 public class MyHashMap<K,V> {
 	
 	private MyEntry<K,V>[] array;
@@ -11,20 +14,6 @@ public class MyHashMap<K,V> {
 
 	@SuppressWarnings("unchecked")
 	public MyHashMap(int ownCapacity){array = new MyEntry[ownCapacity];}
-	
-	public void print(){	
-		MyEntry<K, V> each = null;
-		for(int i=0;i<array.length;i++){
-			if(array[i]!=null){
-				each=array[i];
-				System.out.println(each);
-				while(each.next!=null){
-					each=each.next;
-					System.out.println(each);
-				}
-			}
-		}
-	}
 	
 	public boolean put(K k, V v){
 		if(isKeyExist(k,v))return true;
@@ -41,6 +30,22 @@ public class MyHashMap<K,V> {
 		current.next=obj;
 		size++;
 		return true;
+	}
+	
+	public Set<MyEntry<K, V>> entrySet(){	
+		Set<MyEntry<K, V>> set = new HashSet<>();
+		for(int i=0;i<array.length;i++){
+			MyEntry<K, V> each = new MyEntry<>(null,null);
+			if(array[i]!=null){
+				each=array[i];
+				set.add(each);
+				while(each.next!=null){
+					each=each.next;
+					if(each!=null)set.add(each);
+				}
+			}
+		}
+		return set;
 	}
 	
 	@SuppressWarnings("unchecked")
@@ -79,12 +84,12 @@ public class MyHashMap<K,V> {
 		for(int i=0;i<array.length;i++){
 			if(array[i]!=null){
 				MyEntry<K,V> obj = array[i];
-				if(obj.key.hashCode()==k.hashCode() || obj.key.equals(k)){
+				if(obj.key.equals(k)){
 					obj.value=v;
 					return true;
 				}
 				while(obj.next!=null){
-					if(obj.key.hashCode()==k.hashCode() || obj.key.equals(k)){
+					if(obj.key.equals(k)){
 						obj.value=v;
 						return true;
 					}
@@ -111,6 +116,7 @@ public class MyHashMap<K,V> {
 		return size;
 	}
 
+	@SuppressWarnings("hiding")
 	class MyEntry<K,V> {
 		K key;
 		V value;
@@ -118,7 +124,7 @@ public class MyHashMap<K,V> {
 		
 		@Override
 		public String toString() {
-			return "["+key + "=" + value + "]";
+			return key + "=" + value;
 		}
 
 		public MyEntry(K key,V value){

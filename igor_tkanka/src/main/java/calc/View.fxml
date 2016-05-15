@@ -8,7 +8,11 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onKeyPressed="#handleKeyEventPressed" onKeyTyped="#handleKeyEvent" prefHeight="400.0" prefWidth="400.0" styleClass="background" stylesheets="@View.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="calc.View">
    <children>
-      <Label id="result" fx:id="result" alignment="CENTER_RIGHT" contentDisplay="RIGHT" text="Hello Calc" textAlignment="RIGHT" textOverrun="LEADING_ELLIPSIS" AnchorPane.bottomAnchor="300.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <Pane AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label id="result" fx:id="result" alignment="CENTER_RIGHT" contentDisplay="RIGHT" prefHeight="101.0" prefWidth="400.0" text="Hello Calc" textAlignment="RIGHT" textOverrun="LEADING_ELLIPSIS" />
+         </children>
+      </Pane>
       <GridPane AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="100.0">
         <columnConstraints>
           <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
