@@ -16,7 +16,7 @@ public class ReflectionApi {
 		Method[] methods = cl.getMethods();
 		cl.getDeclaredMethods();
 		
-		cl.getInterfaces();  //может быть несколько одинаковых
+		cl.getInterfaces();
 		cl.getSuperclass();
 		
 		methods[0].isAnnotationPresent(MyAnnotation.class);
