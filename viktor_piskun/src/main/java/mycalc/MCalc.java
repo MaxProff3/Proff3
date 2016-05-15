@@ -14,7 +14,7 @@ public class MCalc extends Application {
 	public void start(Stage primaryStage) throws IOException {
 		Parent root = FXMLLoader.load(getClass().getResource("MCalc.fxml"));
 
-		Scene scene = new Scene(root, 240, 330);
+		Scene scene = new Scene(root, 240, 320);
 
 		primaryStage.setResizable(false);
 		primaryStage.setTitle("Welcome");

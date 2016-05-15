@@ -5,18 +5,18 @@ public class Calc extends AbstractCalc {
 	@Override
 	public void inChar(char p) {
 
+		if (ByZero.equals(result)) {
+			result = "0";
+		}
+		
 		int current = getIntRes();
 
 		if (!Character.isDigit(p)) {
 			if (p == '=') {
 				if (operation == '/') {
 					result = (current == 0) ? ByZero : String.valueOf(methodCalc(temp, current, operation));
-				} else if (p == '+' || p == '-' || p == '*') {
-					if(operation == p) {						
-						result = String.valueOf(methodCalc(temp, current, operation));
-					} else{
-						result = String.valueOf(methodCalc(temp, current, operation));
-					}
+				} else {
+					result = String.valueOf(methodCalc(temp, current, operation));
 				}
 				operation = ' ';
 				temp = 0;
