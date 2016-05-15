@@ -5,9 +5,10 @@ public @interface MyAnnotation {
 }
 
 @MyAnnotation
-class MyClass{
+class MyClass {
+
 	@MyAnnotation
-	public void f(){
-		
+	public void f() {
 	}
+
 }

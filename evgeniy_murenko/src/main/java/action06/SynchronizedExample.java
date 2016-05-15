@@ -1,18 +1,22 @@
 package action06;
 
 public class SynchronizedExample {
+	
 	public void f() {
 		synchronized (this) {
-			try {
-				this.wait(10000);
-			} catch (InterruptedException e) {
+			try{
+				this.wait(); //
+			} catch (InterruptedException e){
 				e.printStackTrace();
 			}
+			
 		}
 	}
-	public void g() {
+	
+	public void g(){
 		synchronized (this) {
-			this.notify();
+			this.notify(); // будет спяший поток
 		}
 	}
+
 }
