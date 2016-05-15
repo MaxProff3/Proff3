@@ -8,9 +8,9 @@ public class MainMyHashSet {
 	public static void main(String[] args) {
 		
 		
-		MyHashSet<Test> myHash = new MyHashSet<Test>();
+		MyHashSet<String> myHash = new MyHashSet<String>();
 
-		Test str = new Test(); 
+		String str = new String("1"); 
 		
 		myHash.add(str);
 		//myHash.add(3);

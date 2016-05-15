@@ -3,10 +3,10 @@ package action04;
 public class Car implements Comparable<Car>{
 	private String number;
 	private String color;
-	private String marka;
+	private String marka;//
 	
 	@Override
-	public int compareTo(Car car) {
+	public int compareTo( Car car) {
 		return this.number.compareTo(car.number);
 	}		
 	
