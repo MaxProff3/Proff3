@@ -1,5 +1,7 @@
 package action06;
 
+import java.io.FileNotFoundException;
+import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
@@ -22,7 +24,7 @@ public class Monitor {
 		ThreadWriter writer = new ThreadWriter();
 		
 		creator.start();
-		//writer.start();
+		writer.start();
 	}
 }
 
@@ -31,10 +33,11 @@ class ThreadCreator extends Thread {
 	public void run(){
 		try {
 			Scanner scan = new Scanner(System.in);
-			FileWriter fw = new FileWriter("nameFile1");
+			FileWriter fw = new FileWriter("nameFile1.txt");
 			System.out.println("Введите строку для записи в файл: ");
 			String str = scan.nextLine();
 			fw.write(str);
+			fw.close();
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
@@ -44,8 +47,10 @@ class ThreadCreator extends Thread {
 class ThreadWriter extends Thread {
 	@Override
 	public void run(){
-		for (int i = 0; i < 2000; i++) {
-			System.out.println(getName() + "_" + i);
+		try {
+			FileReader fr = new FileReader("nameFile1.txt");
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
 		}
 	}
 }
