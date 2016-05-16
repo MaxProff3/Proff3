@@ -14,8 +14,15 @@ public class CarBuilderExample {
 	}	
 }
 class Car{
+	private String color;
+	private String number;
+	
+	
 	
 }
 class BuilderCar{
+	
+	public Car c;
+	
 	
 }
