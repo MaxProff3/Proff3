@@ -52,7 +52,7 @@ public class Main {
 		
 		
 		System.out.println(map.entrySet());
-		myMap.print();
+		System.out.println(myMap.entrySet());
 	}
 	
 }
