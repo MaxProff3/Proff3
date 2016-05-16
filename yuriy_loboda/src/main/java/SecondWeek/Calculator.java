@@ -1,6 +1,6 @@
 package SecondWeek;
 
-public interface Calculator {
+public interface Calculator extends Comparable<Test> {
 	public final static String ByZero = "Error";
 
 	public void printResult();
