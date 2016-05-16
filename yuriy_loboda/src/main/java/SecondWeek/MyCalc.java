@@ -68,4 +68,10 @@ public class MyCalc extends AbstractCalc {
 		}
 
 	}
+
+	@Override
+	public int compareTo(Test o) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
 }
