@@ -2,4 +2,4 @@
 target/
 *.classpath
 *.project
-../proff3_example/
+./proff3_example/
