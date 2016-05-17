@@ -16,7 +16,9 @@ public class Server {
 		this.pass = pass;
 	}
 
-	private Server(){}
+	private Server(){
+		this.pass=pass;
+	}
 	
 	public static  Server getInstance(){
 		if(serv==null){
