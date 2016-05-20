@@ -6,7 +6,7 @@ public class Server {
 	
 	private Server(){}
 	
-	public Server getInstance(){
+	public static Server getInstance(){
 		if (serv == null){
 			serv = new Server();
 		}

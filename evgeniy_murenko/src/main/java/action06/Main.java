@@ -9,7 +9,7 @@ public class Main {
 
 		mon.thread1.start();
 		mon.thread2.start();
-		//mon.thread2.setDaemon(false);
+		//mon.thread2.setDaemon(true);
 	}
 
 }
