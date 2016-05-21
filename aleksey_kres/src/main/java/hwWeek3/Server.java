@@ -1,5 +1,5 @@
-package action06;
-//реализация SingleTon
+package hwWeek3;
+
 public class Server {
 	private static Server instance;
 	
