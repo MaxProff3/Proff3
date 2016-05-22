@@ -5,6 +5,7 @@ import java.util.Iterator;
 import java.util.Map;
 
 import SecondWeek.MyHashMap.MyEntry;
+import ThirdWeek.Server;
 
 public class Test {
 
@@ -50,15 +51,19 @@ public class Test {
 		Integer c=99;
 		int d=c.hashCode()%16;
 		System.out.println(b+" = "+d);
+		
+		
+		
 /*
 	Iterator<Map.Entry<Integer, Integer>> iter=map1.entrySet().iterator();
 	Iterator<MyHashMap<Integer, Integer>.MyEntry<Integer, Integer>> iter1=map.entrySet().iterator();
 	//while(iter1.hasNext()!=null)
 	*/
+		/*
 	for(MyHashMap<Integer, Integer>.MyEntry<Integer, Integer> en : map.entrySet()){
 		System.out.println(en.getKey()+" - "+en.getValue());
 
 	}
-
+*/
 }
 }

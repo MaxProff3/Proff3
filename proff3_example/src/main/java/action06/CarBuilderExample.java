@@ -13,10 +13,6 @@ public class CarBuilderExample {
 		System.out.println(car2);		
 	}	
 }
-
-
-
-
 class BuilderCar{
 	private String number;
 	private String color;	
@@ -48,8 +44,6 @@ class BuilderCar{
 	public String getMarka() {
 		return marka;
 	}
-	
-	
 }
 class Car{
 	private String number;
