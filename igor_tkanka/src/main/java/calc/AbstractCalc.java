@@ -7,8 +7,9 @@ public abstract class AbstractCalc implements Calculator {
 	protected char operation;
 
 	@Override
-	public void printResult() {
+	public String printResult() {
 		System.out.println("Result = " + result);
+		return result;
 	}
 
 	public String getResult() {
