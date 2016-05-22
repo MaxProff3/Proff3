@@ -7,7 +7,7 @@ public class MyHashSet<T> {
 	private int capacity=128;
 	Node<T>[] arr;
 	
-	MyHashSet(){
+	public MyHashSet(){
 		arr=new Node[capacity];
 	}
 	
@@ -20,12 +20,12 @@ public class MyHashSet<T> {
 			if(i==index){
 				if(arr[i]==null){
 					arr[i]=new Node(null,value);
-					System.out.println("Добавлен "+ arr[i].getValue());
+				//	System.out.println("пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ "+ arr[i].getValue());
 					size+=1;
 					return true;
 				}
 				if(arr[i].getValue().equals(value)){
-					System.out.println("Одинаковые объекты");
+					//System.out.println("пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ");
 					return false;
 				}
 				
@@ -63,7 +63,7 @@ public class MyHashSet<T> {
 	public boolean contains(T obj){
 		int indexGr = Math.abs(obj.hashCode()%arr.length);
 		if(arr[indexGr]==null){
-			System.out.println("Группы с таким индексом не существует");
+			//System.out.println("пїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ");
 			return false;
 		}
 		if(arr[indexGr]!=null){
@@ -72,7 +72,7 @@ public class MyHashSet<T> {
 				while(pointer.getValue()!=null){
 					try{
 					if(pointer.getValue().equals(obj)){
-						System.out.println("Объект найден");
+				//		System.out.println("пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ");
 						return true;
 					}
 					if(!pointer.getValue().equals(obj)){
@@ -84,7 +84,7 @@ public class MyHashSet<T> {
 				}
 		}		
 		}
-		System.out.println("Объект не найден");
+	//	System.out.println("пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ");
 		return false;
 	}
 	

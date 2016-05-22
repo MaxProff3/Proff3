@@ -1,3 +1,4 @@
+
 package action06;
 /*
  Написать класс Monitor(nameFile1,nameFile2), в котором два потока.
@@ -32,7 +33,7 @@ public class Monitor {
 
 	class ThreadCreator extends Thread {
 		String str = "";
-		Scanner scan = new Scanner(System.in); ;
+		Scanner scan = new Scanner(System.in);;
 		File file = new File("nameFile1");
 		FileWriter fw;
 
@@ -45,7 +46,7 @@ public class Monitor {
 					fw = new FileWriter(file);
 					fw.write(str);
 					fw.close();
-					
+
 				} catch (IOException e) {
 					System.out.println("NOT FILE");
 					e.printStackTrace();

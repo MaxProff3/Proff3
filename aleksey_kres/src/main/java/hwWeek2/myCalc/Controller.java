@@ -10,7 +10,7 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-public class MyCalc extends Application {
+public class Controller extends Application {
 
  @Override
  public void start(Stage primaryStage) throws IOException {
@@ -27,10 +27,10 @@ public class MyCalc extends Application {
  public static void main(String[] args) {
   launch(args);
  }
-}
 
 
-public class Calc extends AbstractCalc {
+
+public class MyCalc extends AbstractCalc {
 
  @Override
  public void inChar(char p) {
@@ -66,7 +66,12 @@ public class Calc extends AbstractCalc {
   }
  }
 
- private int methodCalc(int a1, int a2, char op) {
+ private int getIntRes() {
+	// TODO Auto-generated method stub
+	return 0;
+}
+
+private int methodCalc(int a1, int a2, char op) {
   switch (op) {
   case '+':
    return a1 + a2;
@@ -81,4 +86,4 @@ public class Calc extends AbstractCalc {
   }
  }
 
-}
+}}
