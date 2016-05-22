@@ -14,7 +14,7 @@ public class ReflectionTask3 {
 
 		arr.add(obj.getClass());
 		
-		
+		s
 		
 		for (int i=0;i<arr.size();i++){
 			
