@@ -98,7 +98,7 @@ public class ProductShop {
 
 	public void printNameProductByType(TypeProduct type) {
 		
-		HashSet prSet = new HashSet<>(); 
+		HashSet prSet = new HashSet(); 
 		
 		Collection<Product> arrProducts = contructors.keySet();
 		

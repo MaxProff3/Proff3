@@ -54,7 +54,7 @@ public class ReflectionTask3 {
 
 	
 	public static void main(String[] args) {
-		OutInterfacesOfObject(new HashMap<>());
+		OutInterfacesOfObject(new HashMap());
 	}
 
 }
