@@ -33,6 +33,6 @@ public class ReflectionTask2Example {
 
 	
 	public static void main(String[] args) {
-		OutClassesOfObject(new ArrayList<>());
+		OutClassesOfObject(new ArrayList());
 	}
 }

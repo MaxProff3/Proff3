@@ -124,7 +124,6 @@ public class  MyArrayList<Q> implements Comparable<Q> {
 		
 	}
 
-	@Override
 	public int compareTo(Q o) {
 		
 		return this.toString().compareTo(o.toString());

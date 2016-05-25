@@ -21,9 +21,9 @@ public static void main(String[] args) {
 	
 public static void TestNoCapacity(){
 		
-		ArrayList<Integer> arr = new ArrayList<>();
+		ArrayList<Integer> arr = new ArrayList();
 		
-		LinkedList<Integer> link = new LinkedList<>();
+		LinkedList<Integer> link = new LinkedList();
 		
 		int rand=0;
 		
@@ -97,9 +97,9 @@ public static void TestNoCapacity(){
 	
 public static void TestNoCapacity11000(){
 		
-	ArrayList<Integer> arr = new ArrayList<>(11000);
+	ArrayList<Integer> arr = new ArrayList(11000);
 	
-	LinkedList<Integer> link = new LinkedList<>();
+	LinkedList<Integer> link = new LinkedList();
 	
 	int rand=0;
 	
@@ -173,9 +173,9 @@ public static void TestNoCapacity11000(){
 
 public static void Sum(){
 	
-	ArrayList<Integer> arr = new ArrayList<>(11000);
+	ArrayList<Integer> arr = new ArrayList(11000);
 	
-	LinkedList<Integer> link = new LinkedList<>();
+	LinkedList<Integer> link = new LinkedList();
 	
 	int rand=0;
 	
