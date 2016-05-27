@@ -6,8 +6,9 @@ public abstract class AbstractCalc implements Calculator {
 	protected char operation = ' ';
 	
 	@Override
-	public void printResult() {
+	public String printResult() {
 		System.out.println("Result = " + result);
+		return result;
 	}
 	
 	public int getIntRes(){
@@ -38,7 +39,7 @@ public abstract class AbstractCalc implements Calculator {
 interface Calculator {
 	public final static String ByZero = "Error";
 
-	public void printResult();
+	public String printResult();
 
 	public String getResult();
 

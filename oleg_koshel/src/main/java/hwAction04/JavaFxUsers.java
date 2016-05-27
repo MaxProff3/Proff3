@@ -110,7 +110,6 @@ public class JavaFxUsers extends Application {
     }
 
     class MyEvent implements EventHandler<ActionEvent> {
-		@Override
 		public void handle(ActionEvent event) {
 			if (event.getSource() == btn1) {
 
