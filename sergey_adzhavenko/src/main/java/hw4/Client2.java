@@ -17,8 +17,8 @@ public class Client2 {
 			
 		InputStream is = socket.getInputStream();
 		DataInputStream dis = new DataInputStream(is);
-		int gottenID = dis.readInt();
-		int number = dis.readInt();
+		int gottenID = Integer.parseInt(dis.readUTF());
+		int number = Integer.parseInt(dis.readUTF());
 		OutputStream os = socket.getOutputStream();
 		DataOutputStream dos = new DataOutputStream(os);
 			if(gottenID==ID)dos.writeInt(number*10);
