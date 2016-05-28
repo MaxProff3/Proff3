@@ -15,8 +15,19 @@ public class TestMain {
 		Client cl4= Client.getInstance();
 		Client cl5 =Client.getInstance();
 		Client cl6 =Client.getInstance();
+		int a= 010;
+		//System.out.println(a);
 		
-	
+		Class c1= new ArrayList<String>().getClass();
+		Class c2= new ArrayList<Integer>().getClass();
+		System.out.println(c1);
+		System.out.println(c2);
+		System.out.println(c1==c2);
+		
+		
+		
+		
+/*	
 	MyHashMap<Client,Integer> map=new MyHashMap<Client,Integer>();
 	HashMap<Client,Integer> map1=new HashMap<Client,Integer>();
 	MyHashSet<Client> set=new MyHashSet<Client>();
@@ -35,6 +46,6 @@ public class TestMain {
 	System.out.println(set.size());
 	}
 	
-
-
+*/
+	}
 }

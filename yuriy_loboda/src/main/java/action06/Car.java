@@ -4,11 +4,11 @@ public class Car  {
 	private String number;
 	private String color;
 	private String marka;
+	private CarBuilder cb=new CarBuilder();
 	
-	
-	public Car(BuilderCar bc){
-	//	this.color=bc.setColor(color);
-	}
+	 Car(){
+     
+	 }
 	
 	public String getNumber() {
 		return number;
@@ -28,7 +28,8 @@ public class Car  {
 	public void setMarka(String marka) {
 		this.marka = marka;
 	}
-
+	
+	
 	
 
 }

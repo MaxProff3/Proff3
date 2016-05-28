@@ -16,6 +16,7 @@ public class Server {
 		this.pass = pass;
 	}
 
+	
 	private Server(){
 		this.pass=pass;
 	}
