@@ -11,3 +11,5 @@ public class ArrayLitsSynchronized {
 				Collections.synchronizedList(list);
 	}
 }
+ 
+ // тест
