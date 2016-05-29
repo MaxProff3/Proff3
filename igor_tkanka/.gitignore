@@ -2,4 +2,5 @@
 target/
 *.classpath
 *.project
-/bin/
+/.gitignore
+../proff3_exemple/
