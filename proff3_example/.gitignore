@@ -1,5 +1,5 @@
 .settings/
 target/
 *.classpath
-/.gitignore
-../proff3_exemple/
+*.project
+bin/
