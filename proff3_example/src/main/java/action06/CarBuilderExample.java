@@ -14,8 +14,42 @@ public class CarBuilderExample {
 	}	
 }
 class Car{
+
+	public void setColor(String string) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void setMarka(String string) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void setNumber(String string) {
+		// TODO Auto-generated method stub
+		
+	}
 	
 }
 class BuilderCar{
+	private Car car;
+	public BuilderCar setColor(String string) {
+		car.setColor(string);
+		return this;
+	}
+
+	public BuilderCar setMarka(String string) {
+		car.setMarka(string);
+		return this;
+	}
+
+	public Car build() {
+		return car;
+	}
+
+	public BuilderCar setNumber(String string) {
+		car.setNumber(string);
+		return this;
+	}
 	
 }
