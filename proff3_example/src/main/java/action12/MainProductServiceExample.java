@@ -11,13 +11,15 @@ import util.HibernateUtil;
 
 public class MainProductServiceExample {
 	public static void main(String[] args) {
-		ProductDao contructorDao = new ProductDaoImpl();
-		ProductService productService = new ProductServiceImpl(contructorDao);
+		ProductDao productDao = new ProductDaoImpl();
+		ProductService productService = new ProductServiceImpl(productDao);
 
 		List<Product> products = productService.getAllProducts();
 		System.out.println(products);
-
-		try{
+		
+		// HibernateUtil.getSessionFactory().close();
+		
+		try {
 			HibernateUtil.getSessionFactory().close();
 		} catch(Exception e){
 			
