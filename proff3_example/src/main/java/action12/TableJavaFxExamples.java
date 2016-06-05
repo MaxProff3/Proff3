@@ -20,7 +20,7 @@ public class TableJavaFxExamples extends Application{
        @Override
        public void start(Stage stage) throws Exception {
              stage.setTitle("Table Example Application");
-             stage.setScene(createScene3());
+             stage.setScene(createScene2());
              stage.show();      
        }
  
