@@ -33,6 +33,9 @@ public class User {
 	@Column(name="login")
 	private String login;
 	
+	@OneToOne(fetch = FetchType.EAGER)
+	@JoinColumn(name="employee_id")
+	private Employee employee;
 	
 	@ManyToMany(fetch = FetchType.EAGER,cascade=CascadeType.ALL)
 	@JoinTable(name="roles_users",  joinColumns = @JoinColumn(name = "user_id"),
@@ -74,9 +77,17 @@ public class User {
 	public User() {
 	}
 
+	public Employee getEmployee() {
+		return employee;
+	}
+
+	public void setEmployee(Employee employee) {
+		this.employee = employee;
+	}
+
 	@Override
 	public String toString() {
-		return "User [id=" + id + ", name=" + name + ", login=" + login  + ", roles="
+		return "User [id=" + id + ", name=" + name + ", login=" + login + ", employee=" + employee + ", roles="
 				+ roles + "]";
 	}
 
