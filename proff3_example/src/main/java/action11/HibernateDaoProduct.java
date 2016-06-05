@@ -6,7 +6,7 @@ import dao.ProductDao;
 import dao.ProductDaoImpl;
 import domain.Product;
 import util.HibernateUtil;
-
+ 
 public class HibernateDaoProduct {
 	public static void main(String[] args) {
 		ProductDao productDao = new ProductDaoImpl();

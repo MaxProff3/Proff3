@@ -8,7 +8,7 @@ import domain.Product;
 import service.ProductService;
 import service.ProductServiceImpl;
 import util.HibernateUtil;
-
+ 
 public class MainProductServiceExample {
 	public static void main(String[] args) {
 		ProductDao productDao = new ProductDaoImpl();

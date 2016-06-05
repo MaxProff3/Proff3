@@ -10,7 +10,7 @@ public class CarBuilderExample {
 		BuilderCar config = new BuilderCar().setColor("Red");
 		Car car2 = config.setNumber("2222").setMarka("KIA").build();
 		
-		System.out.println(car2);		
+		System.out.println(car2); 		
 	}	
 }
 class Car{

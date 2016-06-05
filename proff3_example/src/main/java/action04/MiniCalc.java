@@ -6,6 +6,6 @@ public class MiniCalc {
 		return res;
 	}
 	public int divide(int a, int b){
-		return a/b;
+		return a/b; 
 	}
 }

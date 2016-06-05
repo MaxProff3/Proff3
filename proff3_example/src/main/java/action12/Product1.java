@@ -8,7 +8,7 @@ public class Product1{
     private SimpleIntegerProperty id;
     private SimpleStringProperty name;
     private SimpleStringProperty code;
-   
+    
     public Product1(int id, String name, String code) {
           this.id = new SimpleIntegerProperty(id);
           this.name = new SimpleStringProperty(name);

@@ -11,7 +11,7 @@ import org.hibernate.SessionFactory;
 
 import domain.Product;
 import util.HibernateUtil;
-
+ 
 public class HibernateSimpleExampleQuery {
 	private static Logger log = Logger.getLogger(HibernateSimpleExampleQuery.class);
 

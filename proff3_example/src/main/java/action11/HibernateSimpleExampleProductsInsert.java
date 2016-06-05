@@ -12,7 +12,7 @@ import org.hibernate.cfg.Configuration;
 
 import domain.Contructor;
 import util.HibernateUtil;
-
+ 
 public class HibernateSimpleExampleProductsInsert {
 	private static Logger log = Logger.getLogger(HibernateSimpleExampleProductsInsert.class);
 

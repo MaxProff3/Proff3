@@ -11,7 +11,7 @@ public class HashMapExample {
 		Map<Integer, String> map  = new HashMap<>();
 		map.put(110, "Car");
 		map.put(100, "Table");
-		map.put(140, "PC");
+		map.put(140, "PC"); 
 		
 		Set<Integer> keys = map.keySet();
 		Collection<String> products = map.values();

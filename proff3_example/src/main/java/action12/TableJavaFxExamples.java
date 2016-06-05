@@ -70,7 +70,7 @@ public class TableJavaFxExamples extends Application{
        }
        public Scene createScene3(){
              Group group = new Group();
-            
+             
              TableView table = new TableView();
              table.setEditable(true);
             

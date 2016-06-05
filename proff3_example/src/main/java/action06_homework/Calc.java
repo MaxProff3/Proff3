@@ -11,7 +11,7 @@ public class Calc extends AbstractCalc {
 			if(getOperation()!='0' && getTemp()==0){
 				setTemp(Integer.parseInt(getResult()));
 				setResult("0");
-			}
+			} 
 				setResult(getResult() + p);
 		} else {
 			setOperation(p);

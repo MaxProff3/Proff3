@@ -9,8 +9,8 @@ public class ReflectionApi {
 	public static void main(String[] args) throws InstantiationException, IllegalAccessException {
 		ReflectionApi obj = new ReflectionApi();
 
-		Class<?> cl = obj.getClass();//cl хранит тип1 obj
-
+		Class<?> cl = obj.getClass();//cl пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ1 obj
+ 
 		ReflectionApi obj1 = (ReflectionApi)cl.newInstance();
 
 		
@@ -20,7 +20,7 @@ public class ReflectionApi {
 		Method[] methods = cl.getMethods();
 		cl.getDeclaredMethods();
 		
-		cl.getInterfaces();  //может быть несколько одинаковых
+		cl.getInterfaces();  //пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 		cl.getSuperclass();
 		
 		methods[0].isAnnotationPresent(MyAnnotation.class);

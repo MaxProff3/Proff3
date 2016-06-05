@@ -9,7 +9,7 @@ import org.hibernate.Session;
 
 import domain.Product;
 import util.HibernateUtil;
-
+ 
 public class ProductDaoImpl implements ProductDao {
 	private static Logger log = Logger.getLogger(ProductDaoImpl.class);
 

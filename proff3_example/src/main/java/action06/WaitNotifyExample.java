@@ -7,7 +7,7 @@ public class WaitNotifyExample {
 		
 		MyThread obj2 = new MyThread();
 		obj2.start();		
-	}
+	} 
 }
 class MyThread implements Runnable{
 	private static Object mutex = new Object();

@@ -3,7 +3,7 @@ package action08;
 import java.io.Serializable;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-
+ 
 public class Message implements Serializable{
 	private String text;
 	private Date date;

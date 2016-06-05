@@ -15,4 +15,4 @@ public class SynchronizedExample {
 			this.notify();
 		}
 	}
-}
+} 

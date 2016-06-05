@@ -14,7 +14,7 @@ import service.ProductService;
 import service.ProductServiceImpl;
 import util.HibernateUtil;
 
-
+ 
 public class SRMApplication extends Application{
 	public static void main(String[] args) {
 		launch(args);

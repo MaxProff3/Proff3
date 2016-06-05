@@ -7,7 +7,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 public class JDBCExample {
-
+ 
 	private static String nameDriver = "com.mysql.jdbc.Driver";
 	private static String url = "jdbc:mysql://localhost:3306/proff3";
 	private static String login = "root";
