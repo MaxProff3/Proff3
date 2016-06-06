@@ -9,7 +9,7 @@ public class MainCar {
 	public static void main(String[] args) {
 		ArrayList<Car> cars = new ArrayList<>();
 		Car[] arr = new Car[10];
-		
+		 
 		Collections.sort(cars);
 		Arrays.sort(arr);
 		

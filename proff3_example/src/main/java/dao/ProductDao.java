@@ -3,7 +3,7 @@ package dao;
 import java.util.List;
 
 import domain.Product;
-
+ 
  // CRUD
 public interface ProductDao {
     Long create(Product product);

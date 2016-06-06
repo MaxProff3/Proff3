@@ -10,7 +10,7 @@ public class InpStreamExmaple {
 	public static void main(String[] args) throws Exception {
 		String file1 = "text1.txt";
 		int example = 1;
-		
+		 
 		if (example == 1) {
 			InputStream is = new FileInputStream(file1);
 			int codeChar = 10;// is.read();

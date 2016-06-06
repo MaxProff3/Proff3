@@ -11,7 +11,7 @@ import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 import org.hibernate.cfg.Configuration;
 
 import domain.Contructor;
-
+ 
 public class HibernateSimpleExampleProductsReadUpdate {
 	private static Logger log = Logger.getLogger(HibernateSimpleExampleProductsReadUpdate.class);
 

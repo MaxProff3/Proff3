@@ -10,7 +10,7 @@ public class ReflectionTask2 {
 		list.add(obj.getClass());
 		list = getAllClasses(list,0);
 		return list;
-	}
+	} 
 	public static List<Class<?>> getAllClasses(List<Class<?>> list, int i){
 		if(list==null) return null;
 		Class<?> p = list.get(i).getSuperclass();
