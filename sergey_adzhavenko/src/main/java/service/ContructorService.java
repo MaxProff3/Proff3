@@ -10,5 +10,6 @@ public interface ContructorService {
 	void addNewContructors(Contructor[] contructors);
 	void updateContructor(Contructor contructor);
 	void deleteContructor(Contructor contructor);
+	Contructor read(Long id);
 	List<Contructor> getAllContructors();
 }

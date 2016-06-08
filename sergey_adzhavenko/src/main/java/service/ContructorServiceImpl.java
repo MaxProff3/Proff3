@@ -41,4 +41,9 @@ public class ContructorServiceImpl implements ContructorService{
 		return contructorDao.findAll();
 	}
 
+	@Override
+	public Contructor read(Long id) {
+		return contructorDao.read(id);
+	}
+
 }

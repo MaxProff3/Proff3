@@ -15,6 +15,7 @@ import util.HibernateUtil;
 public class HibernateSimpleExampleQuery {
 	private static Logger log = Logger.getLogger(HibernateSimpleExampleQuery.class);
 
+	@SuppressWarnings("unchecked")
 	public static void main(String[] args) {
 		Locale.setDefault(Locale.ENGLISH);
 

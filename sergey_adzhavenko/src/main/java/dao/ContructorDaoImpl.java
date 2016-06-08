@@ -21,8 +21,10 @@ public class ContructorDaoImpl implements ContructorDAO{
 			mySession.beginTransaction();
 			id = (Long) mySession.save(contructor);
 			mySession.getTransaction().commit();
+			System.out.println(">> Successfully created!");
 		} catch (HibernateException e) {
 			mySession.getTransaction().rollback();
+			System.out.println(">> Creation failed!");
 		} finally {
 			if (mySession != null)
 				mySession.close();
@@ -57,9 +59,11 @@ public class ContructorDaoImpl implements ContructorDAO{
 			mySession.beginTransaction();
 			mySession.update(contructor);
 			mySession.getTransaction().commit();
-
+			System.out.println(">> Successfully updated!");
 		} catch (HibernateException e) {
 			mySession.getTransaction().rollback();
+			
+			System.out.println(">> Updating failed!");
 		} finally {
 			if (mySession != null)
 				mySession.close();
@@ -76,7 +80,9 @@ public class ContructorDaoImpl implements ContructorDAO{
 			mySession.beginTransaction();
 			mySession.delete(contructor);
 			mySession.getTransaction().commit();
+			System.out.println(">> Object is successfully deleted!");
 		} catch (HibernateException e) {
+			System.out.println(">> Deletion failed!");
 			mySession.getTransaction().rollback();
 		} finally {
 			if (mySession != null)

@@ -8,25 +8,75 @@ import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 
+import dao.ContructorDAO;
+import dao.ContructorDaoImpl;
 import domain.Contructor;
+import domain.Product;
+import service.ContructorServiceImpl;
 import util.HibernateUtil;
 
 public class Main {
+
 
 	public static void main(String[] args) {
 		
 		Locale.setDefault(Locale.ENGLISH);
 		
-		SessionFactory sessionFactory = HibernateUtil.getSessionFactory();
-		
+		SessionFactory sessionFactory = HibernateUtil.getSessionFactory();	
 		Session session = null;
 		Query query = null;
-		List<Query> list = null;
+		
 		try{
 			session = sessionFactory.openSession();
-			query = session.createSQLQuery("SELECT * FROM contructors;").addEntity(Contructor.class);
-			list = query.list();
-			System.out.println("query 1: " + list);
+			
+			Contructor c = new Contructor("UUUUUUUUUU");
+			ContructorDAO cdao = new ContructorDaoImpl();
+			ContructorServiceImpl csi = new ContructorServiceImpl(cdao);
+			
+			/*add new Contructor into DB
+			csi.addNewContructor(c);
+			*/
+			
+			/*Get id by name for reading 
+			 * (to get obj add to query next line: .addEntity(Contructor.class))
+			 
+			query=session.createSQLQuery("select id from contructors "
+					+ "where name='UUUUUUUUUU'");
+			List<Integer> list = query.list();
+			Long temp = new Long(list.get(0));
+			System.out.println(temp);
+			
+			Contructor cns = csi.read(temp);
+			
+			System.out.println("Gotten obj = "+cns.getConstructorName());
+			*/
+			
+			/*to delete obg from DB
+			query=session.createSQLQuery("select * from contructors "
+					+ "where name='UUUUUUUUUU'").addEntity(Contructor.class);
+			List<Contructor> listCon = query.list();
+			
+			csi.deleteContructor(listCon.get(0));
+			*/
+			
+			/*Update obj (if this id exists)
+			query=session.createSQLQuery("select id from contructors "
+					+ "where name='UUUUUUUUUU'");
+			List<Integer> list = query.list();
+			Long temp = new Long(list.get(0));
+			c.setId(temp);
+			c.setConstructorName("newUUUU");
+			csi.updateContructor(c);
+			*/
+			
+			
+			//System.out.println("Метод read: "+csi.read(4l));;
+			//System.out.println("!!!"+query);
+			//List<Contructor> listC = csi.getAllContructors();
+			//System.out.println(listC);
+			
+			//query = session.createSQLQuery("SELECT * FROM contructors;").addEntity(Contructor.class);
+			
 			
 		}catch (HibernateException e) {
 			System.out.println("Error!!!");

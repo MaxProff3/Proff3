@@ -30,11 +30,6 @@ public class Contructor {
 		this.constructorName = constructorName;
 	}
 	
-	public Contructor(Long id, String constructorName){
-		this.id=id;
-		this.constructorName = constructorName;
-	}
-	
 	public Long getId() {
 		return id;
 	}
