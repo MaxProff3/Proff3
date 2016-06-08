@@ -1,0 +1,1325 @@
+2016-06-04 13:02:30,088 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-06-04 13:02:30,144 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {4.3.8.Final}
+2016-06-04 13:02:30,158 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2016-06-04 13:02:30,174 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2016-06-04 13:02:30,379 [main] INFO  org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: hibernate.cfg.xml
+2016-06-04 13:02:30,381 [main] INFO  org.hibernate.cfg.Configuration - HHH000040: Configuration resource: hibernate.cfg.xml
+2016-06-04 13:02:31,235 [main] INFO  org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
+2016-06-04 13:02:32,038 [main] INFO  org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-06-04 13:02:32,039 [main] INFO  org.hibernate.cfg.Configuration - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-06-04 13:02:32,081 [main] INFO  org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
+2016-06-04 13:02:32,170 [main] WARN  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-06-04 13:02:32,252 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/proff3]
+2016-06-04 13:02:32,265 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000046: Connection properties: {user=root, password=****}
+2016-06-04 13:02:32,270 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000006: Autocommit mode: false
+2016-06-04 13:02:32,294 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+2016-06-04 13:02:37,330 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-06-04 13:02:38,937 [main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-06-04 13:02:38,982 [main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
+2016-06-04 13:02:39,528 [main] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.1.3.Final
+2016-06-04 13:02:42,607 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2016-06-04 13:02:42,609 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000102: Fetching database metadata
+2016-06-04 13:02:42,623 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000396: Updating schema
+2016-06-04 13:02:42,694 [main] INFO  java.sql.DatabaseMetaData - HHH000262: Table not found: product
+2016-06-04 13:02:42,710 [main] INFO  java.sql.DatabaseMetaData - HHH000262: Table not found: product
+2016-06-04 13:02:42,718 [main] INFO  java.sql.DatabaseMetaData - HHH000262: Table not found: product
+2016-06-04 13:02:43,295 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000232: Schema update complete
+2016-06-04 13:40:42,802 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-06-04 13:40:42,871 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {4.3.8.Final}
+2016-06-04 13:40:42,886 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2016-06-04 13:40:42,909 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2016-06-04 13:40:43,123 [main] INFO  org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: hibernate.cfg.xml
+2016-06-04 13:40:43,124 [main] INFO  org.hibernate.cfg.Configuration - HHH000040: Configuration resource: hibernate.cfg.xml
+2016-06-04 13:40:44,004 [main] INFO  org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
+2016-06-04 13:40:44,789 [main] INFO  org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-06-04 13:40:44,790 [main] INFO  org.hibernate.cfg.Configuration - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-06-04 13:40:44,833 [main] INFO  org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
+2016-06-04 13:40:44,908 [main] WARN  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-06-04 13:40:44,998 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/proff3]
+2016-06-04 13:40:45,004 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000046: Connection properties: {user=root, password=****}
+2016-06-04 13:40:45,005 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000006: Autocommit mode: false
+2016-06-04 13:40:45,018 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+2016-06-04 13:40:49,254 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-06-04 13:40:50,485 [main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-06-04 13:40:50,521 [main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
+2016-06-04 13:40:50,940 [main] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.1.3.Final
+2016-06-04 13:40:53,579 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2016-06-04 13:40:53,580 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000102: Fetching database metadata
+2016-06-04 13:40:53,594 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000396: Updating schema
+2016-06-04 13:40:53,821 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3.employees
+2016-06-04 13:40:53,822 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [name, id, salary]
+2016-06-04 13:40:53,823 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+2016-06-04 13:40:53,824 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [primary]
+2016-06-04 13:40:53,918 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3.product
+2016-06-04 13:40:53,919 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [code, name, id]
+2016-06-04 13:40:53,920 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+2016-06-04 13:40:53,920 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [primary]
+2016-06-04 13:40:53,925 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000232: Schema update complete
+2016-06-04 13:40:55,222 [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 1048, SQLState: 23000
+2016-06-04 13:40:55,224 [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Column 'name' cannot be null
+2016-06-04 13:40:55,233 [main] INFO  org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl - HHH000010: On release of batch it still contained JDBC statements
+2016-06-04 13:40:55,239 [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 1048, SQLState: 23000
+2016-06-04 13:40:55,239 [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Column 'name' cannot be null
+2016-06-04 13:40:55,241 [main] ERROR action11.MainProductExample - Transaction failed
+2016-06-04 13:56:53,829 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-06-04 13:56:53,893 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {4.3.8.Final}
+2016-06-04 13:56:53,911 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2016-06-04 13:56:53,933 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2016-06-04 13:56:54,144 [main] INFO  org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: hibernate.cfg.xml
+2016-06-04 13:56:54,146 [main] INFO  org.hibernate.cfg.Configuration - HHH000040: Configuration resource: hibernate.cfg.xml
+2016-06-04 13:56:55,000 [main] INFO  org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
+2016-06-04 13:56:56,014 [main] INFO  org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-06-04 13:56:56,016 [main] INFO  org.hibernate.cfg.Configuration - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-06-04 13:56:56,057 [main] INFO  org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
+2016-06-04 13:56:56,118 [main] WARN  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-06-04 13:56:56,190 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/proff3]
+2016-06-04 13:56:56,194 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000046: Connection properties: {user=root, password=****}
+2016-06-04 13:56:56,195 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000006: Autocommit mode: false
+2016-06-04 13:56:56,207 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+2016-06-04 13:57:00,587 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-06-04 13:57:01,838 [main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-06-04 13:57:01,874 [main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
+2016-06-04 13:57:02,290 [main] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.1.3.Final
+2016-06-04 13:57:04,843 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2016-06-04 13:57:04,844 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000102: Fetching database metadata
+2016-06-04 13:57:04,856 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000396: Updating schema
+2016-06-04 13:57:05,016 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3.employees
+2016-06-04 13:57:05,017 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [name, id, salary]
+2016-06-04 13:57:05,018 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+2016-06-04 13:57:05,019 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [primary]
+2016-06-04 13:57:05,082 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3.product
+2016-06-04 13:57:05,083 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [code, name, id]
+2016-06-04 13:57:05,083 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+2016-06-04 13:57:05,084 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [primary]
+2016-06-04 13:57:05,089 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000232: Schema update complete
+2016-06-04 13:57:05,179 [main] INFO  action11.HibernateSimpleExampleProductsInsert - Reference to SessionFactory org.hibernate.internal.SessionFactoryImpl@7b993c65
+2016-06-04 13:57:05,525 [main] INFO  action11.HibernateSimpleExampleProductsInsert - session opened!
+2016-06-04 13:57:06,463 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000030: Cleaning up connection pool [jdbc:mysql://localhost/proff3]
+2016-06-04 13:57:06,475 [main] INFO  action11.HibernateSimpleExampleProductsInsert - session = SessionImpl(<closed>)
+2016-06-04 13:59:13,951 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-06-04 13:59:14,013 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {4.3.8.Final}
+2016-06-04 13:59:14,028 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2016-06-04 13:59:14,044 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2016-06-04 13:59:14,258 [main] INFO  org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: hibernate.cfg.xml
+2016-06-04 13:59:14,259 [main] INFO  org.hibernate.cfg.Configuration - HHH000040: Configuration resource: hibernate.cfg.xml
+2016-06-04 13:59:14,990 [main] INFO  org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
+2016-06-04 13:59:15,794 [main] INFO  org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-06-04 13:59:15,795 [main] INFO  org.hibernate.cfg.Configuration - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-06-04 13:59:15,835 [main] INFO  org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
+2016-06-04 13:59:15,898 [main] WARN  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-06-04 13:59:15,991 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/proff3]
+2016-06-04 13:59:15,999 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000046: Connection properties: {user=root, password=****}
+2016-06-04 13:59:16,000 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000006: Autocommit mode: false
+2016-06-04 13:59:16,012 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+2016-06-04 13:59:20,230 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-06-04 13:59:21,452 [main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-06-04 13:59:21,489 [main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
+2016-06-04 13:59:21,905 [main] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.1.3.Final
+2016-06-04 13:59:24,401 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2016-06-04 13:59:24,402 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000102: Fetching database metadata
+2016-06-04 13:59:24,414 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000396: Updating schema
+2016-06-04 13:59:24,575 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3.employees
+2016-06-04 13:59:24,576 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [name, id, salary]
+2016-06-04 13:59:24,578 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+2016-06-04 13:59:24,580 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [primary]
+2016-06-04 13:59:24,649 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3.product
+2016-06-04 13:59:24,650 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [code, name, id]
+2016-06-04 13:59:24,651 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+2016-06-04 13:59:24,652 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [primary]
+2016-06-04 13:59:24,656 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000232: Schema update complete
+2016-06-04 13:59:24,750 [main] INFO  action11.HibernateSimpleExampleProductsInsert - Reference to SessionFactory org.hibernate.internal.SessionFactoryImpl@7b993c65
+2016-06-04 13:59:25,096 [main] INFO  action11.HibernateSimpleExampleProductsInsert - session opened!
+2016-06-04 13:59:26,013 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000030: Cleaning up connection pool [jdbc:mysql://localhost/proff3]
+2016-06-04 13:59:26,027 [main] INFO  action11.HibernateSimpleExampleProductsInsert - session = SessionImpl(<closed>)
+2016-06-05 11:50:46,280 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-06-05 11:50:46,300 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {4.3.8.Final}
+2016-06-05 11:50:46,304 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2016-06-05 11:50:46,309 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2016-06-05 11:50:46,363 [main] INFO  org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: hibernate.cfg.xml
+2016-06-05 11:50:46,364 [main] INFO  org.hibernate.cfg.Configuration - HHH000040: Configuration resource: hibernate.cfg.xml
+2016-06-05 11:50:46,756 [main] INFO  org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
+2016-06-05 11:50:47,078 [main] INFO  org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-06-05 11:50:47,079 [main] INFO  org.hibernate.cfg.Configuration - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-06-05 11:50:47,091 [main] INFO  org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
+2016-06-05 11:50:47,114 [main] WARN  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-06-05 11:50:47,152 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/proff3]
+2016-06-05 11:50:47,153 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000046: Connection properties: {user=root, password=****}
+2016-06-05 11:50:47,154 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000006: Autocommit mode: false
+2016-06-05 11:50:47,157 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+2016-06-05 11:50:48,434 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-06-05 11:50:48,864 [main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-06-05 11:50:48,878 [main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
+2016-06-05 11:50:49,067 [main] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.1.3.Final
+2016-06-05 11:50:50,020 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2016-06-05 11:50:50,021 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000102: Fetching database metadata
+2016-06-05 11:50:50,025 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000396: Updating schema
+2016-06-05 11:50:50,087 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3.employees
+2016-06-05 11:50:50,087 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [name, id, salary]
+2016-06-05 11:50:50,087 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+2016-06-05 11:50:50,088 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [primary]
+2016-06-05 11:50:50,121 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3.product
+2016-06-05 11:50:50,122 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [code, name, id]
+2016-06-05 11:50:50,122 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+2016-06-05 11:50:50,122 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [primary]
+2016-06-05 11:50:50,124 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000232: Schema update complete
+2016-06-05 11:50:51,030 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000030: Cleaning up connection pool [jdbc:mysql://localhost/proff3]
+2016-06-05 19:06:27,313 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-06-05 19:06:27,333 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {4.3.8.Final}
+2016-06-05 19:06:27,339 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2016-06-05 19:06:27,343 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2016-06-05 19:06:27,398 [main] INFO  org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: hw6/hibernate.cfg.xml
+2016-06-05 19:06:27,399 [main] INFO  org.hibernate.cfg.Configuration - HHH000040: Configuration resource: hw6/hibernate.cfg.xml
+2016-06-05 19:06:28,041 [main] INFO  org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
+2016-06-05 19:06:28,445 [main] INFO  org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-06-05 19:06:28,446 [main] INFO  org.hibernate.cfg.Configuration - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-06-05 19:06:28,478 [main] INFO  org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
+2016-06-05 19:06:28,518 [main] WARN  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-06-05 19:06:28,563 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/proff3test]
+2016-06-05 19:06:28,565 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000046: Connection properties: {user=root, password=****}
+2016-06-05 19:06:28,565 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000006: Autocommit mode: false
+2016-06-05 19:06:28,569 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+2016-06-05 19:06:29,840 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-06-05 19:06:30,353 [main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-06-05 19:06:30,364 [main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
+2016-06-05 19:06:30,557 [main] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.1.3.Final
+2016-06-05 19:06:31,619 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2016-06-05 19:06:31,620 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000102: Fetching database metadata
+2016-06-05 19:06:31,624 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000396: Updating schema
+2016-06-05 19:06:31,634 [main] INFO  java.sql.DatabaseMetaData - HHH000262: Table not found: employees
+2016-06-05 19:06:31,638 [main] INFO  java.sql.DatabaseMetaData - HHH000262: Table not found: product
+2016-06-05 19:06:31,640 [main] INFO  java.sql.DatabaseMetaData - HHH000262: Table not found: roles
+2016-06-05 19:06:31,643 [main] INFO  java.sql.DatabaseMetaData - HHH000262: Table not found: roles_users
+2016-06-05 19:06:31,647 [main] INFO  java.sql.DatabaseMetaData - HHH000262: Table not found: users
+2016-06-05 19:06:31,649 [main] INFO  java.sql.DatabaseMetaData - HHH000262: Table not found: employees
+2016-06-05 19:06:31,653 [main] INFO  java.sql.DatabaseMetaData - HHH000262: Table not found: product
+2016-06-05 19:06:31,656 [main] INFO  java.sql.DatabaseMetaData - HHH000262: Table not found: roles
+2016-06-05 19:06:31,659 [main] INFO  java.sql.DatabaseMetaData - HHH000262: Table not found: roles_users
+2016-06-05 19:06:31,661 [main] INFO  java.sql.DatabaseMetaData - HHH000262: Table not found: users
+2016-06-05 19:06:31,663 [main] INFO  java.sql.DatabaseMetaData - HHH000262: Table not found: employees
+2016-06-05 19:06:31,665 [main] INFO  java.sql.DatabaseMetaData - HHH000262: Table not found: product
+2016-06-05 19:06:31,668 [main] INFO  java.sql.DatabaseMetaData - HHH000262: Table not found: roles
+2016-06-05 19:06:31,670 [main] INFO  java.sql.DatabaseMetaData - HHH000262: Table not found: roles_users
+2016-06-05 19:06:31,673 [main] INFO  java.sql.DatabaseMetaData - HHH000262: Table not found: users
+2016-06-05 19:06:35,479 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000232: Schema update complete
+2016-06-05 19:06:36,122 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000030: Cleaning up connection pool [jdbc:mysql://localhost/proff3test]
+2016-06-05 19:06:36,127 [main] INFO  action12.HibernateSimpleExampleQuery - session = SessionImpl(<closed>)
+2016-06-05 19:06:58,762 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-06-05 19:06:58,781 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {4.3.8.Final}
+2016-06-05 19:06:58,786 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2016-06-05 19:06:58,790 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2016-06-05 19:06:58,841 [main] INFO  org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: hw6/hibernate.cfg.xml
+2016-06-05 19:06:58,842 [main] INFO  org.hibernate.cfg.Configuration - HHH000040: Configuration resource: hw6/hibernate.cfg.xml
+2016-06-05 19:06:59,033 [main] INFO  org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
+2016-06-05 19:06:59,266 [main] INFO  org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-06-05 19:06:59,267 [main] INFO  org.hibernate.cfg.Configuration - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-06-05 19:06:59,280 [main] INFO  org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
+2016-06-05 19:06:59,298 [main] WARN  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-06-05 19:06:59,315 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/proff3test]
+2016-06-05 19:06:59,316 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000046: Connection properties: {user=root, password=****}
+2016-06-05 19:06:59,316 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000006: Autocommit mode: false
+2016-06-05 19:06:59,319 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+2016-06-05 19:07:00,343 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-06-05 19:07:00,811 [main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-06-05 19:07:00,822 [main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
+2016-06-05 19:07:00,940 [main] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.1.3.Final
+2016-06-05 19:07:01,755 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2016-06-05 19:07:01,755 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000102: Fetching database metadata
+2016-06-05 19:07:01,760 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000396: Updating schema
+2016-06-05 19:07:01,809 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3test.employees
+2016-06-05 19:07:01,810 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [name, id, salary]
+2016-06-05 19:07:01,810 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+2016-06-05 19:07:01,811 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [primary]
+2016-06-05 19:07:01,829 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3test.product
+2016-06-05 19:07:01,830 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [code, name, id]
+2016-06-05 19:07:01,830 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+2016-06-05 19:07:01,830 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [primary]
+2016-06-05 19:07:01,849 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3test.roles
+2016-06-05 19:07:01,850 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [name, comment, id]
+2016-06-05 19:07:01,850 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+2016-06-05 19:07:01,850 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [primary]
+2016-06-05 19:07:01,944 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3test.roles_users
+2016-06-05 19:07:01,944 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [user_id, role_id]
+2016-06-05 19:07:01,944 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: [fk_4k5l5kx7d2epf59gyoqpycdbs, fk_3va0ssladn9mwg8ohg8a8el0]
+2016-06-05 19:07:01,945 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [fk_4k5l5kx7d2epf59gyoqpycdbs, primary]
+2016-06-05 19:07:01,964 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3test.users
+2016-06-05 19:07:01,965 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [employee_id, name, id, login]
+2016-06-05 19:07:01,965 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: [fk_d1s31g1a7ilra77m65xmka3ei]
+2016-06-05 19:07:01,966 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [fk_d1s31g1a7ilra77m65xmka3ei, primary]
+2016-06-05 19:07:01,969 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000232: Schema update complete
+2016-06-05 19:07:02,476 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000030: Cleaning up connection pool [jdbc:mysql://localhost/proff3test]
+2016-06-05 19:07:02,481 [main] INFO  action12.HibernateSimpleExampleQuery - session = SessionImpl(<closed>)
+2016-06-05 19:11:22,809 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-06-05 19:11:22,828 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {4.3.8.Final}
+2016-06-05 19:11:22,832 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2016-06-05 19:11:22,836 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2016-06-05 19:11:22,889 [main] INFO  org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: hw6/hibernate.cfg.xml
+2016-06-05 19:11:22,890 [main] INFO  org.hibernate.cfg.Configuration - HHH000040: Configuration resource: hw6/hibernate.cfg.xml
+2016-06-05 19:11:23,121 [main] INFO  org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
+2016-06-05 19:11:23,390 [main] INFO  org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-06-05 19:11:23,390 [main] INFO  org.hibernate.cfg.Configuration - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-06-05 19:11:23,411 [main] INFO  org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
+2016-06-05 19:11:23,433 [main] WARN  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-06-05 19:11:23,454 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/proff3test]
+2016-06-05 19:11:23,456 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000046: Connection properties: {user=root, password=****}
+2016-06-05 19:11:23,456 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000006: Autocommit mode: false
+2016-06-05 19:11:23,460 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+2016-06-05 19:11:24,493 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-06-05 19:11:25,005 [main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-06-05 19:11:25,016 [main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
+2016-06-05 19:11:25,141 [main] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.1.3.Final
+2016-06-05 19:11:26,027 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2016-06-05 19:11:26,028 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000102: Fetching database metadata
+2016-06-05 19:11:26,033 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000396: Updating schema
+2016-06-05 19:11:26,097 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3test.employees
+2016-06-05 19:11:26,097 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [name, id, salary]
+2016-06-05 19:11:26,098 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+2016-06-05 19:11:26,098 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [primary]
+2016-06-05 19:11:26,118 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3test.product
+2016-06-05 19:11:26,118 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [code, name, id]
+2016-06-05 19:11:26,118 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+2016-06-05 19:11:26,119 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [primary]
+2016-06-05 19:11:26,150 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3test.roles
+2016-06-05 19:11:26,150 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [name, comment, id]
+2016-06-05 19:11:26,150 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+2016-06-05 19:11:26,150 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [primary]
+2016-06-05 19:11:26,176 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3test.roles_users
+2016-06-05 19:11:26,176 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [user_id, role_id]
+2016-06-05 19:11:26,177 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: [fk_4k5l5kx7d2epf59gyoqpycdbs, fk_3va0ssladn9mwg8ohg8a8el0]
+2016-06-05 19:11:26,177 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [fk_4k5l5kx7d2epf59gyoqpycdbs, primary]
+2016-06-05 19:11:26,194 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3test.users
+2016-06-05 19:11:26,195 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [employee_id, name, id, login]
+2016-06-05 19:11:26,195 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: [fk_d1s31g1a7ilra77m65xmka3ei]
+2016-06-05 19:11:26,195 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [fk_d1s31g1a7ilra77m65xmka3ei, primary]
+2016-06-05 19:11:26,198 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000232: Schema update complete
+2016-06-05 19:11:26,741 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000030: Cleaning up connection pool [jdbc:mysql://localhost/proff3test]
+2016-06-05 19:11:26,757 [main] INFO  action12.HibernateSimpleExampleQuery - session = SessionImpl(<closed>)
+2016-06-05 19:11:58,248 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-06-05 19:11:58,268 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {4.3.8.Final}
+2016-06-05 19:11:58,273 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2016-06-05 19:11:58,278 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2016-06-05 19:11:58,332 [main] INFO  org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: hw6/hibernate.cfg.xml
+2016-06-05 19:11:58,332 [main] INFO  org.hibernate.cfg.Configuration - HHH000040: Configuration resource: hw6/hibernate.cfg.xml
+2016-06-05 19:11:58,526 [main] INFO  org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
+2016-06-05 19:11:58,748 [main] INFO  org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-06-05 19:11:58,749 [main] INFO  org.hibernate.cfg.Configuration - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-06-05 19:11:58,760 [main] INFO  org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
+2016-06-05 19:11:58,780 [main] WARN  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-06-05 19:11:58,798 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/proff3test]
+2016-06-05 19:11:58,799 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000046: Connection properties: {user=root, password=****}
+2016-06-05 19:11:58,799 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000006: Autocommit mode: false
+2016-06-05 19:11:58,802 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+2016-06-05 19:11:59,826 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-06-05 19:12:00,291 [main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-06-05 19:12:00,302 [main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
+2016-06-05 19:12:00,421 [main] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.1.3.Final
+2016-06-05 19:12:01,242 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2016-06-05 19:12:01,242 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000102: Fetching database metadata
+2016-06-05 19:12:01,247 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000396: Updating schema
+2016-06-05 19:12:01,295 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3test.employees
+2016-06-05 19:12:01,296 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [name, id, salary]
+2016-06-05 19:12:01,296 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+2016-06-05 19:12:01,296 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [primary]
+2016-06-05 19:12:01,315 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3test.product
+2016-06-05 19:12:01,316 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [code, name, id]
+2016-06-05 19:12:01,316 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+2016-06-05 19:12:01,316 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [primary]
+2016-06-05 19:12:01,334 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3test.roles
+2016-06-05 19:12:01,336 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [name, comment, id]
+2016-06-05 19:12:01,337 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+2016-06-05 19:12:01,337 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [primary]
+2016-06-05 19:12:01,359 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3test.roles_users
+2016-06-05 19:12:01,359 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [user_id, role_id]
+2016-06-05 19:12:01,360 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: [fk_4k5l5kx7d2epf59gyoqpycdbs, fk_3va0ssladn9mwg8ohg8a8el0]
+2016-06-05 19:12:01,360 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [fk_4k5l5kx7d2epf59gyoqpycdbs, primary]
+2016-06-05 19:12:01,380 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3test.users
+2016-06-05 19:12:01,380 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [employee_id, name, id, login]
+2016-06-05 19:12:01,381 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: [fk_d1s31g1a7ilra77m65xmka3ei]
+2016-06-05 19:12:01,381 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [fk_d1s31g1a7ilra77m65xmka3ei, primary]
+2016-06-05 19:12:01,383 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000232: Schema update complete
+2016-06-05 19:12:01,890 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000030: Cleaning up connection pool [jdbc:mysql://localhost/proff3test]
+2016-06-05 19:12:01,906 [main] INFO  action12.HibernateSimpleExampleQuery - session = SessionImpl(<closed>)
+2016-06-05 19:14:21,913 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-06-05 19:14:21,931 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {4.3.8.Final}
+2016-06-05 19:14:21,936 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2016-06-05 19:14:21,942 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2016-06-05 19:14:21,995 [main] INFO  org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: hw6/hibernate.cfg.xml
+2016-06-05 19:14:21,995 [main] INFO  org.hibernate.cfg.Configuration - HHH000040: Configuration resource: hw6/hibernate.cfg.xml
+2016-06-05 19:14:22,219 [main] INFO  org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
+2016-06-05 19:14:22,501 [main] INFO  org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-06-05 19:14:22,502 [main] INFO  org.hibernate.cfg.Configuration - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-06-05 19:14:22,517 [main] INFO  org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
+2016-06-05 19:14:22,548 [main] WARN  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-06-05 19:14:22,585 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/proff3test]
+2016-06-05 19:14:22,588 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000046: Connection properties: {user=root, password=****}
+2016-06-05 19:14:22,589 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000006: Autocommit mode: false
+2016-06-05 19:14:22,593 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+2016-06-05 19:14:23,737 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-06-05 19:14:24,223 [main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-06-05 19:14:24,236 [main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
+2016-06-05 19:14:24,357 [main] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.1.3.Final
+2016-06-05 19:14:25,182 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2016-06-05 19:14:25,182 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000102: Fetching database metadata
+2016-06-05 19:14:25,187 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000396: Updating schema
+2016-06-05 19:14:25,236 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3test.employees
+2016-06-05 19:14:25,236 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [name, id, salary]
+2016-06-05 19:14:25,237 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+2016-06-05 19:14:25,237 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [primary]
+2016-06-05 19:14:25,256 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3test.product
+2016-06-05 19:14:25,256 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [code, name, id]
+2016-06-05 19:14:25,257 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+2016-06-05 19:14:25,257 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [primary]
+2016-06-05 19:14:25,275 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3test.roles
+2016-06-05 19:14:25,276 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [name, comment, id]
+2016-06-05 19:14:25,276 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+2016-06-05 19:14:25,277 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [primary]
+2016-06-05 19:14:25,300 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3test.roles_users
+2016-06-05 19:14:25,300 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [user_id, role_id]
+2016-06-05 19:14:25,300 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: [fk_4k5l5kx7d2epf59gyoqpycdbs, fk_3va0ssladn9mwg8ohg8a8el0]
+2016-06-05 19:14:25,301 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [fk_4k5l5kx7d2epf59gyoqpycdbs, primary]
+2016-06-05 19:14:25,318 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3test.users
+2016-06-05 19:14:25,319 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [employee_id, name, id, login]
+2016-06-05 19:14:25,319 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: [fk_d1s31g1a7ilra77m65xmka3ei]
+2016-06-05 19:14:25,319 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [fk_d1s31g1a7ilra77m65xmka3ei, primary]
+2016-06-05 19:14:25,322 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000232: Schema update complete
+2016-06-05 19:14:25,839 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000030: Cleaning up connection pool [jdbc:mysql://localhost/proff3test]
+2016-06-05 19:14:25,857 [main] INFO  action12.HibernateSimpleExampleQuery - session = SessionImpl(<closed>)
+2016-06-05 19:15:35,988 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-06-05 19:15:36,005 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {4.3.8.Final}
+2016-06-05 19:15:36,010 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2016-06-05 19:15:36,016 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2016-06-05 19:15:36,072 [main] INFO  org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: hw6/hibernate.cfg.xml
+2016-06-05 19:15:36,073 [main] INFO  org.hibernate.cfg.Configuration - HHH000040: Configuration resource: hw6/hibernate.cfg.xml
+2016-06-05 19:15:36,294 [main] INFO  org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
+2016-06-05 19:15:36,645 [main] INFO  org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-06-05 19:15:36,656 [main] INFO  org.hibernate.cfg.Configuration - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-06-05 19:15:36,672 [main] INFO  org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
+2016-06-05 19:15:36,695 [main] WARN  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-06-05 19:15:36,717 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/proff3test]
+2016-06-05 19:15:36,718 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000046: Connection properties: {user=root, password=****}
+2016-06-05 19:15:36,719 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000006: Autocommit mode: false
+2016-06-05 19:15:36,722 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+2016-06-05 19:15:37,814 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-06-05 19:15:38,286 [main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-06-05 19:15:38,298 [main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
+2016-06-05 19:15:38,417 [main] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.1.3.Final
+2016-06-05 19:15:39,235 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2016-06-05 19:15:39,235 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000102: Fetching database metadata
+2016-06-05 19:15:39,240 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000396: Updating schema
+2016-06-05 19:15:39,288 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3test.employees
+2016-06-05 19:15:39,288 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [name, id, salary]
+2016-06-05 19:15:39,289 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+2016-06-05 19:15:39,289 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [primary]
+2016-06-05 19:15:39,309 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3test.product
+2016-06-05 19:15:39,310 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [code, name, id]
+2016-06-05 19:15:39,310 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+2016-06-05 19:15:39,310 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [primary]
+2016-06-05 19:15:39,327 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3test.roles
+2016-06-05 19:15:39,327 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [name, comment, id]
+2016-06-05 19:15:39,327 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+2016-06-05 19:15:39,327 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [primary]
+2016-06-05 19:15:39,350 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3test.roles_users
+2016-06-05 19:15:39,351 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [user_id, role_id]
+2016-06-05 19:15:39,351 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: [fk_4k5l5kx7d2epf59gyoqpycdbs, fk_3va0ssladn9mwg8ohg8a8el0]
+2016-06-05 19:15:39,351 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [fk_4k5l5kx7d2epf59gyoqpycdbs, primary]
+2016-06-05 19:15:39,373 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3test.users
+2016-06-05 19:15:39,373 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [employee_id, name, id, login]
+2016-06-05 19:15:39,374 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: [fk_d1s31g1a7ilra77m65xmka3ei]
+2016-06-05 19:15:39,374 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [fk_d1s31g1a7ilra77m65xmka3ei, primary]
+2016-06-05 19:15:39,376 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000232: Schema update complete
+2016-06-05 19:15:39,551 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000030: Cleaning up connection pool [jdbc:mysql://localhost/proff3test]
+2016-06-05 19:16:28,993 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-06-05 19:16:29,011 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {4.3.8.Final}
+2016-06-05 19:16:29,016 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2016-06-05 19:16:29,020 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2016-06-05 19:16:29,074 [main] INFO  org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: hw6/hibernate.cfg.xml
+2016-06-05 19:16:29,074 [main] INFO  org.hibernate.cfg.Configuration - HHH000040: Configuration resource: hw6/hibernate.cfg.xml
+2016-06-05 19:16:29,268 [main] INFO  org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
+2016-06-05 19:16:29,493 [main] INFO  org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-06-05 19:16:29,493 [main] INFO  org.hibernate.cfg.Configuration - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-06-05 19:16:29,504 [main] INFO  org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
+2016-06-05 19:16:29,524 [main] WARN  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-06-05 19:16:29,540 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/proff3test]
+2016-06-05 19:16:29,541 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000046: Connection properties: {user=root, password=****}
+2016-06-05 19:16:29,542 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000006: Autocommit mode: false
+2016-06-05 19:16:29,545 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+2016-06-05 19:16:30,597 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-06-05 19:16:31,185 [main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-06-05 19:16:31,198 [main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
+2016-06-05 19:16:31,336 [main] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.1.3.Final
+2016-06-05 19:16:32,169 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2016-06-05 19:16:32,170 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000102: Fetching database metadata
+2016-06-05 19:16:32,174 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000396: Updating schema
+2016-06-05 19:16:32,222 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3test.employees
+2016-06-05 19:16:32,223 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [name, id, salary]
+2016-06-05 19:16:32,223 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+2016-06-05 19:16:32,224 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [primary]
+2016-06-05 19:16:32,244 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3test.product
+2016-06-05 19:16:32,244 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [code, name, id]
+2016-06-05 19:16:32,244 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+2016-06-05 19:16:32,245 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [primary]
+2016-06-05 19:16:32,263 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3test.roles
+2016-06-05 19:16:32,264 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [name, comment, id]
+2016-06-05 19:16:32,264 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+2016-06-05 19:16:32,265 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [primary]
+2016-06-05 19:16:32,287 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3test.roles_users
+2016-06-05 19:16:32,287 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [user_id, role_id]
+2016-06-05 19:16:32,288 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: [fk_4k5l5kx7d2epf59gyoqpycdbs, fk_3va0ssladn9mwg8ohg8a8el0]
+2016-06-05 19:16:32,288 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [fk_4k5l5kx7d2epf59gyoqpycdbs, primary]
+2016-06-05 19:16:32,311 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3test.users
+2016-06-05 19:16:32,312 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [employee_id, name, id, login]
+2016-06-05 19:16:32,312 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: [fk_d1s31g1a7ilra77m65xmka3ei]
+2016-06-05 19:16:32,312 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [fk_d1s31g1a7ilra77m65xmka3ei, primary]
+2016-06-05 19:16:32,314 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000232: Schema update complete
+2016-06-05 19:16:32,840 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000030: Cleaning up connection pool [jdbc:mysql://localhost/proff3test]
+2016-06-05 19:16:32,856 [main] INFO  action12.HibernateSimpleExampleQuery - session = SessionImpl(<closed>)
+2016-06-05 19:16:44,327 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-06-05 19:16:44,345 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {4.3.8.Final}
+2016-06-05 19:16:44,349 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2016-06-05 19:16:44,353 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2016-06-05 19:16:44,407 [main] INFO  org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: hw6/hibernate.cfg.xml
+2016-06-05 19:16:44,407 [main] INFO  org.hibernate.cfg.Configuration - HHH000040: Configuration resource: hw6/hibernate.cfg.xml
+2016-06-05 19:16:44,599 [main] INFO  org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
+2016-06-05 19:16:44,819 [main] INFO  org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-06-05 19:16:44,819 [main] INFO  org.hibernate.cfg.Configuration - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-06-05 19:16:44,830 [main] INFO  org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
+2016-06-05 19:16:44,850 [main] WARN  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-06-05 19:16:44,867 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/proff3test]
+2016-06-05 19:16:44,868 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000046: Connection properties: {user=root, password=****}
+2016-06-05 19:16:44,869 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000006: Autocommit mode: false
+2016-06-05 19:16:44,872 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+2016-06-05 19:16:45,892 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-06-05 19:16:46,367 [main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-06-05 19:16:46,379 [main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
+2016-06-05 19:16:46,504 [main] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.1.3.Final
+2016-06-05 19:16:47,350 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2016-06-05 19:16:47,350 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000102: Fetching database metadata
+2016-06-05 19:16:47,355 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000396: Updating schema
+2016-06-05 19:16:47,407 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3test.employees
+2016-06-05 19:16:47,407 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [name, id, salary]
+2016-06-05 19:16:47,408 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+2016-06-05 19:16:47,408 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [primary]
+2016-06-05 19:16:47,428 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3test.product
+2016-06-05 19:16:47,428 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [code, name, id]
+2016-06-05 19:16:47,428 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+2016-06-05 19:16:47,429 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [primary]
+2016-06-05 19:16:47,462 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3test.roles
+2016-06-05 19:16:47,463 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [name, comment, id]
+2016-06-05 19:16:47,463 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+2016-06-05 19:16:47,463 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [primary]
+2016-06-05 19:16:47,486 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3test.roles_users
+2016-06-05 19:16:47,486 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [user_id, role_id]
+2016-06-05 19:16:47,486 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: [fk_4k5l5kx7d2epf59gyoqpycdbs, fk_3va0ssladn9mwg8ohg8a8el0]
+2016-06-05 19:16:47,487 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [fk_4k5l5kx7d2epf59gyoqpycdbs, primary]
+2016-06-05 19:16:47,503 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3test.users
+2016-06-05 19:16:47,504 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [employee_id, name, id, login]
+2016-06-05 19:16:47,504 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: [fk_d1s31g1a7ilra77m65xmka3ei]
+2016-06-05 19:16:47,504 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [fk_d1s31g1a7ilra77m65xmka3ei, primary]
+2016-06-05 19:16:47,506 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000232: Schema update complete
+2016-06-05 19:16:47,677 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000030: Cleaning up connection pool [jdbc:mysql://localhost/proff3test]
+2016-06-05 19:17:16,206 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-06-05 19:17:16,223 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {4.3.8.Final}
+2016-06-05 19:17:16,228 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2016-06-05 19:17:16,232 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2016-06-05 19:17:16,285 [main] INFO  org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: hw6/hibernate.cfg.xml
+2016-06-05 19:17:16,285 [main] INFO  org.hibernate.cfg.Configuration - HHH000040: Configuration resource: hw6/hibernate.cfg.xml
+2016-06-05 19:17:16,479 [main] INFO  org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
+2016-06-05 19:17:16,717 [main] INFO  org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-06-05 19:17:16,718 [main] INFO  org.hibernate.cfg.Configuration - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-06-05 19:17:16,730 [main] INFO  org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
+2016-06-05 19:17:16,749 [main] WARN  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-06-05 19:17:16,766 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/proff3test]
+2016-06-05 19:17:16,767 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000046: Connection properties: {user=root, password=****}
+2016-06-05 19:17:16,768 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000006: Autocommit mode: false
+2016-06-05 19:17:16,771 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+2016-06-05 19:17:17,797 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-06-05 19:17:18,264 [main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-06-05 19:17:18,276 [main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
+2016-06-05 19:17:18,395 [main] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.1.3.Final
+2016-06-05 19:17:19,208 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2016-06-05 19:17:19,208 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000102: Fetching database metadata
+2016-06-05 19:17:19,213 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000396: Updating schema
+2016-06-05 19:17:19,263 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3test.employees
+2016-06-05 19:17:19,263 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [name, id, salary]
+2016-06-05 19:17:19,264 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+2016-06-05 19:17:19,264 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [primary]
+2016-06-05 19:17:19,284 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3test.product
+2016-06-05 19:17:19,284 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [code, name, id]
+2016-06-05 19:17:19,285 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+2016-06-05 19:17:19,285 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [primary]
+2016-06-05 19:17:19,301 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3test.roles
+2016-06-05 19:17:19,301 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [name, comment, id]
+2016-06-05 19:17:19,301 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+2016-06-05 19:17:19,302 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [primary]
+2016-06-05 19:17:19,330 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3test.roles_users
+2016-06-05 19:17:19,330 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [user_id, role_id]
+2016-06-05 19:17:19,330 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: [fk_4k5l5kx7d2epf59gyoqpycdbs, fk_3va0ssladn9mwg8ohg8a8el0]
+2016-06-05 19:17:19,331 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [fk_4k5l5kx7d2epf59gyoqpycdbs, primary]
+2016-06-05 19:17:19,350 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3test.users
+2016-06-05 19:17:19,351 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [employee_id, name, id, login]
+2016-06-05 19:17:19,351 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: [fk_d1s31g1a7ilra77m65xmka3ei]
+2016-06-05 19:17:19,352 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [fk_d1s31g1a7ilra77m65xmka3ei, primary]
+2016-06-05 19:17:19,354 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000232: Schema update complete
+2016-06-05 19:17:19,380 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000030: Cleaning up connection pool [jdbc:mysql://localhost/proff3test]
+2016-06-05 19:17:38,410 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-06-05 19:17:38,428 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {4.3.8.Final}
+2016-06-05 19:17:38,433 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2016-06-05 19:17:38,440 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2016-06-05 19:17:38,495 [main] INFO  org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: hw6/hibernate.cfg.xml
+2016-06-05 19:17:38,495 [main] INFO  org.hibernate.cfg.Configuration - HHH000040: Configuration resource: hw6/hibernate.cfg.xml
+2016-06-05 19:17:38,693 [main] INFO  org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
+2016-06-05 19:17:38,917 [main] INFO  org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-06-05 19:17:38,917 [main] INFO  org.hibernate.cfg.Configuration - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-06-05 19:17:38,929 [main] INFO  org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
+2016-06-05 19:17:38,947 [main] WARN  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-06-05 19:17:38,963 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/proff3test]
+2016-06-05 19:17:38,964 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000046: Connection properties: {user=root, password=****}
+2016-06-05 19:17:38,965 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000006: Autocommit mode: false
+2016-06-05 19:17:38,968 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+2016-06-05 19:17:39,993 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-06-05 19:17:40,463 [main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-06-05 19:17:40,473 [main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
+2016-06-05 19:17:40,593 [main] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.1.3.Final
+2016-06-05 19:17:41,404 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2016-06-05 19:17:41,404 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000102: Fetching database metadata
+2016-06-05 19:17:41,409 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000396: Updating schema
+2016-06-05 19:17:41,459 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3test.employees
+2016-06-05 19:17:41,460 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [name, id, salary]
+2016-06-05 19:17:41,460 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+2016-06-05 19:17:41,461 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [primary]
+2016-06-05 19:17:41,481 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3test.product
+2016-06-05 19:17:41,481 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [code, name, id]
+2016-06-05 19:17:41,481 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+2016-06-05 19:17:41,481 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [primary]
+2016-06-05 19:17:41,498 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3test.roles
+2016-06-05 19:17:41,498 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [name, comment, id]
+2016-06-05 19:17:41,499 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+2016-06-05 19:17:41,499 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [primary]
+2016-06-05 19:17:41,524 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3test.roles_users
+2016-06-05 19:17:41,524 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [user_id, role_id]
+2016-06-05 19:17:41,524 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: [fk_4k5l5kx7d2epf59gyoqpycdbs, fk_3va0ssladn9mwg8ohg8a8el0]
+2016-06-05 19:17:41,525 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [fk_4k5l5kx7d2epf59gyoqpycdbs, primary]
+2016-06-05 19:17:41,547 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3test.users
+2016-06-05 19:17:41,547 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [employee_id, name, id, login]
+2016-06-05 19:17:41,548 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: [fk_d1s31g1a7ilra77m65xmka3ei]
+2016-06-05 19:17:41,548 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [fk_d1s31g1a7ilra77m65xmka3ei, primary]
+2016-06-05 19:17:41,550 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000232: Schema update complete
+2016-06-05 19:17:41,720 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000030: Cleaning up connection pool [jdbc:mysql://localhost/proff3test]
+2016-06-05 19:18:23,232 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-06-05 19:18:23,249 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {4.3.8.Final}
+2016-06-05 19:18:23,253 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2016-06-05 19:18:23,257 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2016-06-05 19:18:23,312 [main] INFO  org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: hw6/hibernate.cfg.xml
+2016-06-05 19:18:23,312 [main] INFO  org.hibernate.cfg.Configuration - HHH000040: Configuration resource: hw6/hibernate.cfg.xml
+2016-06-05 19:18:23,542 [main] INFO  org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
+2016-06-05 19:18:23,791 [main] INFO  org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-06-05 19:18:23,793 [main] INFO  org.hibernate.cfg.Configuration - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-06-05 19:18:23,813 [main] INFO  org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
+2016-06-05 19:18:23,836 [main] WARN  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-06-05 19:18:23,855 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/proff3test]
+2016-06-05 19:18:23,857 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000046: Connection properties: {user=root, password=****}
+2016-06-05 19:18:23,857 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000006: Autocommit mode: false
+2016-06-05 19:18:23,861 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+2016-06-05 19:18:24,871 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-06-05 19:18:25,358 [main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-06-05 19:18:25,369 [main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
+2016-06-05 19:18:25,491 [main] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.1.3.Final
+2016-06-05 19:18:26,311 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2016-06-05 19:18:26,311 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000102: Fetching database metadata
+2016-06-05 19:18:26,316 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000396: Updating schema
+2016-06-05 19:18:26,364 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3test.employees
+2016-06-05 19:18:26,364 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [name, id, salary]
+2016-06-05 19:18:26,373 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+2016-06-05 19:18:26,373 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [primary]
+2016-06-05 19:18:26,392 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3test.product
+2016-06-05 19:18:26,392 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [code, name, id]
+2016-06-05 19:18:26,393 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+2016-06-05 19:18:26,393 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [primary]
+2016-06-05 19:18:26,409 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3test.roles
+2016-06-05 19:18:26,409 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [name, comment, id]
+2016-06-05 19:18:26,410 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+2016-06-05 19:18:26,410 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [primary]
+2016-06-05 19:18:26,435 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3test.roles_users
+2016-06-05 19:18:26,436 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [user_id, role_id]
+2016-06-05 19:18:26,436 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: [fk_4k5l5kx7d2epf59gyoqpycdbs, fk_3va0ssladn9mwg8ohg8a8el0]
+2016-06-05 19:18:26,436 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [fk_4k5l5kx7d2epf59gyoqpycdbs, primary]
+2016-06-05 19:18:26,457 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3test.users
+2016-06-05 19:18:26,458 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [employee_id, name, id, login]
+2016-06-05 19:18:26,458 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: [fk_d1s31g1a7ilra77m65xmka3ei]
+2016-06-05 19:18:26,459 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [fk_d1s31g1a7ilra77m65xmka3ei, primary]
+2016-06-05 19:18:26,461 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000232: Schema update complete
+2016-06-05 19:18:26,639 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000030: Cleaning up connection pool [jdbc:mysql://localhost/proff3test]
+2016-06-05 19:19:44,912 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-06-05 19:19:44,932 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {4.3.8.Final}
+2016-06-05 19:19:44,940 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2016-06-05 19:19:44,949 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2016-06-05 19:19:45,002 [main] INFO  org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: hw6/hibernate.cfg.xml
+2016-06-05 19:19:45,003 [main] INFO  org.hibernate.cfg.Configuration - HHH000040: Configuration resource: hw6/hibernate.cfg.xml
+2016-06-05 19:19:45,230 [main] INFO  org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
+2016-06-05 19:19:45,492 [main] INFO  org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-06-05 19:19:45,494 [main] INFO  org.hibernate.cfg.Configuration - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-06-05 19:19:45,511 [main] INFO  org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
+2016-06-05 19:19:45,533 [main] WARN  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-06-05 19:19:45,554 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/proff3test]
+2016-06-05 19:19:45,555 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000046: Connection properties: {user=root, password=****}
+2016-06-05 19:19:45,556 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000006: Autocommit mode: false
+2016-06-05 19:19:45,559 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+2016-06-05 19:19:46,581 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-06-05 19:19:47,047 [main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-06-05 19:19:47,058 [main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
+2016-06-05 19:19:47,180 [main] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.1.3.Final
+2016-06-05 19:19:47,998 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2016-06-05 19:19:47,998 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000102: Fetching database metadata
+2016-06-05 19:19:48,003 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000396: Updating schema
+2016-06-05 19:19:48,050 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3test.employees
+2016-06-05 19:19:48,051 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [name, id, salary]
+2016-06-05 19:19:48,051 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+2016-06-05 19:19:48,052 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [primary]
+2016-06-05 19:19:48,071 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3test.product
+2016-06-05 19:19:48,072 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [code, name, id]
+2016-06-05 19:19:48,072 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+2016-06-05 19:19:48,072 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [primary]
+2016-06-05 19:19:48,088 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3test.roles
+2016-06-05 19:19:48,088 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [name, comment, id]
+2016-06-05 19:19:48,088 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+2016-06-05 19:19:48,089 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [primary]
+2016-06-05 19:19:48,111 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3test.roles_users
+2016-06-05 19:19:48,111 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [user_id, role_id]
+2016-06-05 19:19:48,112 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: [fk_4k5l5kx7d2epf59gyoqpycdbs, fk_3va0ssladn9mwg8ohg8a8el0]
+2016-06-05 19:19:48,112 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [fk_4k5l5kx7d2epf59gyoqpycdbs, primary]
+2016-06-05 19:19:48,135 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3test.users
+2016-06-05 19:19:48,135 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [employee_id, name, id, login]
+2016-06-05 19:19:48,135 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: [fk_d1s31g1a7ilra77m65xmka3ei]
+2016-06-05 19:19:48,135 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [fk_d1s31g1a7ilra77m65xmka3ei, primary]
+2016-06-05 19:19:48,137 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000232: Schema update complete
+2016-06-05 19:19:48,314 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000030: Cleaning up connection pool [jdbc:mysql://localhost/proff3test]
+2016-06-05 19:20:27,756 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-06-05 19:20:27,773 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {4.3.8.Final}
+2016-06-05 19:20:27,778 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2016-06-05 19:20:27,782 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2016-06-05 19:20:27,836 [main] INFO  org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: hw6/hibernate.cfg.xml
+2016-06-05 19:20:27,836 [main] INFO  org.hibernate.cfg.Configuration - HHH000040: Configuration resource: hw6/hibernate.cfg.xml
+2016-06-05 19:20:28,064 [main] INFO  org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
+2016-06-05 19:20:28,341 [main] INFO  org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-06-05 19:20:28,341 [main] INFO  org.hibernate.cfg.Configuration - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-06-05 19:20:28,360 [main] INFO  org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
+2016-06-05 19:20:28,380 [main] WARN  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-06-05 19:20:28,397 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/proff3test]
+2016-06-05 19:20:28,398 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000046: Connection properties: {user=root, password=****}
+2016-06-05 19:20:28,398 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000006: Autocommit mode: false
+2016-06-05 19:20:28,402 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+2016-06-05 19:20:29,420 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-06-05 19:20:29,886 [main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-06-05 19:20:29,897 [main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
+2016-06-05 19:20:30,017 [main] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.1.3.Final
+2016-06-05 19:20:30,829 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2016-06-05 19:20:30,829 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000102: Fetching database metadata
+2016-06-05 19:20:30,833 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000396: Updating schema
+2016-06-05 19:20:30,882 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3test.employees
+2016-06-05 19:20:30,883 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [name, id, salary]
+2016-06-05 19:20:30,883 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+2016-06-05 19:20:30,884 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [primary]
+2016-06-05 19:20:30,980 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3test.product
+2016-06-05 19:20:30,980 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [code, name, id]
+2016-06-05 19:20:30,980 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+2016-06-05 19:20:30,981 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [primary]
+2016-06-05 19:20:30,997 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3test.roles
+2016-06-05 19:20:30,998 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [name, comment, id]
+2016-06-05 19:20:30,998 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+2016-06-05 19:20:30,998 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [primary]
+2016-06-05 19:20:31,021 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3test.roles_users
+2016-06-05 19:20:31,021 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [user_id, role_id]
+2016-06-05 19:20:31,021 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: [fk_4k5l5kx7d2epf59gyoqpycdbs, fk_3va0ssladn9mwg8ohg8a8el0]
+2016-06-05 19:20:31,021 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [fk_4k5l5kx7d2epf59gyoqpycdbs, primary]
+2016-06-05 19:20:31,039 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3test.users
+2016-06-05 19:20:31,039 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [employee_id, name, id, login]
+2016-06-05 19:20:31,039 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: [fk_d1s31g1a7ilra77m65xmka3ei]
+2016-06-05 19:20:31,039 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [fk_d1s31g1a7ilra77m65xmka3ei, primary]
+2016-06-05 19:20:31,042 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000232: Schema update complete
+2016-06-05 19:20:31,217 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000030: Cleaning up connection pool [jdbc:mysql://localhost/proff3test]
+2016-06-05 19:43:18,711 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-06-05 19:43:18,731 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {4.3.8.Final}
+2016-06-05 19:43:18,737 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2016-06-05 19:43:18,743 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2016-06-05 19:43:18,806 [main] INFO  org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: hw6/hibernate.cfg.xml
+2016-06-05 19:43:18,806 [main] INFO  org.hibernate.cfg.Configuration - HHH000040: Configuration resource: hw6/hibernate.cfg.xml
+2016-06-05 19:43:19,184 [main] INFO  org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
+2016-06-05 19:43:19,489 [main] INFO  org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-06-05 19:43:19,489 [main] INFO  org.hibernate.cfg.Configuration - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-06-05 19:43:19,507 [main] INFO  org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
+2016-06-05 19:43:19,531 [main] WARN  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-06-05 19:43:19,553 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/proff3test]
+2016-06-05 19:43:19,555 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000046: Connection properties: {user=root, password=****}
+2016-06-05 19:43:19,556 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000006: Autocommit mode: false
+2016-06-05 19:43:19,559 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+2016-06-05 19:43:20,638 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-06-05 19:43:21,125 [main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-06-05 19:43:21,136 [main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
+2016-06-05 19:43:21,258 [main] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.1.3.Final
+2016-06-05 19:43:22,074 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2016-06-05 19:43:22,074 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000102: Fetching database metadata
+2016-06-05 19:43:22,078 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000396: Updating schema
+2016-06-05 19:43:22,127 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3test.employees
+2016-06-05 19:43:22,128 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [name, id, salary]
+2016-06-05 19:43:22,128 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+2016-06-05 19:43:22,128 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [primary]
+2016-06-05 19:43:22,146 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3test.product
+2016-06-05 19:43:22,147 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [code, name, id]
+2016-06-05 19:43:22,147 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+2016-06-05 19:43:22,147 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [primary]
+2016-06-05 19:43:22,165 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3test.roles
+2016-06-05 19:43:22,166 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [name, comment, id]
+2016-06-05 19:43:22,167 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+2016-06-05 19:43:22,167 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [primary]
+2016-06-05 19:43:22,192 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3test.roles_users
+2016-06-05 19:43:22,192 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [user_id, role_id]
+2016-06-05 19:43:22,192 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: [fk_4k5l5kx7d2epf59gyoqpycdbs, fk_3va0ssladn9mwg8ohg8a8el0]
+2016-06-05 19:43:22,193 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [fk_4k5l5kx7d2epf59gyoqpycdbs, primary]
+2016-06-05 19:43:22,211 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3test.users
+2016-06-05 19:43:22,211 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [employee_id, name, id, login]
+2016-06-05 19:43:22,211 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: [fk_d1s31g1a7ilra77m65xmka3ei]
+2016-06-05 19:43:22,211 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [fk_d1s31g1a7ilra77m65xmka3ei, primary]
+2016-06-05 19:43:22,214 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000232: Schema update complete
+2016-06-05 19:43:22,391 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000030: Cleaning up connection pool [jdbc:mysql://localhost/proff3test]
+2016-06-05 19:45:51,128 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-06-05 19:45:51,145 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {4.3.8.Final}
+2016-06-05 19:45:51,150 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2016-06-05 19:45:51,157 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2016-06-05 19:45:51,212 [main] INFO  org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: hw6/hibernate.cfg.xml
+2016-06-05 19:45:51,212 [main] INFO  org.hibernate.cfg.Configuration - HHH000040: Configuration resource: hw6/hibernate.cfg.xml
+2016-06-05 19:45:51,406 [main] INFO  org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
+2016-06-05 19:45:51,637 [main] INFO  org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-06-05 19:45:51,637 [main] INFO  org.hibernate.cfg.Configuration - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-06-05 19:45:51,652 [main] INFO  org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
+2016-06-05 19:45:51,671 [main] WARN  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-06-05 19:45:51,689 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/proff3test]
+2016-06-05 19:45:51,690 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000046: Connection properties: {user=root, password=****}
+2016-06-05 19:45:51,691 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000006: Autocommit mode: false
+2016-06-05 19:45:51,694 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+2016-06-05 19:45:52,720 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-06-05 19:45:53,207 [main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-06-05 19:45:53,218 [main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
+2016-06-05 19:45:53,341 [main] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.1.3.Final
+2016-06-05 19:45:54,161 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2016-06-05 19:45:54,161 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000102: Fetching database metadata
+2016-06-05 19:45:54,166 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000396: Updating schema
+2016-06-05 19:45:54,176 [main] INFO  java.sql.DatabaseMetaData - HHH000262: Table not found: employees
+2016-06-05 19:45:54,182 [main] INFO  java.sql.DatabaseMetaData - HHH000262: Table not found: product
+2016-06-05 19:45:54,185 [main] INFO  java.sql.DatabaseMetaData - HHH000262: Table not found: roles
+2016-06-05 19:45:54,187 [main] INFO  java.sql.DatabaseMetaData - HHH000262: Table not found: roles_users
+2016-06-05 19:45:54,189 [main] INFO  java.sql.DatabaseMetaData - HHH000262: Table not found: users
+2016-06-05 19:45:54,192 [main] INFO  java.sql.DatabaseMetaData - HHH000262: Table not found: employees
+2016-06-05 19:45:54,196 [main] INFO  java.sql.DatabaseMetaData - HHH000262: Table not found: product
+2016-06-05 19:45:54,198 [main] INFO  java.sql.DatabaseMetaData - HHH000262: Table not found: roles
+2016-06-05 19:45:54,201 [main] INFO  java.sql.DatabaseMetaData - HHH000262: Table not found: roles_users
+2016-06-05 19:45:54,204 [main] INFO  java.sql.DatabaseMetaData - HHH000262: Table not found: users
+2016-06-05 19:45:54,206 [main] INFO  java.sql.DatabaseMetaData - HHH000262: Table not found: employees
+2016-06-05 19:45:54,209 [main] INFO  java.sql.DatabaseMetaData - HHH000262: Table not found: product
+2016-06-05 19:45:54,211 [main] INFO  java.sql.DatabaseMetaData - HHH000262: Table not found: roles
+2016-06-05 19:45:54,214 [main] INFO  java.sql.DatabaseMetaData - HHH000262: Table not found: roles_users
+2016-06-05 19:45:54,217 [main] INFO  java.sql.DatabaseMetaData - HHH000262: Table not found: users
+2016-06-05 19:45:58,592 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000232: Schema update complete
+2016-06-05 19:45:58,776 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000030: Cleaning up connection pool [jdbc:mysql://localhost/proff3test]
+2016-06-05 19:46:07,882 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-06-05 19:46:07,898 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {4.3.8.Final}
+2016-06-05 19:46:07,903 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2016-06-05 19:46:07,907 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2016-06-05 19:46:07,961 [main] INFO  org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: hw6/hibernate.cfg.xml
+2016-06-05 19:46:07,962 [main] INFO  org.hibernate.cfg.Configuration - HHH000040: Configuration resource: hw6/hibernate.cfg.xml
+2016-06-05 19:46:08,152 [main] INFO  org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
+2016-06-05 19:46:08,381 [main] INFO  org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-06-05 19:46:08,382 [main] INFO  org.hibernate.cfg.Configuration - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-06-05 19:46:08,396 [main] INFO  org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
+2016-06-05 19:46:08,414 [main] WARN  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-06-05 19:46:08,432 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/proff3test]
+2016-06-05 19:46:08,433 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000046: Connection properties: {user=root, password=****}
+2016-06-05 19:46:08,433 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000006: Autocommit mode: false
+2016-06-05 19:46:08,436 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+2016-06-05 19:46:09,455 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-06-05 19:46:09,924 [main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-06-05 19:46:09,935 [main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
+2016-06-05 19:46:10,057 [main] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.1.3.Final
+2016-06-05 19:46:10,872 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2016-06-05 19:46:10,872 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000102: Fetching database metadata
+2016-06-05 19:46:10,876 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000396: Updating schema
+2016-06-05 19:46:10,997 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3test.employees
+2016-06-05 19:46:10,998 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [name, id, salary]
+2016-06-05 19:46:10,998 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+2016-06-05 19:46:10,998 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [primary]
+2016-06-05 19:46:11,018 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3test.product
+2016-06-05 19:46:11,019 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [code, name, id]
+2016-06-05 19:46:11,019 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+2016-06-05 19:46:11,019 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [primary]
+2016-06-05 19:46:11,037 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3test.roles
+2016-06-05 19:46:11,037 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [name, comment, id]
+2016-06-05 19:46:11,037 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+2016-06-05 19:46:11,038 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [primary]
+2016-06-05 19:46:11,061 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3test.roles_users
+2016-06-05 19:46:11,062 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [user_id, role_id]
+2016-06-05 19:46:11,062 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: [fk_4k5l5kx7d2epf59gyoqpycdbs, fk_3va0ssladn9mwg8ohg8a8el0]
+2016-06-05 19:46:11,062 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [fk_4k5l5kx7d2epf59gyoqpycdbs, primary]
+2016-06-05 19:46:11,087 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3test.users
+2016-06-05 19:46:11,087 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [employee_id, name, id, login]
+2016-06-05 19:46:11,088 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: [fk_d1s31g1a7ilra77m65xmka3ei]
+2016-06-05 19:46:11,089 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [fk_d1s31g1a7ilra77m65xmka3ei, primary]
+2016-06-05 19:46:11,091 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000232: Schema update complete
+2016-06-05 19:46:11,258 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000030: Cleaning up connection pool [jdbc:mysql://localhost/proff3test]
+2016-06-07 13:44:57,899 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-06-07 13:44:57,939 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {4.3.8.Final}
+2016-06-07 13:44:57,944 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2016-06-07 13:44:57,948 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2016-06-07 13:44:58,006 [main] INFO  org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: hw6/hibernate.cfg.xml
+2016-06-07 13:44:58,006 [main] INFO  org.hibernate.cfg.Configuration - HHH000040: Configuration resource: hw6/hibernate.cfg.xml
+2016-06-07 13:44:58,326 [main] INFO  org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
+2016-06-07 13:44:58,618 [main] INFO  org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-06-07 13:44:58,619 [main] INFO  org.hibernate.cfg.Configuration - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-06-07 13:44:58,638 [main] INFO  org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
+2016-06-07 13:44:58,661 [main] WARN  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-06-07 13:44:58,689 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/proff3test]
+2016-06-07 13:44:58,694 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000046: Connection properties: {user=root, password=****}
+2016-06-07 13:44:58,695 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000006: Autocommit mode: false
+2016-06-07 13:44:58,700 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+2016-06-07 13:44:59,836 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-06-07 13:45:00,345 [main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-06-07 13:45:00,356 [main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
+2016-06-07 13:45:00,490 [main] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.1.3.Final
+2016-06-07 13:45:01,390 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2016-06-07 13:45:01,391 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000102: Fetching database metadata
+2016-06-07 13:45:01,396 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000396: Updating schema
+2016-06-07 13:45:01,407 [main] INFO  java.sql.DatabaseMetaData - HHH000262: Table not found: employees
+2016-06-07 13:45:01,415 [main] INFO  java.sql.DatabaseMetaData - HHH000262: Table not found: product
+2016-06-07 13:45:01,418 [main] INFO  java.sql.DatabaseMetaData - HHH000262: Table not found: roles
+2016-06-07 13:45:01,421 [main] INFO  java.sql.DatabaseMetaData - HHH000262: Table not found: roles_users
+2016-06-07 13:45:01,423 [main] INFO  java.sql.DatabaseMetaData - HHH000262: Table not found: users
+2016-06-07 13:45:01,426 [main] INFO  java.sql.DatabaseMetaData - HHH000262: Table not found: employees
+2016-06-07 13:45:01,429 [main] INFO  java.sql.DatabaseMetaData - HHH000262: Table not found: product
+2016-06-07 13:45:01,432 [main] INFO  java.sql.DatabaseMetaData - HHH000262: Table not found: roles
+2016-06-07 13:45:01,435 [main] INFO  java.sql.DatabaseMetaData - HHH000262: Table not found: roles_users
+2016-06-07 13:45:01,437 [main] INFO  java.sql.DatabaseMetaData - HHH000262: Table not found: users
+2016-06-07 13:45:01,439 [main] INFO  java.sql.DatabaseMetaData - HHH000262: Table not found: employees
+2016-06-07 13:45:01,442 [main] INFO  java.sql.DatabaseMetaData - HHH000262: Table not found: product
+2016-06-07 13:45:01,445 [main] INFO  java.sql.DatabaseMetaData - HHH000262: Table not found: roles
+2016-06-07 13:45:01,447 [main] INFO  java.sql.DatabaseMetaData - HHH000262: Table not found: roles_users
+2016-06-07 13:45:01,450 [main] INFO  java.sql.DatabaseMetaData - HHH000262: Table not found: users
+2016-06-07 13:45:05,449 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000232: Schema update complete
+2016-06-07 13:45:05,636 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000030: Cleaning up connection pool [jdbc:mysql://localhost/proff3test]
+2016-06-07 13:47:32,795 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-06-07 13:47:32,814 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {4.3.8.Final}
+2016-06-07 13:47:32,819 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2016-06-07 13:47:32,826 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2016-06-07 13:47:32,888 [main] INFO  org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: hw6/hibernate.cfg.xml
+2016-06-07 13:47:32,888 [main] INFO  org.hibernate.cfg.Configuration - HHH000040: Configuration resource: hw6/hibernate.cfg.xml
+2016-06-07 13:47:33,088 [main] INFO  org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
+2016-06-07 13:47:33,324 [main] INFO  org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-06-07 13:47:33,325 [main] INFO  org.hibernate.cfg.Configuration - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-06-07 13:53:13,621 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-06-07 13:53:13,639 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {4.3.8.Final}
+2016-06-07 13:53:13,644 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2016-06-07 13:53:13,648 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2016-06-07 13:53:13,705 [main] INFO  org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: hw6/hibernate.cfg.xml
+2016-06-07 13:53:13,706 [main] INFO  org.hibernate.cfg.Configuration - HHH000040: Configuration resource: hw6/hibernate.cfg.xml
+2016-06-07 13:53:13,917 [main] INFO  org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
+2016-06-07 13:53:14,156 [main] INFO  org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-06-07 13:53:14,157 [main] INFO  org.hibernate.cfg.Configuration - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-06-07 13:55:34,184 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-06-07 13:55:34,202 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {4.3.8.Final}
+2016-06-07 13:55:34,206 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2016-06-07 13:55:34,213 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2016-06-07 13:55:34,272 [main] INFO  org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: ../hw6/hibernate.cfg.xml
+2016-06-07 13:55:34,272 [main] INFO  org.hibernate.cfg.Configuration - HHH000040: Configuration resource: ../hw6/hibernate.cfg.xml
+2016-06-07 13:55:57,014 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-06-07 13:55:57,032 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {4.3.8.Final}
+2016-06-07 13:55:57,036 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2016-06-07 13:55:57,043 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2016-06-07 13:55:57,099 [main] INFO  org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: hw6/hibernate.cfg.xml
+2016-06-07 13:55:57,100 [main] INFO  org.hibernate.cfg.Configuration - HHH000040: Configuration resource: hw6/hibernate.cfg.xml
+2016-06-07 13:55:57,303 [main] INFO  org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
+2016-06-07 13:55:57,543 [main] INFO  org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-06-07 13:55:57,543 [main] INFO  org.hibernate.cfg.Configuration - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-06-07 13:57:05,627 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-06-07 13:57:05,645 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {4.3.8.Final}
+2016-06-07 13:57:05,649 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2016-06-07 13:57:05,657 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2016-06-07 13:57:05,713 [main] INFO  org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: hw6/hibernate.cfg.xml
+2016-06-07 13:57:05,713 [main] INFO  org.hibernate.cfg.Configuration - HHH000040: Configuration resource: hw6/hibernate.cfg.xml
+2016-06-07 13:57:05,916 [main] INFO  org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
+2016-06-07 13:57:06,144 [main] INFO  org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-06-07 13:57:06,145 [main] INFO  org.hibernate.cfg.Configuration - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-06-07 13:57:06,156 [main] INFO  org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
+2016-06-07 13:57:06,176 [main] WARN  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-06-07 13:57:06,193 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/proff3test]
+2016-06-07 13:57:06,195 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000046: Connection properties: {user=root, password=****}
+2016-06-07 13:57:06,195 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000006: Autocommit mode: false
+2016-06-07 13:57:06,198 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+2016-06-07 13:57:07,327 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-06-07 13:57:07,457 [main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-06-07 13:57:07,471 [main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
+2016-06-07 13:57:07,615 [main] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.1.3.Final
+2016-06-07 13:57:07,828 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2016-06-07 13:57:07,828 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000102: Fetching database metadata
+2016-06-07 13:57:07,832 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000396: Updating schema
+2016-06-07 13:57:07,834 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000232: Schema update complete
+2016-06-07 13:57:08,021 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000030: Cleaning up connection pool [jdbc:mysql://localhost/proff3test]
+2016-06-07 13:58:59,078 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-06-07 13:58:59,095 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {4.3.8.Final}
+2016-06-07 13:58:59,100 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2016-06-07 13:58:59,106 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2016-06-07 13:58:59,166 [main] INFO  org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: hw6/hibernate.cfg.xml
+2016-06-07 13:58:59,174 [main] INFO  org.hibernate.cfg.Configuration - HHH000040: Configuration resource: hw6/hibernate.cfg.xml
+2016-06-07 13:58:59,378 [main] INFO  org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
+2016-06-07 13:58:59,612 [main] INFO  org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-06-07 13:58:59,612 [main] INFO  org.hibernate.cfg.Configuration - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-06-07 13:58:59,623 [main] INFO  org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
+2016-06-07 13:58:59,642 [main] WARN  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-06-07 13:58:59,660 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/proff3test]
+2016-06-07 13:58:59,661 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000046: Connection properties: {user=root, password=****}
+2016-06-07 13:58:59,661 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000006: Autocommit mode: false
+2016-06-07 13:58:59,665 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+2016-06-07 13:59:00,764 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-06-07 13:59:00,889 [main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-06-07 13:59:00,902 [main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
+2016-06-07 13:59:01,048 [main] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.1.3.Final
+2016-06-07 13:59:01,252 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2016-06-07 13:59:01,253 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000102: Fetching database metadata
+2016-06-07 13:59:01,257 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000396: Updating schema
+2016-06-07 13:59:01,259 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000232: Schema update complete
+2016-06-07 13:59:01,447 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000030: Cleaning up connection pool [jdbc:mysql://localhost/proff3test]
+2016-06-07 14:01:11,744 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-06-07 14:01:11,762 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {4.3.8.Final}
+2016-06-07 14:01:11,767 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2016-06-07 14:01:11,774 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2016-06-07 14:01:11,832 [main] INFO  org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: hw6/hibernate.cfg.xml
+2016-06-07 14:01:11,833 [main] INFO  org.hibernate.cfg.Configuration - HHH000040: Configuration resource: hw6/hibernate.cfg.xml
+2016-06-07 14:01:12,040 [main] INFO  org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
+2016-06-07 14:01:12,272 [main] INFO  org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-06-07 14:01:12,272 [main] INFO  org.hibernate.cfg.Configuration - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-06-07 14:01:12,285 [main] INFO  org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
+2016-06-07 14:01:12,305 [main] WARN  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-06-07 14:01:12,324 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/proff3test]
+2016-06-07 14:01:12,325 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000046: Connection properties: {user=root, password=****}
+2016-06-07 14:01:12,326 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000006: Autocommit mode: false
+2016-06-07 14:01:12,329 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+2016-06-07 14:01:13,450 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-06-07 14:01:13,574 [main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-06-07 14:01:13,588 [main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
+2016-06-07 14:01:13,735 [main] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.1.3.Final
+2016-06-07 14:01:13,943 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2016-06-07 14:01:13,943 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000102: Fetching database metadata
+2016-06-07 14:01:13,948 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000396: Updating schema
+2016-06-07 14:01:13,950 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000232: Schema update complete
+2016-06-07 14:01:14,138 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000030: Cleaning up connection pool [jdbc:mysql://localhost/proff3test]
+2016-06-07 14:03:13,064 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-06-07 14:03:13,083 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {4.3.8.Final}
+2016-06-07 14:03:13,088 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2016-06-07 14:03:13,092 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2016-06-07 14:03:13,151 [main] INFO  org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: hibernate.cfg.xml
+2016-06-07 14:03:13,151 [main] INFO  org.hibernate.cfg.Configuration - HHH000040: Configuration resource: hibernate.cfg.xml
+2016-06-07 14:03:13,353 [main] INFO  org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
+2016-06-07 14:03:13,624 [main] INFO  org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-06-07 14:03:13,625 [main] INFO  org.hibernate.cfg.Configuration - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-06-07 14:03:13,637 [main] INFO  org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
+2016-06-07 14:03:13,656 [main] WARN  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-06-07 14:03:13,675 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/proff3]
+2016-06-07 14:03:13,677 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000046: Connection properties: {user=root, password=****}
+2016-06-07 14:03:13,677 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000006: Autocommit mode: false
+2016-06-07 14:03:13,681 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+2016-06-07 14:03:14,783 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-06-07 14:03:14,904 [main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-06-07 14:03:14,915 [main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
+2016-06-07 14:03:15,047 [main] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.1.3.Final
+2016-06-07 14:03:15,270 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2016-06-07 14:03:15,271 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000102: Fetching database metadata
+2016-06-07 14:03:15,275 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000396: Updating schema
+2016-06-07 14:03:15,277 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000232: Schema update complete
+2016-06-07 14:03:15,466 [main] ERROR action12.HibernateSimpleExampleQuery - Open session failed
+org.hibernate.MappingException: Unknown entity: domain.Product
+	at org.hibernate.internal.SessionFactoryImpl.getEntityPersister(SessionFactoryImpl.java:1096)
+	at org.hibernate.loader.custom.sql.SQLQueryReturnProcessor.getSQLLoadable(SQLQueryReturnProcessor.java:374)
+	at org.hibernate.loader.custom.sql.SQLQueryReturnProcessor.processRootReturn(SQLQueryReturnProcessor.java:427)
+	at org.hibernate.loader.custom.sql.SQLQueryReturnProcessor.processReturn(SQLQueryReturnProcessor.java:394)
+	at org.hibernate.loader.custom.sql.SQLQueryReturnProcessor.process(SQLQueryReturnProcessor.java:196)
+	at org.hibernate.loader.custom.sql.SQLCustomQuery.<init>(SQLCustomQuery.java:88)
+	at org.hibernate.engine.query.internal.NativeQueryInterpreterStandardImpl.createQueryPlan(NativeQueryInterpreterStandardImpl.java:84)
+	at org.hibernate.engine.query.spi.QueryPlanCache.getNativeSQLQueryPlan(QueryPlanCache.java:226)
+	at org.hibernate.internal.AbstractSessionImpl.getNativeSQLQueryPlan(AbstractSessionImpl.java:305)
+	at org.hibernate.internal.AbstractSessionImpl.list(AbstractSessionImpl.java:311)
+	at org.hibernate.internal.SQLQueryImpl.list(SQLQueryImpl.java:141)
+	at action12.HibernateSimpleExampleQuery.main(HibernateSimpleExampleQuery.java:32)
+2016-06-07 14:03:15,477 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000030: Cleaning up connection pool [jdbc:mysql://localhost/proff3]
+2016-06-07 14:03:15,481 [main] INFO  action12.HibernateSimpleExampleQuery - session = SessionImpl(<closed>)
+2016-06-07 14:04:46,855 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-06-07 14:04:46,873 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {4.3.8.Final}
+2016-06-07 14:04:46,878 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2016-06-07 14:04:46,884 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2016-06-07 14:04:46,945 [main] INFO  org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: hw6/hibernate.cfg.xml
+2016-06-07 14:04:46,945 [main] INFO  org.hibernate.cfg.Configuration - HHH000040: Configuration resource: hw6/hibernate.cfg.xml
+2016-06-07 14:04:47,149 [main] INFO  org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
+2016-06-07 14:04:47,384 [main] INFO  org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-06-07 14:04:47,385 [main] INFO  org.hibernate.cfg.Configuration - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-06-07 14:04:47,396 [main] INFO  org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
+2016-06-07 14:04:47,417 [main] WARN  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-06-07 14:04:47,434 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/proff3test]
+2016-06-07 14:04:47,436 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000046: Connection properties: {user=root, password=****}
+2016-06-07 14:04:47,436 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000006: Autocommit mode: false
+2016-06-07 14:04:47,440 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+2016-06-07 14:04:48,539 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-06-07 14:04:48,662 [main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-06-07 14:04:48,675 [main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
+2016-06-07 14:04:48,818 [main] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.1.3.Final
+2016-06-07 14:04:49,025 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2016-06-07 14:04:49,025 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000102: Fetching database metadata
+2016-06-07 14:04:49,029 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000396: Updating schema
+2016-06-07 14:04:49,031 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000232: Schema update complete
+2016-06-07 14:04:49,218 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000030: Cleaning up connection pool [jdbc:mysql://localhost/proff3test]
+2016-06-07 14:07:57,641 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-06-07 14:07:57,659 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {4.3.8.Final}
+2016-06-07 14:07:57,663 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2016-06-07 14:07:57,670 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2016-06-07 14:07:57,726 [main] INFO  org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: hw6/hibernate.cfg.xml
+2016-06-07 14:07:57,727 [main] INFO  org.hibernate.cfg.Configuration - HHH000040: Configuration resource: hw6/hibernate.cfg.xml
+2016-06-07 14:09:05,712 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-06-07 14:09:05,730 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {4.3.8.Final}
+2016-06-07 14:09:05,734 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2016-06-07 14:09:05,741 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2016-06-07 14:09:05,797 [main] INFO  org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: hw6/hibernate.cfg.xml
+2016-06-07 14:09:05,797 [main] INFO  org.hibernate.cfg.Configuration - HHH000040: Configuration resource: hw6/hibernate.cfg.xml
+2016-06-07 14:09:06,017 [main] INFO  org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
+2016-06-07 14:09:06,254 [main] INFO  org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-06-07 14:09:06,255 [main] INFO  org.hibernate.cfg.Configuration - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-06-07 14:10:33,526 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-06-07 14:10:33,544 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {4.3.8.Final}
+2016-06-07 14:10:33,548 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2016-06-07 14:10:33,555 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2016-06-07 14:10:33,614 [main] INFO  org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: hw6/hibernate.cfg.xml
+2016-06-07 14:10:33,615 [main] INFO  org.hibernate.cfg.Configuration - HHH000040: Configuration resource: hw6/hibernate.cfg.xml
+2016-06-07 14:10:33,818 [main] INFO  org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
+2016-06-07 14:10:34,049 [main] INFO  org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-06-07 14:10:34,050 [main] INFO  org.hibernate.cfg.Configuration - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-06-07 14:12:01,598 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-06-07 14:12:01,616 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {4.3.8.Final}
+2016-06-07 14:12:01,620 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2016-06-07 14:12:01,625 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2016-06-07 14:12:01,682 [main] INFO  org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: hw6/hibernate.cfg.xml
+2016-06-07 14:12:01,683 [main] INFO  org.hibernate.cfg.Configuration - HHH000040: Configuration resource: hw6/hibernate.cfg.xml
+2016-06-07 14:12:01,879 [main] INFO  org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
+2016-06-07 14:12:02,130 [main] WARN  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-06-07 14:12:02,147 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/proff3test]
+2016-06-07 14:12:02,148 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000046: Connection properties: {user=root, password=****}
+2016-06-07 14:12:02,149 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000006: Autocommit mode: false
+2016-06-07 14:12:02,153 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+2016-06-07 14:12:03,267 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-06-07 14:12:03,661 [main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-06-07 14:12:03,673 [main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
+2016-06-07 14:12:03,799 [main] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.1.3.Final
+2016-06-07 14:12:04,537 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2016-06-07 14:12:04,538 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000102: Fetching database metadata
+2016-06-07 14:12:04,542 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000396: Updating schema
+2016-06-07 14:12:04,592 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3test.constructors
+2016-06-07 14:12:04,592 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [name, id]
+2016-06-07 14:12:04,592 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+2016-06-07 14:12:04,593 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [id_unique, name_unique, primary]
+2016-06-07 14:12:04,594 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000232: Schema update complete
+2016-06-07 14:12:05,034 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000030: Cleaning up connection pool [jdbc:mysql://localhost/proff3test]
+2016-06-08 12:22:34,376 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-06-08 12:22:34,404 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {4.3.8.Final}
+2016-06-08 12:22:34,408 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2016-06-08 12:22:34,414 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2016-06-08 12:22:34,497 [main] INFO  org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: hw6/hibernate.cfg.xml
+2016-06-08 12:22:34,497 [main] INFO  org.hibernate.cfg.Configuration - HHH000040: Configuration resource: hw6/hibernate.cfg.xml
+2016-06-08 12:22:35,139 [main] INFO  org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
+2016-06-08 12:22:35,564 [main] WARN  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-06-08 12:22:35,590 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/proff3test]
+2016-06-08 12:22:35,591 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000046: Connection properties: {user=root, password=****}
+2016-06-08 12:22:35,592 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000006: Autocommit mode: false
+2016-06-08 12:22:35,596 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+2016-06-08 12:22:36,940 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-06-08 12:22:37,407 [main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-06-08 12:22:37,421 [main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
+2016-06-08 12:22:37,597 [main] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.1.3.Final
+2016-06-08 12:22:38,547 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2016-06-08 12:22:38,548 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000102: Fetching database metadata
+2016-06-08 12:22:38,551 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000396: Updating schema
+2016-06-08 12:22:38,625 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3test.constructors
+2016-06-08 12:22:38,625 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [name, id]
+2016-06-08 12:22:38,625 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+2016-06-08 12:22:38,626 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [id_unique, name_unique, primary]
+2016-06-08 12:22:38,627 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000232: Schema update complete
+2016-06-08 12:22:39,041 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000030: Cleaning up connection pool [jdbc:mysql://localhost/proff3test]
+2016-06-08 12:36:20,348 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-06-08 12:36:20,366 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {4.3.8.Final}
+2016-06-08 12:36:20,370 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2016-06-08 12:36:20,376 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2016-06-08 12:36:20,432 [main] INFO  org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: hw6/hibernate.cfg.xml
+2016-06-08 12:36:20,433 [main] INFO  org.hibernate.cfg.Configuration - HHH000040: Configuration resource: hw6/hibernate.cfg.xml
+2016-06-08 12:36:20,619 [main] INFO  org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
+2016-06-08 12:36:20,861 [main] WARN  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-06-08 12:36:20,877 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/proff3test]
+2016-06-08 12:36:20,878 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000046: Connection properties: {user=root, password=****}
+2016-06-08 12:36:20,879 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000006: Autocommit mode: false
+2016-06-08 12:36:20,882 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+2016-06-08 12:36:21,908 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-06-08 12:36:22,272 [main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-06-08 12:36:22,284 [main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
+2016-06-08 12:36:22,407 [main] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.1.3.Final
+2016-06-08 12:36:23,099 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2016-06-08 12:36:23,099 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000102: Fetching database metadata
+2016-06-08 12:36:23,103 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000396: Updating schema
+2016-06-08 12:36:23,150 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3test.contructors
+2016-06-08 12:36:23,150 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [name, id]
+2016-06-08 12:36:23,150 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+2016-06-08 12:36:23,150 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [id_unique, name_unique, primary]
+2016-06-08 12:36:23,152 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000232: Schema update complete
+2016-06-08 12:36:23,452 [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 1146, SQLState: 42S02
+2016-06-08 12:36:23,453 [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Table 'proff3test.constructors' doesn't exist
+2016-06-08 12:36:23,462 [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 1146, SQLState: 42S02
+2016-06-08 12:36:23,463 [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Table 'proff3test.constructors' doesn't exist
+2016-06-08 12:36:23,469 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000030: Cleaning up connection pool [jdbc:mysql://localhost/proff3test]
+2016-06-08 12:36:39,265 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-06-08 12:36:39,282 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {4.3.8.Final}
+2016-06-08 12:36:39,287 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2016-06-08 12:36:39,291 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2016-06-08 12:36:39,343 [main] INFO  org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: hw6/hibernate.cfg.xml
+2016-06-08 12:36:39,343 [main] INFO  org.hibernate.cfg.Configuration - HHH000040: Configuration resource: hw6/hibernate.cfg.xml
+2016-06-08 12:36:39,532 [main] INFO  org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
+2016-06-08 12:36:39,772 [main] WARN  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-06-08 12:36:39,788 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/proff3test]
+2016-06-08 12:36:39,790 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000046: Connection properties: {user=root, password=****}
+2016-06-08 12:36:39,790 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000006: Autocommit mode: false
+2016-06-08 12:36:39,794 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+2016-06-08 12:36:40,811 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-06-08 12:36:41,169 [main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-06-08 12:36:41,180 [main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
+2016-06-08 12:36:41,300 [main] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.1.3.Final
+2016-06-08 12:36:41,992 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2016-06-08 12:36:41,992 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000102: Fetching database metadata
+2016-06-08 12:36:41,996 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000396: Updating schema
+2016-06-08 12:36:42,044 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3test.contructors
+2016-06-08 12:36:42,044 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [name, id]
+2016-06-08 12:36:42,045 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+2016-06-08 12:36:42,045 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [id_unique, name_unique, primary]
+2016-06-08 12:36:42,047 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000232: Schema update complete
+2016-06-08 12:36:42,412 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000030: Cleaning up connection pool [jdbc:mysql://localhost/proff3test]
+2016-06-08 12:37:08,082 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-06-08 12:37:08,099 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {4.3.8.Final}
+2016-06-08 12:37:08,103 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2016-06-08 12:37:08,107 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2016-06-08 12:37:08,162 [main] INFO  org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: hw6/hibernate.cfg.xml
+2016-06-08 12:37:08,162 [main] INFO  org.hibernate.cfg.Configuration - HHH000040: Configuration resource: hw6/hibernate.cfg.xml
+2016-06-08 12:37:08,349 [main] INFO  org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
+2016-06-08 12:37:08,590 [main] WARN  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-06-08 12:37:08,607 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/proff3test]
+2016-06-08 12:37:08,609 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000046: Connection properties: {user=root, password=****}
+2016-06-08 12:37:08,609 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000006: Autocommit mode: false
+2016-06-08 12:37:08,613 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+2016-06-08 12:37:09,629 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-06-08 12:37:09,981 [main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-06-08 12:37:09,992 [main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
+2016-06-08 12:37:10,115 [main] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.1.3.Final
+2016-06-08 12:37:10,801 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2016-06-08 12:37:10,801 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000102: Fetching database metadata
+2016-06-08 12:37:10,805 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000396: Updating schema
+2016-06-08 12:37:10,849 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3test.contructors
+2016-06-08 12:37:10,849 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [name, id]
+2016-06-08 12:37:10,849 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+2016-06-08 12:37:10,850 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [id_unique, name_unique, primary]
+2016-06-08 12:37:10,851 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000232: Schema update complete
+2016-06-08 12:37:11,222 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000030: Cleaning up connection pool [jdbc:mysql://localhost/proff3test]
+2016-06-08 12:37:37,897 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-06-08 12:37:37,914 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {4.3.8.Final}
+2016-06-08 12:37:37,918 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2016-06-08 12:37:37,922 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2016-06-08 12:37:37,976 [main] INFO  org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: hw6/hibernate.cfg.xml
+2016-06-08 12:37:37,976 [main] INFO  org.hibernate.cfg.Configuration - HHH000040: Configuration resource: hw6/hibernate.cfg.xml
+2016-06-08 12:37:38,165 [main] INFO  org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
+2016-06-08 12:37:38,406 [main] WARN  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-06-08 12:37:38,424 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/proff3test]
+2016-06-08 12:37:38,425 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000046: Connection properties: {user=root, password=****}
+2016-06-08 12:37:38,425 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000006: Autocommit mode: false
+2016-06-08 12:37:38,428 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+2016-06-08 12:37:39,453 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-06-08 12:37:39,810 [main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-06-08 12:37:39,821 [main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
+2016-06-08 12:37:39,942 [main] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.1.3.Final
+2016-06-08 12:37:40,635 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2016-06-08 12:37:40,635 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000102: Fetching database metadata
+2016-06-08 12:37:40,640 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000396: Updating schema
+2016-06-08 12:37:40,685 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3test.contructors
+2016-06-08 12:37:40,686 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [name, id]
+2016-06-08 12:37:40,686 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+2016-06-08 12:37:40,688 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [id_unique, name_unique, primary]
+2016-06-08 12:37:40,690 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000232: Schema update complete
+2016-06-08 12:37:41,073 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000030: Cleaning up connection pool [jdbc:mysql://localhost/proff3test]
+2016-06-08 12:52:02,417 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-06-08 12:52:02,434 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {4.3.8.Final}
+2016-06-08 12:52:02,438 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2016-06-08 12:52:02,443 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2016-06-08 12:52:02,500 [main] INFO  org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: hw6/hibernate.cfg.xml
+2016-06-08 12:52:02,501 [main] INFO  org.hibernate.cfg.Configuration - HHH000040: Configuration resource: hw6/hibernate.cfg.xml
+2016-06-08 12:52:02,691 [main] INFO  org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
+2016-06-08 12:52:02,937 [main] WARN  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-06-08 12:52:02,954 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/proff3test]
+2016-06-08 12:52:02,956 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000046: Connection properties: {user=root, password=****}
+2016-06-08 12:52:02,956 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000006: Autocommit mode: false
+2016-06-08 12:52:02,960 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+2016-06-08 12:52:04,005 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-06-08 12:52:04,378 [main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-06-08 12:52:04,390 [main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
+2016-06-08 12:52:04,513 [main] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.1.3.Final
+2016-06-08 12:52:05,211 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2016-06-08 12:52:05,212 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000102: Fetching database metadata
+2016-06-08 12:52:05,216 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000396: Updating schema
+2016-06-08 12:52:05,265 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3test.contructors
+2016-06-08 12:52:05,266 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [name, id]
+2016-06-08 12:52:05,267 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+2016-06-08 12:52:05,268 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [id_unique, name_unique, primary]
+2016-06-08 12:52:05,270 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000232: Schema update complete
+2016-06-08 12:52:05,647 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000030: Cleaning up connection pool [jdbc:mysql://localhost/proff3test]
+2016-06-08 12:58:49,119 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-06-08 12:58:49,136 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {4.3.8.Final}
+2016-06-08 12:58:49,141 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2016-06-08 12:58:49,147 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2016-06-08 12:58:49,202 [main] INFO  org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: hw6/hibernate.cfg.xml
+2016-06-08 12:58:49,202 [main] INFO  org.hibernate.cfg.Configuration - HHH000040: Configuration resource: hw6/hibernate.cfg.xml
+2016-06-08 12:58:49,394 [main] INFO  org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
+2016-06-08 12:58:49,634 [main] WARN  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-06-08 12:58:49,652 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/proff3test]
+2016-06-08 12:58:49,653 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000046: Connection properties: {user=root, password=****}
+2016-06-08 12:58:49,653 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000006: Autocommit mode: false
+2016-06-08 12:58:49,657 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+2016-06-08 12:58:50,694 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-06-08 12:58:51,063 [main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-06-08 12:58:51,075 [main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
+2016-06-08 12:58:51,202 [main] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.1.3.Final
+2016-06-08 12:58:51,915 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2016-06-08 12:58:51,916 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000102: Fetching database metadata
+2016-06-08 12:58:51,920 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000396: Updating schema
+2016-06-08 12:58:51,965 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3test.contructors
+2016-06-08 12:58:51,966 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [name, id]
+2016-06-08 12:58:51,966 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+2016-06-08 12:58:51,966 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [id_unique, name_unique, primary]
+2016-06-08 12:58:51,968 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000232: Schema update complete
+2016-06-08 12:58:52,343 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000030: Cleaning up connection pool [jdbc:mysql://localhost/proff3test]
+2016-06-08 13:13:40,142 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-06-08 13:13:40,163 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {4.3.8.Final}
+2016-06-08 13:13:40,168 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2016-06-08 13:13:40,173 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2016-06-08 13:13:40,245 [main] INFO  org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: hw6/hibernate.cfg.xml
+2016-06-08 13:13:40,245 [main] INFO  org.hibernate.cfg.Configuration - HHH000040: Configuration resource: hw6/hibernate.cfg.xml
+2016-06-08 13:13:40,483 [main] INFO  org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
+2016-06-08 13:13:40,785 [main] WARN  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-06-08 13:13:40,807 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/proff3test]
+2016-06-08 13:13:40,810 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000046: Connection properties: {user=root, password=****}
+2016-06-08 13:13:40,812 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000006: Autocommit mode: false
+2016-06-08 13:13:40,818 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+2016-06-08 13:13:41,996 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-06-08 13:13:42,452 [main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-06-08 13:13:42,466 [main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
+2016-06-08 13:13:42,610 [main] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.1.3.Final
+2016-06-08 13:13:43,437 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2016-06-08 13:13:43,437 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000102: Fetching database metadata
+2016-06-08 13:13:43,441 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000396: Updating schema
+2016-06-08 13:13:43,494 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3test.contructors
+2016-06-08 13:13:43,495 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [name, id]
+2016-06-08 13:13:43,496 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+2016-06-08 13:13:43,496 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [id_unique, name_unique, primary]
+2016-06-08 13:13:43,498 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000232: Schema update complete
+2016-06-08 13:13:43,967 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000030: Cleaning up connection pool [jdbc:mysql://localhost/proff3test]
