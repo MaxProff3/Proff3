@@ -14,6 +14,7 @@ public class Product {// POJO
 	@Id
 	@GeneratedValue(generator = "increment2")
 	@GenericGenerator(name = "increment2", strategy = "increment")
+	@Column(name="id")
 	private Long id;
 	
 	@Column(name="name")

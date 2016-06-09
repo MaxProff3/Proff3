@@ -6,20 +6,19 @@ import org.hibernate.HibernateException;
 import org.hibernate.Query;
 import org.hibernate.Session;
 
-import domain.Contructor;
+import domain.Order;
 import util.HibernateUtil;
 
-public class ContructorDaoImpl implements ContructorDAO{
+public class OrderDaoImpl implements OrderDao{
 
 	@Override
-	public Long create(Contructor contructor) {
-
+	public Long create(Order order) {
 		Long id = null;
 		Session mySession = HibernateUtil.getSessionFactory().openSession();
 
 		try {
 			mySession.beginTransaction();
-			id = (Long) mySession.save(contructor);
+			id = (Long) mySession.save(order);
 			mySession.getTransaction().commit();
 			System.out.println(">> Successfully created!");
 		} catch (HibernateException e) {
@@ -34,30 +33,29 @@ public class ContructorDaoImpl implements ContructorDAO{
 	}
 
 	@Override
-	public Contructor read(Long id) {
-
-		Contructor contructor = null;
+	public Order read(Long id) {
+		
+		Order order = null;
 		Session mySession = HibernateUtil.getSessionFactory().openSession();
-
-		try {
-			contructor = (Contructor) mySession.get(Contructor.class, id);
-		} catch (HibernateException e) {
-		} finally {
+	
+		try{
+			order = (Order) mySession.get(Order.class, id);
+		}catch (HibernateException e){
+		}finally{
 			if (mySession != null)
 				mySession.close();
 		}
-
-		return contructor;
+		return order;
 	}
 
 	@Override
-	public void update(Contructor contructor) {
-
+	public void update(Order order) {
+		
 		Session mySession = HibernateUtil.getSessionFactory().openSession();
 
 		try {
 			mySession.beginTransaction();
-			mySession.update(contructor);
+			mySession.update(order);
 			mySession.getTransaction().commit();
 			System.out.println(">> Successfully updated!");
 		} catch (HibernateException e) {
@@ -67,17 +65,17 @@ public class ContructorDaoImpl implements ContructorDAO{
 			if (mySession != null)
 				mySession.close();
 		}
-
+		
 	}
 
 	@Override
-	public void delete(Contructor contructor) {
-
+	public void delete(Order order) {
+		
 		Session mySession = HibernateUtil.getSessionFactory().openSession();
 
 		try {
 			mySession.beginTransaction();
-			mySession.delete(contructor);
+			mySession.delete(order);
 			mySession.getTransaction().commit();
 			System.out.println(">> Object is successfully deleted!");
 		} catch (HibernateException e) {
@@ -87,21 +85,18 @@ public class ContructorDaoImpl implements ContructorDAO{
 			if (mySession != null)
 				mySession.close();
 		}
-
 	}
 
 	@SuppressWarnings("unchecked")
 	@Override
-	public List<Contructor> findAll() {
+	public List<Order> findAll() {
 		Session mySession = HibernateUtil.getSessionFactory().openSession();
 		try{
-			Query query = mySession.createQuery("from Contructor");
+			Query query = mySession.createQuery("from Order");
 			return query.list();
 		}finally{
 			mySession.close();
 		}
-		
 	}
 
 }
-

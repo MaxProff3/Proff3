@@ -15,7 +15,7 @@ import domain.Product;
 import service.ContructorServiceImpl;
 import util.HibernateUtil;
 
-public class Main {
+public class MainContructorTest {
 
 
 	public static void main(String[] args) {

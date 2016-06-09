@@ -20,6 +20,7 @@
 		<property name="hbm2ddl.auto">update</property>
 
 		<mapping class="domain.Contructor" />
+		<mapping class="domain.Order" />
 
 	</session-factory>
 </hibernate-configuration>
