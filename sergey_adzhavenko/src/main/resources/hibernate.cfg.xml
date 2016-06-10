@@ -18,11 +18,11 @@
 		<property name="cache.provider_class">org.hibernate.cache.NoCacheProvider</property>
 		<property name="connection.pool_size">1</property>
 		<property name="hbm2ddl.auto">update</property>
-<!-- 
+
 		<mapping class="domain.Product" />
 		<mapping class="domain.Employee" />
 		<mapping class="domain.User" />
 		<mapping class="domain.Role" />
-		-->
+		
 	</session-factory>
 </hibernate-configuration>

@@ -41,14 +41,14 @@ public class MainContructorTest {
 			 * (to get obj add to query next line: .addEntity(Contructor.class))
 			 
 			query=session.createSQLQuery("select id from contructors "
-					+ "where name='UUUUUUUUUU'");
+					+ "where name='ФОП Пупкин'");
 			List<Integer> list = query.list();
 			Long temp = new Long(list.get(0));
-			System.out.println(temp);
+			System.out.println(">>id="+temp);
 			
 			Contructor cns = csi.read(temp);
 			
-			System.out.println("Gotten obj = "+cns.getConstructorName());
+			System.out.println(">>Gotten obj = "+cns.getConstructorName());
 			*/
 			
 			/*to delete obg from DB

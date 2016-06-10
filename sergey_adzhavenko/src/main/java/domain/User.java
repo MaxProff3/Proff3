@@ -31,6 +31,9 @@ public class User {
 	@Column(name = "login")
 	private String login;
 
+	@Column(name = "pass")
+	private String password;
+	
 	@OneToOne(fetch = FetchType.EAGER)
 	@JoinColumn(name = "employee_id")
 	private Employee employee;
@@ -38,6 +41,24 @@ public class User {
 	@ManyToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
 	@JoinTable(name = "roles_users", joinColumns = @JoinColumn(name = "user_id"), inverseJoinColumns = @JoinColumn(name = "role_id"))
 	private Set<Role> roles;
+
+	public User() {
+	}
+	
+	public User(String name, String login, String password, Employee employee) {
+		this.name = name;
+		this.login = login;
+		this.password = password;
+		this.employee = employee;
+	}
+	
+	public String getPassword() {
+		return password;
+	}
+
+	public void setPassword(String password) {
+		this.password = password;
+	}
 
 	public Set<Role> getRoles() {
 		return roles;
@@ -71,9 +92,6 @@ public class User {
 		this.login = login;
 	}
 
-	public User() {
-	}
-
 	public Employee getEmployee() {
 		return employee;
 	}
@@ -81,11 +99,10 @@ public class User {
 	public void setEmployee(Employee employee) {
 		this.employee = employee;
 	}
-
+	
 	@Override
 	public String toString() {
-		return "User [id=" + id + ", name=" + name + ", login=" + login + ", employee=" + employee + ", roles=" + roles
-				+ "]";
+		return "User [id=" + id + ", name=" + name + ", login=" + login + ", password=" + password + ", employee="
+				+ employee + ", roles=" + roles + "]";
 	}
-
 }
