@@ -30,8 +30,14 @@ public class Contructor {
 	@Column(name="name")
 	private String name;
 
-	
 	public Contructor(){
+		
+	}
+	
+	public Contructor(Long id,String name){
+		
+		setId(id);
+		setName(name);
 			
 	} 
 	
@@ -53,7 +59,7 @@ public class Contructor {
 	
 	@Override
 	public String toString() {
-		return "Contructor " + name;
+		return "" + name;
 	}
 
 }
