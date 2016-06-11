@@ -8,7 +8,7 @@ import java.io.Reader;
 
 public class MyScanner {
 	BufferedReader reader;
-	
+	private int flag ;
 	MyScanner(InputStream is){
 		Reader read = new InputStreamReader(is);
 		reader = new BufferedReader(read);
@@ -34,16 +34,17 @@ public class MyScanner {
 		return s;   
 		}
 	
+	
+	
 	public String nextLine() throws IOException{
 		int ch ;
+		String s="";
 		StringBuilder sb =new StringBuilder();
-		sb=null;
 		while((ch=reader.read())!=-1){
-			if(ch!=10 || ch!=13){
-			sb.append((char) ch);	
+			if(ch!=13 && ch!=10){
+			sb.append((char)ch);	
 			}
-			if(ch==10 || ch==13){
-				System.out.println(ch);
+			if(ch==13){
 				return sb.toString();
 			}
 			
@@ -57,7 +58,7 @@ public class MyScanner {
 		try{
 		 i= Integer.parseInt(this.next()); 
 	}catch(NumberFormatException e){
-		System.out.println("не корректные данные -");
+		/*NOP*/
 	}
 		
 		return i;
@@ -68,14 +69,36 @@ public class MyScanner {
 		try{
 		 i= Double.parseDouble(this.next()); 
 	}catch(NumberFormatException e){
-		System.out.println("не корректные данные -");
+		/*NOP*/
 	}
 		
 		return i;
 	}
 	
+	public boolean hasNext() throws IOException{
+		reader.mark(1);
+		if(reader.read()!=-1){
+			reader.reset();
+			return true;
+		}
+			return false;
 }
-
-		 	
-		
+	public boolean hasNextLine() throws IOException{
+		reader.mark(1);
+		if(reader.readLine()!=null){
+			reader.reset();
+			return true;
+		}
+			return false;
+}
+	public boolean hasNextInt() throws IOException{
+		reader.mark(1);
+		if(reader.read()!=-1){
+			Integer.parseInt(next());
+			reader.reset();
+			return true;
+		}
+			return false;
+}	
+}		
 

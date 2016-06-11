@@ -14,10 +14,9 @@ public class MyScanner {
 		System.out.println(str);
 		*/
 		Scanner scan = new Scanner(System.in);
-		
-		System.out.println(scan.nextLine());
-		System.out.println(scan.nextLine());
-		System.out.println(scan.nextLine());
+		while(scan.hasNext()){
+			System.out.println(scan.next());
+		}   
 		
 		
 		

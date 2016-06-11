@@ -1,28 +1,30 @@
 package FourthWeek;
 
 public class Buffer {
-	private Message msg = null;
+	private Message msg=null;
+	private String text="Hi";
 
-	
-	
-	public synchronized void put(Message msg) throws InterruptedException{
-		if(msg!=null){
-			this.wait();
+	public synchronized  Message getMsg() throws InterruptedException {
+		if(this.msg==null){
+			wait();
 		}
-		this.msg=msg;
-		this.notifyAll();
-	}
-	
-	
-	public synchronized Message get() throws InterruptedException{
-		if(msg==null){
-			this.wait();
-		}
-		Message result = this.msg;
-	//	this.msg=null;
-		this.notifyAll();
-		return result;
-		
+		notifyAll();
+		return msg;
 	}
 
+	public String getText() {
+		return text;
+	}
+
+	public void setText(String text) {
+		this.text = text;
+	}
+
+	public  synchronized void setMsg(Message msg2) throws InterruptedException {
+	  if (this.msg!=null){
+		wait();
+	}
+	this.msg = msg2;
+	notifyAll();
+	}
 }
