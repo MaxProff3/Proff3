@@ -14,11 +14,15 @@ public class Test {
 		System.out.println(scan1.nextDouble());
 		System.out.println(scan1.nextDouble());
 		*/
+		/*
+		System.out.println(scan1.nextLine());
+		System.out.println(scan1.nextLine());
+		System.out.println(scan1.nextLine());
+		*/
 		
-		System.out.println(scan1.nextLine());
-		System.out.println(scan1.nextLine());
-		System.out.println(scan1.nextLine());
-		
+			System.out.println(scan1.nextLine());
+			System.out.println(scan1.nextLine());
+			System.out.println(scan1.nextLine());
 		/*
 		System.out.println(scan1.nextDouble());
 		System.out.println(scan1.nextDouble());

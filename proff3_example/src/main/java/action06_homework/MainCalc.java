@@ -9,7 +9,7 @@ public class MainCalc {
 			calc.inChar(p);
 			System.out.println();
 		}
-	}
+	} 
 	
 }
 

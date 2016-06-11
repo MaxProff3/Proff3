@@ -5,5 +5,5 @@ public interface Calculator{
 	public String printResult();
 	public String getResult();
 	public void inChar(char p);
-}
+} 
 

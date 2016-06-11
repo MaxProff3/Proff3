@@ -11,7 +11,7 @@ public class ProductShop {
 		shop.printContructor();
 		shop.printReverseContructor();
 		shop.printNameProductByType(TypeProduct.Yogurt);
-
+ 
 	}
 	public ProductShop() {
 		contructors.put(new Product("Bread White", TypeProduct.Bread, 10), "Firma 3");

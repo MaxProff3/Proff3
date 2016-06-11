@@ -9,7 +9,7 @@ public class TryWithReswources {
 		try {
 			fw = new FileWriter("file1.txt");
 			fw.write("hello");
-			fw.write(" world!");
+			fw.write(" world!"); 
 		} catch (IOException e) {
 			e.printStackTrace();
 		} finally {

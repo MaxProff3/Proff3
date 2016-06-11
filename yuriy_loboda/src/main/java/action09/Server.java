@@ -11,8 +11,5 @@ public class Server extends Application {
 		
 	}
 	
-	public Scene createStage()
-	{
-		HBox
-	}
+	
 }

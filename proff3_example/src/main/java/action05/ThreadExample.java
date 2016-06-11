@@ -12,7 +12,7 @@ public class ThreadExample {
 		obj2.stop();
 		obj2.interrupt();
 		
-	}
+	} 
 }
 
 class MyThread extends Thread {

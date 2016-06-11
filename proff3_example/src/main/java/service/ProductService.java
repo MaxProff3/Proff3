@@ -3,8 +3,7 @@ package service;
 import java.util.List;
 
 import domain.Product;
-
-
+ 
 public interface ProductService {	
 	void addNewProduct(Product product);
 	void addNewProducts(Product[] product);

@@ -11,3 +11,4 @@ class Example{
 		String str = temp.toString();
 	}
 }
+ 
