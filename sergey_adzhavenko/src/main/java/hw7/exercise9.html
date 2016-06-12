@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Exercise 9</title>
+<style>
+.main {
+	display: block;
+	width: 1000px;
+	margin: 10px 20px;
+}
+
+li {
+	list-style-type: upper-alpha;
+}
+
+#d1 {
+	display: none;
+}
+
+#d2 {
+	display: none;
+}
+
+#d3 {
+	display: none;
+}
+
+.top-first {
+	float: left;
+	color: green;
+}
+.top-second {
+	color: red;
+}
+</style>
+<script
+	src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script>
+	function showAnswers(number) {
+		if (number == 1) {
+			$("#d1").css("display", "block");
+			$("#d2").css("display", "none");
+			$("#d3").css("display", "none");
+		} else if (number == 2) {
+			$("#d1").css("display", "none");
+			$("#d2").css("display", "block");
+			$("#d3").css("display", "none");
+		} else if (number == 3) {
+			$("#d1").css("display", "none");
+			$("#d2").css("display", "none");
+			$("#d3").css("display", "block");
+		} else if (number == 4) {
+			$("#d1").css("display", "block");
+			$("#d2").css("display", "block");
+			$("#d3").css("display", "block");
+		} else {
+			$("#d1").css("display", "none");
+			$("#d2").css("display", "none");
+			$("#d3").css("display", "none");
+		}
+	}
+</script>
+</head>
+<body>
+	<div class="main">
+		<div class="top-first" onclick="showAnswers(4)">&darr; Show All </div>
+		<div class="top-second" onclick="showAnswers(5)"> &nbsp; &nbsp; &uarr; Hide All</div>
+	</div>
+	<ul>
+		<li onclick="showAnswers(1)">Question
+			<div id="d1">
+				<p>
+				<pre>&#9;Answer 1: .......</pre>
+				<p>
+				<p>
+				<pre>&#9;Answer 2: .......</pre>
+				<p>
+				<p>
+				<pre>&#9;Answer 3: .......</pre>
+			</div>
+		</li>
+		<li onclick="showAnswers(2)">Question
+			<div id="d2">
+				<p>
+				<pre>&#9;Answer 1: .......</pre>
+				<p>
+				<p>
+				<pre>&#9;Answer 2: .......</pre>
+				<p>
+				<p>
+				<pre>&#9;Answer 3: .......</pre>
+			</div>
+		</li>
+		<li onclick="showAnswers(3)">Question
+			<div id="d3">
+				<p>
+				<pre>&#9;Answer 1: .......</pre>
+				<p>
+				<p>
+				<pre>&#9;Answer 2: .......</pre>
+				<p>
+				<p>
+				<pre>&#9;Answer 3: .......</pre>
+			</div>
+		</li>
+	</ul>
+	</div>
+</body>
+</html>
