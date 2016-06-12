@@ -41,10 +41,16 @@ public class MainUserTest {
 			List<Integer> list = query.list();
 			Long temp = new Long(list.get(0));
 			System.out.println("id: "+temp);
-			*/
-			User tempUser = usi.read(5l);
+			User tempUser = usi.read(16l);
 			System.out.println("tempUser: "+tempUser);
+			*/
 			
+			/*to delete obg from DB */
+			 query=session.createSQLQuery("select * from users "
+					+ "where name='John2'").addEntity(User.class);
+			List<User> ul = query.list();
+			System.out.println(ul.get(0));
+			//usi.deleteUser(ul.get(0));
 			
 		}catch (HibernateException e) {
 			System.out.println("Error!!!");

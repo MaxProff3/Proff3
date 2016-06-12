@@ -1,0 +1,39 @@
+<!-- Задача 5. Реализовать модель сворачивающегося списка вопросов и ответов в несколько html страницах.
+ Количество вопросов и ответов можно взять 3.
+ Страница 0 - все вопросы в виде вертикального списка, каждый из которых является ссылкой.
+ Страница 1 - эти же вопросы, но на первый предоставлен ответ, в виде многострочного текста, под вопросом 1.
+ Страница 2 - эти же вопросы, но на второй предоставлен ответ, в виде многострочного текста, под вопросом 2.
+ Страница 3 - эти же вопросы, но на третий предоставлен ответ, в виде многострочного текста, под вопросом 3. -->
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Exercise 5-0</title>
+<style>
+.main{
+display: block;
+width: 1000px;
+margin: 10px 20px;
+}
+.link{
+text-decoration: none;
+color: red;
+}
+.link:HOVER {
+text-decoration: underline;	
+}
+li{
+ list-style-type: upper-alpha;
+}
+</style>
+</head>
+<body>
+<div class="main">
+<ul>
+<li><a href="exercise5-1.html" class="link">Question 1</a></li>
+<li><a href="exercise5-2.html" class="link">Question 2</a></li>
+<li><a href="exercise5-3.html" class="link">Question 3</a></li>
+</ul>
+</div>
+</body>
+</html>

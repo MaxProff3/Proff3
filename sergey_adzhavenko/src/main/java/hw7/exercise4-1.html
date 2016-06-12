@@ -1,0 +1,75 @@
+<!-- Задача 4. Реализовать 3 html файла, в которых будет 3 частично 
+перекрывающие друг друга квадрата.
+ На странице 1 первый квадрат поверх остальных.
+ На странице 2 второй квадрат поверх остальных.
+ На странице 3 третий квадрат поверх остальных.
+ Размеры квадратов одиннаковые и одиннаковая рамочка.
+ Каждый квадрат является ссылкой на соответсвующую страницу 1, 2 и 3. 
+ Таким образом нажимая на кнопку 1-поверх становится квадрат 1.
+ Таким образом нажимая на кнопку 2-поверх становится квадрат 2.
+ Таким образом нажимая на кнопку 3-поверх становится квадрат 3. -->
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Exercise 4-1</title>
+<style>
+	.ctr{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	}
+	.div-size{
+	width: 150px;
+	height: 150px;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	font-size: 48px;
+
+	}
+	#d1{
+	background-color: grey;
+	z-index: 2;
+	}
+	#d2{
+	background-color: green;
+	margin-left: -75px;
+	margin-bottom: -100px;
+	z-index: 1;
+	}
+	#d3{
+	background-color: red;
+	margin-left: -75px;
+	margin-bottom: -200px;
+	}
+	#d1:HOVER{
+	z-index: 3;
+	}
+	#d2:HOVER{
+	z-index: 3;
+	}
+	#d3:HOVER{
+	z-index: 3;
+	}
+	a.link {
+	display: block;
+	width: 150px;
+	height: 150px;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	}
+	</style>
+</head>
+<body>
+ <div class="ctr">
+	<div class="div-size" id="d1">
+	<a href="exercise4-1.html" class="link"></a></div>
+	<div class="div-size" id="d2">
+	<a href="exercise4-2.html" class="link"></a></div>
+	<div class="div-size" id="d3">
+	<a href="exercise4-3.html" class="link"></a></div>
+ </div>
+</body>
+</html>

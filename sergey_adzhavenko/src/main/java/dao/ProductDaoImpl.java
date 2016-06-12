@@ -6,16 +6,22 @@ import org.apache.log4j.Logger;
 import org.hibernate.HibernateException;
 import org.hibernate.Query;
 import org.hibernate.Session;
+import org.hibernate.SessionFactory;
 
 import domain.Product;
 import util.HibernateUtil;
 
 public class ProductDaoImpl implements ProductDao {
+	
 	private static Logger log = Logger.getLogger(ProductDaoImpl.class);
-
+	private SessionFactory sessionFactory;
+	
+	public ProductDaoImpl(SessionFactory sessionFactory){
+		this.sessionFactory = sessionFactory;
+	}
 	@Override
 	public Long create(Product product) {
-		Session session = HibernateUtil.getSessionFactory().openSession();
+		Session session = sessionFactory.openSession();
 		Long id = null;
 		try {
 			session.beginTransaction();
@@ -33,7 +39,7 @@ public class ProductDaoImpl implements ProductDao {
 
 	@Override
 	public Product read(Long id) {
-		Session session = HibernateUtil.getSessionFactory().openSession();
+		Session session = sessionFactory.openSession();
 		Product product = null;
 		try {
 			product = (Product) session.get(Product.class, id);
@@ -47,7 +53,7 @@ public class ProductDaoImpl implements ProductDao {
 
 	@Override
 	public void update(Product product) {
-		Session session = HibernateUtil.getSessionFactory().openSession();
+		Session session = sessionFactory.openSession();
 		try {
 			session.beginTransaction();
 			session.update(product);
@@ -64,13 +70,26 @@ public class ProductDaoImpl implements ProductDao {
 
 	@Override
 	public void delete(Product product) {
-		// delete(product)
+		Session mySession = sessionFactory.openSession();
+
+		try {
+			mySession.beginTransaction();
+			mySession.delete(product);
+			mySession.getTransaction().commit();
+			System.out.println(">> Object is successfully deleted!");
+		} catch (HibernateException e) {
+			System.out.println(">> Deletion failed!");
+			mySession.getTransaction().rollback();
+		} finally {
+			if (mySession != null)
+				mySession.close();
+		}
 	}
 
 	@SuppressWarnings("unchecked")
 	@Override
 	public List<Product> findAll() {
-		Session session = HibernateUtil.getSessionFactory().openSession();
+		Session session = sessionFactory.openSession();
 		try {
 			// Query query = session.createQuery("from product");
 			Query query = session.createQuery("from Product");

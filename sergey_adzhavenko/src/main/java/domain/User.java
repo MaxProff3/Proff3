@@ -15,6 +15,8 @@ import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
 import org.hibernate.annotations.GenericGenerator;
+import org.hibernate.annotations.NotFound;
+import org.hibernate.annotations.NotFoundAction;
 
 @Entity
 @Table(name = "users")
@@ -36,6 +38,7 @@ public class User {
 	
 	@OneToOne(fetch = FetchType.EAGER)
 	@JoinColumn(name = "employee_id")
+	@NotFound(action = NotFoundAction.IGNORE)
 	private Employee employee;
 
 	@ManyToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
@@ -99,10 +102,11 @@ public class User {
 	public void setEmployee(Employee employee) {
 		this.employee = employee;
 	}
-	
+
 	@Override
 	public String toString() {
 		return "User [id=" + id + ", name=" + name + ", login=" + login + ", password=" + password + ", employee="
 				+ employee + ", roles=" + roles + "]";
 	}
+	
 }

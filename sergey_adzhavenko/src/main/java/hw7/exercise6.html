@@ -1,0 +1,66 @@
+<!-- Задача 6. Сделать таблицу, с размерами 5*5.
+ В первой и последней строке 2,3 и 4 ячейки объединены.
+ Во второй строке первая и последняя ячейки объединены(удлинены) на 3 ячейки вниз. -->
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Exercise 6</title>
+<style>
+.main{
+display: block;
+width: 1000px;
+margin: 10px auto;
+}
+table {
+font-size: 14px;
+border-collapse: collapse; /*убираем пустые промежутки между ячейками*/
+text-align: center;
+}
+tr, td {
+width: 50px;
+height: 30px;
+border-style: solid;
+border-width: 0 1px 1px 0;
+border-color: white;
+}
+td {
+background: lime;
+}
+</style>
+</head>
+<body>
+<div class="main">
+<table>
+<tr>
+<td>.........</td>
+<td colspan="3">TABLE</td>
+<td>.........</td>
+</tr>
+<tr>
+<td rowspan="3">...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td rowspan="3">...</td>
+</tr>
+<tr>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+
+</tr>
+<tr>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+</tr>
+<tr>
+<td>.........</td>
+<td colspan="3">TABLE</td>
+<td>.........</td>
+</tr>
+</table>
+</div>
+</body>
+</html>

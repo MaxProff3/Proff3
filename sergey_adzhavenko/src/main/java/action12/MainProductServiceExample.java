@@ -2,6 +2,8 @@ package action12;
 
 import java.util.List;
 
+import org.hibernate.SessionFactory;
+
 import dao.ProductDao;
 import dao.ProductDaoImpl;
 import domain.Product;
@@ -11,8 +13,8 @@ import util.HibernateUtil;
 
 public class MainProductServiceExample {
 	public static void main(String[] args) {
-		
-		ProductDao productDao = new ProductDaoImpl();
+		SessionFactory sessionFactory = HibernateUtil.getSessionFactory();
+		ProductDao productDao = new ProductDaoImpl(sessionFactory);
 		ProductService productService = new ProductServiceImpl(productDao);
 
 		List<Product> products = productService.getAllProducts();
