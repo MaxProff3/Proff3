@@ -25,6 +25,7 @@
 		<mapping class="domain.Employee" />
 		<mapping class="domain.User" />
 		<mapping class="domain.Role" />
+		<mapping class="domain.OrderPosition" />
 
 	</session-factory>
 </hibernate-configuration>

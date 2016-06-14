@@ -8,9 +8,13 @@ import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 
+import dao.ContructorDAO;
+import dao.ContructorDaoImpl;
 import dao.OrderDao;
 import dao.OrderDaoImpl;
+import domain.Contructor;
 import domain.Order;
+import service.ContructorServiceImpl;
 import service.OrderServiceImpl;
 import util.HibernateUtil;
 
@@ -25,39 +29,54 @@ public class MainOrderTest {
 		
 		try{
 			session = sessionFactory.openSession();
-			Order order = new Order("ZAK001",11,1000);
 			OrderDao odao = new OrderDaoImpl();
 			OrderServiceImpl osi = new OrderServiceImpl(odao);
+			
+			/*
+			ContructorDAO cdao = new ContructorDaoImpl();
+			ContructorServiceImpl csi = new ContructorServiceImpl(cdao);
+			query=session.createSQLQuery("select id from contructors "
+					+ "where name='ФОП Пупкин'");
+			List<Integer> list = query.list();
+			Long temp = new Long(list.get(0));
+			//System.out.println(">>id="+temp);
+			
+			Contructor cns = csi.read(temp);
+			
+			
+			Order order = new Order("ZAK012",cns,11,1000);
+			*/
 			
 			/*add new Order into DB
 			osi.addNewOrder(order);
 			*/
 			
 			/*Get id by number for reading
-			query=session.createSQLQuery("select id from orders where number='"+order.getNumber()+"'");
-			List<Integer> list = query.list();
-			Long temp = new Long(list.get(0));
-			System.out.println("id: "+temp);
+			query=session.createSQLQuery("select id from orders where number='ZAK012'");
+			List<Integer> list2 = query.list();
+			Long temp2 = new Long(list2.get(0));
+			System.out.println("id: "+temp2);
 			
-			Order orderFromDB = osi.read(temp);
-			System.out.println("orderFromDB: "+orderFromDB);
+			Order orderFromDB = osi.read(temp2);
+			System.out.println(">>orderFromDB: "+orderFromDB);
 			*/
 			
-			/*to delete obg from DB
+			/*DOES NOT WORK!!!!!! to delete obg from DB*/
 			query=session.createSQLQuery("select * from orders "
-					+ "where number='"+order.getNumber()+"'").addEntity(Order.class);
+					+ "where number='ZAK006'").addEntity(Order.class);
 			List<Order> listOrder = query.list();
+			System.out.println(">>Order: "+listOrder.get(0));
 			osi.deleteOrder(listOrder.get(0));
-			*/
+			
 			
 			/*Update obj
 			query=session.createSQLQuery("select id from orders "
-					+ "where number='"+order.getNumber()+"'");
+					+ "where number='"+orderFromDB.getNumber()+"'");
 			List<Integer> list = query.list();
 			Long temp = new Long(list.get(0));
-			order.setId(temp);
-			order.setNumber("newZAKAZ");
-			osi.updateOrder(order);
+			orderFromDB.setId(temp);
+			orderFromDB.setNumber("newZAKAZ");
+			osi.updateOrder(orderFromDB);
 			*/
 			
 		}catch (HibernateException e) {
