@@ -41,6 +41,9 @@ import service.ProductServiceImpl;
 import util.HibernateUtil;
 
 public class StartHW6FX extends Application{
+	
+	private SessionFactory sessionFactory = HibernateUtil.getSessionFactory();
+	
 	public static void main(String[] args) {
 		launch(args);
 	}
@@ -110,8 +113,7 @@ public class StartHW6FX extends Application{
 		logInBtn.setOnAction(new EventHandler<ActionEvent>() {
 		    @Override public void handle(ActionEvent e) {
 		       if(!login.getText().equals("") && !password.getText().equals("")){
-		    	   	Locale.setDefault(Locale.ENGLISH);
-		    	   	SessionFactory sessionFactory = HibernateUtil.getSessionFactory();	
+		    	   	Locale.setDefault(Locale.ENGLISH);	
 		   			Session session = null;
 		   			try{
 		   				session = sessionFactory.openSession();
@@ -148,8 +150,7 @@ public class StartHW6FX extends Application{
 	public HBox getStep2Box(){
 		vboxStep2 = new HBox(20);
 		
-		Locale.setDefault(Locale.ENGLISH);
-		SessionFactory sessionFactory = HibernateUtil.getSessionFactory();	
+		Locale.setDefault(Locale.ENGLISH);	
 		/*Session session = null;*/
 		
 		try{
@@ -205,11 +206,11 @@ public class StartHW6FX extends Application{
 		hboxStep3 = new HBox();
 		
 		Locale.setDefault(Locale.ENGLISH);
-		/*SessionFactory sessionFactory = HibernateUtil.getSessionFactory();	
+		/*	
 		Session session = null;*/
 		
 		try{
-			ContructorDAO cDao = new ContructorDaoImpl();
+			ContructorDAO cDao = new ContructorDaoImpl(sessionFactory);
 			ContructorServiceImpl cService = new ContructorServiceImpl(cDao);
 			contructorsList = cService.getAllContructors();
 			System.out.println(">>contructorsList: "+contructorsList);
@@ -256,15 +257,15 @@ public class StartHW6FX extends Application{
 	private TableColumn<ObservableOrder, Integer> orderUserIDColumn;
 	private TableColumn<ObservableOrder, Integer> orderSummaColumn;
 	
+	@SuppressWarnings("unchecked")
 	public VBox getStep4Box(){
 		vboxStep4 = new VBox(20);
-		Locale.setDefault(Locale.ENGLISH);
-		SessionFactory sessionFactory = HibernateUtil.getSessionFactory();	
+		Locale.setDefault(Locale.ENGLISH);	
 		Session session = null;
 		
 		try{
 			session = sessionFactory.openSession();
-			OrderDao orderDao = new OrderDaoImpl();
+			OrderDao orderDao = new OrderDaoImpl(sessionFactory);
 			OrderServiceImpl orderService = new OrderServiceImpl(orderDao);
 			ordersList = orderService.getAllOrders();
 			System.out.println(">>ordersList: "+ordersList);
@@ -295,21 +296,17 @@ public class StartHW6FX extends Application{
 		orderNumberColumn.setCellValueFactory(new PropertyValueFactory <ObservableOrder,String>("number"));
 		orderNumberColumn.setEditable(true);
 		
-		
 		orderContructorColumn = new TableColumn<ObservableOrder,String>("Contructor");
 		orderContructorColumn.setCellValueFactory(new PropertyValueFactory <ObservableOrder,String>("contructorName"));
 		orderContructorColumn.setEditable(true);
-		
 		
 		orderUserIDColumn = new TableColumn<ObservableOrder,Integer>("UserID");
 		orderUserIDColumn.setCellValueFactory(new PropertyValueFactory <ObservableOrder,Integer>("userID"));
 		orderUserIDColumn.setEditable(true);
 		
-		
 		orderSummaColumn = new TableColumn<ObservableOrder,Integer>("Summa");
 		orderSummaColumn.setCellValueFactory(new PropertyValueFactory <ObservableOrder,Integer>("summa"));
 		orderSummaColumn.setEditable(true);
-		
 		
 		orderTable.setItems(ordersObservableList);
 		orderTable.getColumns().addAll(orderNumberColumn,orderContructorColumn,orderUserIDColumn,orderSummaColumn);

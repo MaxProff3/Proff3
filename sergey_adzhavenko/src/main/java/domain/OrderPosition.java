@@ -23,8 +23,8 @@ public class OrderPosition {
 	private Long id;
 	
 	@ManyToOne(fetch = FetchType.LAZY)
-	@JoinColumn(name="number")
-	private Order order;
+	@JoinColumn(name="order_id")
+	private Order order;	
 	
 	@OneToOne(fetch = FetchType.EAGER)
 	@JoinColumn(name="product_id")
@@ -46,14 +46,12 @@ public class OrderPosition {
 		this.count = count;
 	}
 
-
 	public OrderPosition(Order order, Product product, Integer count, Integer summa) {
 		this.order = order;
 		this.product = product;
 		this.count = count;
 		this.summa = summa;
 	}
-
 
 	public Order getOrder() {
 		return order;
@@ -87,9 +85,17 @@ public class OrderPosition {
 		this.summa = summa;
 	}
 
+	public Long getId() {
+		return id;
+	}
+
+	public void setId(Long id) {
+		this.id = id;
+	}
+
 	@Override
 	public String toString() {
-		return "OrderPosition [id=" + id + ", order=" + order + ", product=" + product + ", count=" + count + ", summa="
+		return "OrderPosition [id=" + id + ", product=" + product + ", count=" + count + ", summa="
 				+ summa + "]";
 	}
 	

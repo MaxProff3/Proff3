@@ -29,7 +29,7 @@ public class MainOrderTest {
 		
 		try{
 			session = sessionFactory.openSession();
-			OrderDao odao = new OrderDaoImpl();
+			OrderDao odao = new OrderDaoImpl(sessionFactory);
 			OrderServiceImpl osi = new OrderServiceImpl(odao);
 			
 			/*

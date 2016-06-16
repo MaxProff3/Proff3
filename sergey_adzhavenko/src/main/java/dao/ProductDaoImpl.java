@@ -9,7 +9,6 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 
 import domain.Product;
-import util.HibernateUtil;
 
 public class ProductDaoImpl implements ProductDao {
 	

@@ -5,17 +5,23 @@ import java.util.List;
 import org.hibernate.HibernateException;
 import org.hibernate.Query;
 import org.hibernate.Session;
+import org.hibernate.SessionFactory;
 
 import domain.Contructor;
-import util.HibernateUtil;
 
 public class ContructorDaoImpl implements ContructorDAO{
 
+	private SessionFactory sessionFactory;
+	
+	public ContructorDaoImpl(SessionFactory sessionFactory){
+		this.setSessionFactory(sessionFactory);
+	}
+	
 	@Override
 	public Long create(Contructor contructor) {
 
 		Long id = null;
-		Session mySession = HibernateUtil.getSessionFactory().openSession();
+		Session mySession = sessionFactory.openSession();
 
 		try {
 			mySession.beginTransaction();
@@ -37,7 +43,7 @@ public class ContructorDaoImpl implements ContructorDAO{
 	public Contructor read(Long id) {
 
 		Contructor contructor = null;
-		Session mySession = HibernateUtil.getSessionFactory().openSession();
+		Session mySession = sessionFactory.openSession();
 
 		try {
 			contructor = (Contructor) mySession.get(Contructor.class, id);
@@ -53,7 +59,7 @@ public class ContructorDaoImpl implements ContructorDAO{
 	@Override
 	public void update(Contructor contructor) {
 
-		Session mySession = HibernateUtil.getSessionFactory().openSession();
+		Session mySession = sessionFactory.openSession();
 
 		try {
 			mySession.beginTransaction();
@@ -73,7 +79,7 @@ public class ContructorDaoImpl implements ContructorDAO{
 	@Override
 	public void delete(Contructor contructor) {
 
-		Session mySession = HibernateUtil.getSessionFactory().openSession();
+		Session mySession = sessionFactory.openSession();
 
 		try {
 			mySession.beginTransaction();
@@ -93,7 +99,7 @@ public class ContructorDaoImpl implements ContructorDAO{
 	@SuppressWarnings("unchecked")
 	@Override
 	public List<Contructor> findAll() {
-		Session mySession = HibernateUtil.getSessionFactory().openSession();
+		Session mySession = sessionFactory.openSession();
 		try{
 			Query query = mySession.createQuery("from Contructor");
 			return query.list();
@@ -101,6 +107,14 @@ public class ContructorDaoImpl implements ContructorDAO{
 			mySession.close();
 		}
 		
+	}
+
+	public SessionFactory getSessionFactory() {
+		return sessionFactory;
+	}
+
+	public void setSessionFactory(SessionFactory sessionFactory) {
+		this.sessionFactory = sessionFactory;
 	}
 
 }

@@ -5,17 +5,23 @@ import java.util.List;
 import org.hibernate.HibernateException;
 import org.hibernate.Query;
 import org.hibernate.Session;
+import org.hibernate.SessionFactory;
 
 import domain.User;
-import util.HibernateUtil;
 
 public class UserDaoImpl implements UserDao{
 
+	private SessionFactory sessionFactory;
+	
+	public UserDaoImpl(SessionFactory sessionFactory){
+		this.sessionFactory = sessionFactory;
+	}
+	
 	@Override
 	public Long create(User user) {
 
 		Long id = null;
-		Session mySession = HibernateUtil.getSessionFactory().openSession();
+		Session mySession = sessionFactory.openSession();
 
 		try {
 			mySession.beginTransaction();
@@ -36,7 +42,7 @@ public class UserDaoImpl implements UserDao{
 	@Override
 	public User read(Long id) {
 		User user = null;
-		Session mySession = HibernateUtil.getSessionFactory().openSession();
+		Session mySession = sessionFactory.openSession();
 
 		try {
 			user = (User) mySession.get(User.class, id);
@@ -51,7 +57,7 @@ public class UserDaoImpl implements UserDao{
 
 	@Override
 	public void update(User user) {
-		Session mySession = HibernateUtil.getSessionFactory().openSession();
+		Session mySession = sessionFactory.openSession();
 
 		try {
 			mySession.beginTransaction();
@@ -69,7 +75,7 @@ public class UserDaoImpl implements UserDao{
 
 	@Override
 	public void delete(User user) {
-		Session mySession = HibernateUtil.getSessionFactory().openSession();
+		Session mySession = sessionFactory.openSession();
 
 		try {
 			mySession.beginTransaction();
@@ -88,7 +94,7 @@ public class UserDaoImpl implements UserDao{
 	@SuppressWarnings("unchecked")
 	@Override
 	public List<User> findAll() {
-		Session mySession = HibernateUtil.getSessionFactory().openSession();
+		Session mySession = sessionFactory.openSession();
 		try{
 			Query query = mySession.createQuery("from User");
 			return query.list();
@@ -96,6 +102,14 @@ public class UserDaoImpl implements UserDao{
 			mySession.close();
 		}
 		
+	}
+
+	public SessionFactory getSessionFactory() {
+		return sessionFactory;
+	}
+
+	public void setSessionFactory(SessionFactory sessionFactory) {
+		this.sessionFactory = sessionFactory;
 	}
 
 }

@@ -5,16 +5,22 @@ import java.util.List;
 import org.hibernate.HibernateException;
 import org.hibernate.Query;
 import org.hibernate.Session;
+import org.hibernate.SessionFactory;
 
 import domain.Order;
-import util.HibernateUtil;
 
 public class OrderDaoImpl implements OrderDao{
 
+	private SessionFactory sessionFactory;
+	
+	public OrderDaoImpl(SessionFactory sessionFactory){
+		this.setSessionFactory(sessionFactory);
+	}
+	
 	@Override
 	public Long create(Order order) {
 		Long id = null;
-		Session mySession = HibernateUtil.getSessionFactory().openSession();
+		Session mySession = sessionFactory.openSession();
 
 		try {
 			mySession.beginTransaction();
@@ -36,7 +42,7 @@ public class OrderDaoImpl implements OrderDao{
 	public Order read(Long id) {
 		
 		Order order = null;
-		Session mySession = HibernateUtil.getSessionFactory().openSession();
+		Session mySession = sessionFactory.openSession();
 	
 		try{
 			order = (Order) mySession.get(Order.class, id);
@@ -51,7 +57,7 @@ public class OrderDaoImpl implements OrderDao{
 	@Override
 	public void update(Order order) {
 		
-		Session mySession = HibernateUtil.getSessionFactory().openSession();
+		Session mySession = sessionFactory.openSession();
 
 		try {
 			mySession.beginTransaction();
@@ -71,7 +77,7 @@ public class OrderDaoImpl implements OrderDao{
 	@Override
 	public void delete(Order order) {
 		
-		Session mySession = HibernateUtil.getSessionFactory().openSession();
+		Session mySession = sessionFactory.openSession();
 
 		try {
 			mySession.beginTransaction();
@@ -90,13 +96,21 @@ public class OrderDaoImpl implements OrderDao{
 	@SuppressWarnings("unchecked")
 	@Override
 	public List<Order> findAll() {
-		Session mySession = HibernateUtil.getSessionFactory().openSession();
+		Session mySession = sessionFactory.openSession();
 		try{
 			Query query = mySession.createQuery("from Order");
 			return query.list();
 		}finally{
 			mySession.close();
 		}
+	}
+
+	public SessionFactory getSessionFactory() {
+		return sessionFactory;
+	}
+
+	public void setSessionFactory(SessionFactory sessionFactory) {
+		this.sessionFactory = sessionFactory;
 	}
 
 }

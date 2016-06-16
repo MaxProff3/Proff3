@@ -19,7 +19,7 @@ public class ObservableOrder {
 		this.number = new SimpleStringProperty(order.getNumber());
 		if(order.getContructor()==null){
 			this.contructor = null;
-			contructorName = new SimpleStringProperty("");
+			contructorName = new SimpleStringProperty();
 		}
 		else {
 			this.contructor = new ObservableContructor(order.getContructor());

@@ -30,7 +30,7 @@ public class MainContructorTest {
 			session = sessionFactory.openSession();
 			
 			Contructor c = new Contructor("UUUUUUUUUU");
-			ContructorDAO cdao = new ContructorDaoImpl();
+			ContructorDAO cdao = new ContructorDaoImpl(sessionFactory);
 			ContructorServiceImpl csi = new ContructorServiceImpl(cdao);
 			
 			/*add new Contructor into DB

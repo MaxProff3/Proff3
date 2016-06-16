@@ -29,7 +29,7 @@ public class MainUserTest {
 			Employee employee = new Employee();
 			employee.setId(0l);
 			User user = new User("John2", "root2", "root", employee);
-			UserDao udao = new UserDaoImpl();
+			UserDao udao = new UserDaoImpl(sessionFactory);
 			UserServiceImpl usi = new UserServiceImpl(udao);
 			
 			/*add new User into DB
