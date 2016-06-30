@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrap {
+    width: 1000px;
+    margin: 10px auto;
+}
+
+body {
+    background: rgb(236,237,238);
+    font-size: 14px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.head img {
+    max-height: 267px;
+    max-width: 150px;
+    margin-left: 100px;
+    margin-right: 50px;
+    display: inline-block;
+}
+
+.head {
+    display: block;
+    border: 1px solid red;
+}
+.footer{
+    border: 1px solid teal;
+}
+.content{
+    min-height: 400px;
+}
+.content, .menu, .findBlock, .content form{
+    display: inline-block;    
+}
+
+.content form {
+    padding: 10px 20px;
+    position: absolute;
+    margin-left: 840px;
+    border: 1px solid marron;
+    background: rgb(180,180,180);
+}
+
+input[type="text"] {
+    padding-left: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+
+}
+
+form input {
+    width: 100px;
+    display: block;
+    margin-top: 10px;
+}
+
+input {
+}
+.newContent{
+	display: none;
+	border: 1px solid grey;
+}
+.itemListContent {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#btnAdd, #btnAddTryam{
+    margin-top: 10px;
+    margin-left: 10px;    
+}
+#btnAddTryam{
+	padding: 10px;
+}

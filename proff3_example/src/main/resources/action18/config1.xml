@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd
+http://www.springframework.org/schema/context
+http://www.springframework.org/schema/context/spring-context.xsd">
+
+	<bean id="idLift1" class="action18.Lift">
+		<constructor-arg value="POSCO" />
+		<constructor-arg value="Ivanov" />
+	</bean>
+	
+	<bean id="idLift" class="action18.Lift">
+		<constructor-arg value="POSCO" />
+		<property name="operator" value="Vasilchishin S. A." />
+	</bean>
+
+	<bean id="idHouse" class="action18.House">
+		<constructor-arg value="13 A" />
+	</bean>
+</beans>
