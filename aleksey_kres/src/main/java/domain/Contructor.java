@@ -17,7 +17,7 @@ package domain;
 
 	@Entity
 	@Table(name="contructors")
-	public class Contructor {
+	public class Contructor {//fghfghfgh
 		@Id
 		@GeneratedValue(generator = "increment")
 		@GenericGenerator(name = "increment", strategy = "increment")
