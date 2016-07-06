@@ -8659,3 +8659,59 @@
 2016-06-17 21:59:46,531 [JavaFX Application Thread] ERROR org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000388: Unsuccessful: alter table users add constraint FK_d1s31g1a7ilra77m65xmka3ei foreign key (employee_id) references employees (id)
 2016-06-17 21:59:46,532 [JavaFX Application Thread] ERROR org.hibernate.tool.hbm2ddl.SchemaUpdate - Cannot add or update a child row: a foreign key constraint fails (`proff3test`.`#sql-664_12c`, CONSTRAINT `FK_d1s31g1a7ilra77m65xmka3ei` FOREIGN KEY (`employee_id`) REFERENCES `employees` (`id`))
 2016-06-17 21:59:46,532 [JavaFX Application Thread] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000232: Schema update complete
+2016-07-06 13:14:43,357 [JavaFX Application Thread] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-07-06 13:14:43,388 [JavaFX Application Thread] INFO  org.hibernate.Version - HHH000412: Hibernate Core {4.3.8.Final}
+2016-07-06 13:14:43,396 [JavaFX Application Thread] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2016-07-06 13:14:43,405 [JavaFX Application Thread] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2016-07-06 13:14:43,477 [JavaFX Application Thread] INFO  org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: hw6/hibernate.cfg.xml
+2016-07-06 13:14:43,478 [JavaFX Application Thread] INFO  org.hibernate.cfg.Configuration - HHH000040: Configuration resource: hw6/hibernate.cfg.xml
+2016-07-06 13:14:44,134 [JavaFX Application Thread] INFO  org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
+2016-07-06 13:14:44,367 [JavaFX Application Thread] WARN  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-07-06 13:14:44,390 [JavaFX Application Thread] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/proff3test]
+2016-07-06 13:14:44,393 [JavaFX Application Thread] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000046: Connection properties: {user=root, password=****}
+2016-07-06 13:14:44,394 [JavaFX Application Thread] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000006: Autocommit mode: false
+2016-07-06 13:14:44,398 [JavaFX Application Thread] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+2016-07-06 13:14:45,465 [JavaFX Application Thread] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-07-06 13:14:46,182 [JavaFX Application Thread] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-07-06 13:14:46,194 [JavaFX Application Thread] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
+2016-07-06 13:14:46,343 [JavaFX Application Thread] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.1.3.Final
+2016-07-06 13:14:47,330 [JavaFX Application Thread] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2016-07-06 13:14:47,330 [JavaFX Application Thread] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000102: Fetching database metadata
+2016-07-06 13:14:47,337 [JavaFX Application Thread] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000396: Updating schema
+2016-07-06 13:14:47,486 [JavaFX Application Thread] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3test.contructors
+2016-07-06 13:14:47,487 [JavaFX Application Thread] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [name, id]
+2016-07-06 13:14:47,488 [JavaFX Application Thread] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+2016-07-06 13:14:47,488 [JavaFX Application Thread] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [primary]
+2016-07-06 13:14:47,612 [JavaFX Application Thread] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3test.employees
+2016-07-06 13:14:47,612 [JavaFX Application Thread] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [name, id, salary]
+2016-07-06 13:14:47,613 [JavaFX Application Thread] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+2016-07-06 13:14:47,613 [JavaFX Application Thread] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [primary]
+2016-07-06 13:14:47,765 [JavaFX Application Thread] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3test.order_positions
+2016-07-06 13:14:47,765 [JavaFX Application Thread] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [summa, product_id, count, id, order_id]
+2016-07-06 13:14:47,765 [JavaFX Application Thread] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: [fk_nk1xtp11hky2mb25e63qjs5jv]
+2016-07-06 13:14:47,766 [JavaFX Application Thread] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [fk_nk1xtp11hky2mb25e63qjs5jv, primary]
+2016-07-06 13:14:47,862 [JavaFX Application Thread] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3test.orders
+2016-07-06 13:14:47,862 [JavaFX Application Thread] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [number, summa, user_id, id, contructor_id]
+2016-07-06 13:14:47,863 [JavaFX Application Thread] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: [fk_o8bg1hg6q35pwdrrbaitgaghi]
+2016-07-06 13:14:47,863 [JavaFX Application Thread] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [primary, fk_o8bg1hg6q35pwdrrbaitgaghi]
+2016-07-06 13:14:47,955 [JavaFX Application Thread] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3test.product
+2016-07-06 13:14:47,956 [JavaFX Application Thread] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [code, name, id]
+2016-07-06 13:14:47,957 [JavaFX Application Thread] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+2016-07-06 13:14:47,957 [JavaFX Application Thread] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [primary]
+2016-07-06 13:14:48,039 [JavaFX Application Thread] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3test.roles
+2016-07-06 13:14:48,040 [JavaFX Application Thread] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [name, comment, id]
+2016-07-06 13:14:48,040 [JavaFX Application Thread] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+2016-07-06 13:14:48,041 [JavaFX Application Thread] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [primary]
+2016-07-06 13:14:48,092 [JavaFX Application Thread] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3test.roles_users
+2016-07-06 13:14:48,093 [JavaFX Application Thread] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [role_id, user_id]
+2016-07-06 13:14:48,093 [JavaFX Application Thread] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: [fk_4k5l5kx7d2epf59gyoqpycdbs, fk_3va0ssladn9mwg8ohg8a8el0]
+2016-07-06 13:14:48,093 [JavaFX Application Thread] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [fk_4k5l5kx7d2epf59gyoqpycdbs, fk_3va0ssladn9mwg8ohg8a8el0]
+2016-07-06 13:14:48,122 [JavaFX Application Thread] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3test.users
+2016-07-06 13:14:48,122 [JavaFX Application Thread] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [pass, employee_id, name, id, login]
+2016-07-06 13:14:48,123 [JavaFX Application Thread] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+2016-07-06 13:14:48,123 [JavaFX Application Thread] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [login_unique, primary]
+2016-07-06 13:14:49,786 [JavaFX Application Thread] ERROR org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000388: Unsuccessful: alter table order_positions add constraint FK_rd69up84mowrhjpl8e9rxflp6 foreign key (product_id) references product (id)
+2016-07-06 13:14:49,786 [JavaFX Application Thread] ERROR org.hibernate.tool.hbm2ddl.SchemaUpdate - Cannot add foreign key constraint
+2016-07-06 13:14:50,864 [JavaFX Application Thread] ERROR org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000388: Unsuccessful: alter table users add constraint FK_d1s31g1a7ilra77m65xmka3ei foreign key (employee_id) references employees (id)
+2016-07-06 13:14:50,864 [JavaFX Application Thread] ERROR org.hibernate.tool.hbm2ddl.SchemaUpdate - Cannot add or update a child row: a foreign key constraint fails (`proff3test`.`#sql-664_255`, CONSTRAINT `FK_d1s31g1a7ilra77m65xmka3ei` FOREIGN KEY (`employee_id`) REFERENCES `employees` (`id`))
+2016-07-06 13:14:50,864 [JavaFX Application Thread] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000232: Schema update complete
