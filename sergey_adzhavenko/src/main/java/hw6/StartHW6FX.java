@@ -4,6 +4,7 @@ import java.util.List;
 import java.util.Locale;
 
 import org.hibernate.HibernateException;
+import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 
@@ -16,6 +17,7 @@ import dao.ProductDaoImpl;
 import domain.Contructor;
 import domain.Order;
 import domain.Product;
+import domain.User;
 import javafx.application.Application;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -25,6 +27,8 @@ import javafx.geometry.Pos;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import javafx.scene.control.PasswordField;
+import javafx.scene.control.SingleSelectionModel;
 import javafx.scene.control.Tab;
 import javafx.scene.control.TabPane;
 import javafx.scene.control.TableColumn;
@@ -55,34 +59,41 @@ public class StartHW6FX extends Application{
 		stage.show();
 	}
 
+	private TabPane tabPane;
 	private Tab tabStep1;
 	private Tab tabStep2;
 	private Tab tabStep3;
 	private Tab tabStep4;
 	private Tab tabStep5;
-	
+	private SingleSelectionModel<Tab> selectionModel;
+
 	private Scene createScene() {
-		TabPane tabPane = new TabPane();
+		tabPane = new TabPane();
 		
 		tabStep1 = new Tab("Step 1 >>");
 		tabStep1.setContent(getStep1Box());
+		tabStep1.setClosable(false);
 		tabPane.getTabs().add(tabStep1);
 
 		tabStep2 = new Tab("Step 2 >>");
 		tabStep2.setContent(getStep2Box());
-		//tabStep2.setDisable(true);
+		tabStep2.setDisable(true);
+		tabStep2.setClosable(false);
 		tabPane.getTabs().add(tabStep2);
 
 		tabStep3 = new Tab("Step 3 >>");
 		tabStep3.setContent(getStep3Box());
+		tabStep3.setClosable(false);
 		tabPane.getTabs().add(tabStep3);
 
 		tabStep4 = new Tab("Step 4 >>");
 		tabStep4.setContent(getStep4Box());
+		tabStep4.setClosable(false);
 		tabPane.getTabs().add(tabStep4);
 
 		tabStep5 = new Tab("Step 5");
 		tabStep5.setContent(new GridPane());
+		tabStep5.setClosable(false);
 		tabPane.getTabs().add(tabStep5);
 		
 		return new Scene(tabPane,700,500);
@@ -91,7 +102,7 @@ public class StartHW6FX extends Application{
 	private VBox vboxStep1;
 	private Label titleLbl;
 	private TextField login;
-	private TextField password;
+	private PasswordField password;
 	private Button logInBtn;
 	
 	public VBox getStep1Box(){
@@ -105,19 +116,37 @@ public class StartHW6FX extends Application{
 		login.setPromptText("Login");
 		login.setMaxWidth(200);
 		
-		password = new TextField();
+		password = new PasswordField();
 		password.setPromptText("Password");
 		password.setMaxWidth(200);
 		
 		logInBtn = new Button("Log In");
 		logInBtn.setOnAction(new EventHandler<ActionEvent>() {
-		    @Override public void handle(ActionEvent e) {
+		    @SuppressWarnings("unchecked")
+			@Override public void handle(ActionEvent e) {
 		       if(!login.getText().equals("") && !password.getText().equals("")){
 		    	   	Locale.setDefault(Locale.ENGLISH);	
 		   			Session session = null;
+		   			Query query = null;
+		   			List<User> users;
 		   			try{
 		   				session = sessionFactory.openSession();
-		   				///////////////
+		   				query = session.createQuery("from User");
+		   				users = query.list();
+		   				for(int i = 0; i < users.size(); i++){
+		   					if(users.get(i).getLogin().equals(login.getText())){
+		   						if(users.get(i).getPassword().equals(password.getText())){
+		   							System.out.println(">>"+users.get(i));
+		   							tabStep2.setDisable(false);
+		   							tabStep1.setDisable(true);
+		   							selectionModel = tabPane.getSelectionModel();
+		   							selectionModel.select(tabStep2);
+		   							break;
+		   						}else{
+		   							break;
+		   						}
+		   					}
+		   				}
 		   				
 		   			}catch (HibernateException e1) {
 		   				System.out.println("Error!!!");
@@ -125,9 +154,6 @@ public class StartHW6FX extends Application{
 		   			}finally {
 		   				if (session != null) {
 		   					session.close();
-		   				}
-		   				if (sessionFactory != null) {
-		   					sessionFactory.close();
 		   				}
 		   				System.out.println("Session is closed!");
 		   			}
@@ -146,10 +172,10 @@ public class StartHW6FX extends Application{
 	private TableColumn<ObservableProduct, String> productNameColumn;
 	private TableColumn<ObservableProduct, Integer> productCodeColumn;
 	
+	
 	@SuppressWarnings("unchecked")
 	public HBox getStep2Box(){
 		vboxStep2 = new HBox(20);
-		
 		Locale.setDefault(Locale.ENGLISH);	
 		/*Session session = null;*/
 		
@@ -276,9 +302,9 @@ public class StartHW6FX extends Application{
 			if (session != null) {
 				session.close();
 			}
-			if (sessionFactory != null) {
-				sessionFactory.close();
-			}
+//			if (sessionFactory != null) {
+//				sessionFactory.close();
+//			}
 			System.out.println("Session is closed!");
 		}
 		
