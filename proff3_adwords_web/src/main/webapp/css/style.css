@@ -73,3 +73,16 @@ input {
 #btnAddTryam{
 	padding: 10px;
 }
+#picLogin{
+	display: none;
+}
+.Error{
+	color: red;
+}
+
+select{
+	padding-top: 6px;
+	padding-bottom: 6px;
+	padding-left: 10px;
+	width: 100px;
+}

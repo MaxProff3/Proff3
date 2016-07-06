@@ -42,7 +42,9 @@
             <textarea placeholder="трям" cols=20 rows=4 id= "textareaNewContent"> </textarea>
             
         </div>
-    
+    <hr>
+    <select id="block1"><% out.println((String)request.getAttribute("selectBlock1"));%></select>
+    <select id="block2"></select>
            
        </div>
        <div class="footer">&#169; Все права закомпенсированы! 2016г.</div>

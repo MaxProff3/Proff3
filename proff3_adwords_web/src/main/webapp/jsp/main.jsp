@@ -6,6 +6,9 @@
     <meta charset="UTF-8">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/myjs.js"></script>
+    
 </head>
 <body>
    <div class="wrap">
@@ -15,11 +18,26 @@
            <img src="img/main_banner2.png" alt="">
        </div>
        <div class="content">
-           <form method="post">
-               <input type="text" placeholder="ÐÐ²ÐµÐ´Ð¸ÑÐµ Ð»Ð¾Ð³Ð¸Ð½">
-               <input type="text" placeholder="ÐÐ²ÐµÐ´Ð¸ÑÐµ Ð¿Ð°ÑÐ¾Ð»Ñ">
-               <input type="submit" value="ÐÐ¾Ð¹ÑÐ¸">
-           </form>
+           <% String userName = (String)request.getAttribute("userName"); %>
+
+
+           <% if(userName==null){%>    
+	           <form method="post" >
+	               <input type="text" name="nLogin" id="textLogin" placeholder="Введите логин">
+	             <% String error = (String)request.getAttribute("error"); %>
+	             <% String errorText = ""; if(error!=null) errorText = "<p class='Error'>"+error+"</p>";%>
+	               <p id="picLogin"></p>
+	               <% out.println(errorText);%>
+	               <input name="nPass" type="password" placeholder="Введите пароль">
+	               <input type="submit" value="Войти">
+	           </form>
+	       <% } else { %>
+	       		<div style="margin-left: 400px;">UserName:<% out.println(userName);%></div>>	
+	       		<form method="post" >
+	       			<input name="logout" value="logout_value" type="hidden">
+	       			<input type="submit" value="Выйти">
+	       		</form>
+	       <%} %>    
               <div class="menu">
                <p>privet1</p>
                <p>privet2</p>
