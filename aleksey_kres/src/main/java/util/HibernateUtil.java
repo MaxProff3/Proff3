@@ -20,8 +20,7 @@
 	            sb.applySettings(cfg.getProperties());
 	            StandardServiceRegistry standardServiceRegistry = sb.build();
 	           
-	            return new Configuration().configure().
-	            		buildSessionFactory(standardServiceRegistry);
+	            return cfg.buildSessionFactory(standardServiceRegistry);
 	        }
 	        catch (Throwable ex) {
 	            System.err.println("Initial SessionFactory creation failed." + ex);
