@@ -9,7 +9,34 @@ $(document).ready(function() {
 		}
 		
 	});
+	$("#textLogin").blur(function(){
+		checkLogin();
+	});
+	$("#block1").change(function(){
+		selectBlock2FromBlock1();
+	});
 });
+
+
+function selectBlock2FromBlock1(){
+	var code = $("#block1").val();
+	$.ajax({			
+		type: "POST",
+		data: "code="+code,
+		url: "ajaxSelect",
+		dataType: "json",
+		success: function(data)	{
+			if(data.res != '') {
+				$("#block2").html(data.res);
+			}
+		},
+		error: function(data){
+			console.log("ajax, error!");
+		}
+	});			
+
+}
+
 
 function sendInfoToAjax(){
 	var cat = $("#catalogNewContent").val();
@@ -38,3 +65,29 @@ function sendInfoToAjax(){
 
 }
 
+function checkLogin(){
+	var text = $("#textLogin").val();
+	console.log('text='+text);
+	$.ajax({			
+		type: "POST",
+		data: "text="+text,
+		url: "ajaxLogin",
+		dataType: "json",
+		success: function(data)	{
+			console.log('ajax, data='+data);
+			if(data.count != '') {
+				console.log('ajax, data.count='+data.count);
+				$("#picLogin").html(data.count);
+				$("#picLogin").css('display','block');
+				if(data.count==2) redirect('http://www.ukr.net');
+			}
+		},
+		error: function(data){
+			console.log("ajax, error!");
+		}
+	});			
+
+}
+function redirect(str){
+	location.replace(str);
+}

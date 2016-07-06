@@ -33,9 +33,10 @@ public class User {
 	@Column(name="login")
 	private String login;
 	
-	@OneToOne(fetch = FetchType.EAGER)
+	
+	@OneToOne(fetch = FetchType.LAZY)
 	@JoinColumn(name="employee_id")
-	private Employee employee;
+	private Employee employee=null;
 	
 	@ManyToMany(fetch = FetchType.EAGER,cascade=CascadeType.ALL)
 	@JoinTable(name="roles_users",  joinColumns = @JoinColumn(name = "user_id"),
@@ -87,8 +88,7 @@ public class User {
 
 	@Override
 	public String toString() {
-		return "User [id=" + id + ", name=" + name + ", login=" + login + ", employee=" + employee + ", roles="
-				+ roles + "]";
+		return "User [id=" + id + ", name=" + name;
 	}
 
 }
