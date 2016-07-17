@@ -1,4 +1,4 @@
-package action08;
+package action08Chat;
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
@@ -11,7 +11,7 @@ import java.net.UnknownHostException;
 
 public class SocketsExample {
 	public static void main(String[] args) {
-		int port = 3235;
+		int port = 61610;
 		new Server(port).start();
 		new Client("localhost", port).connect();
 	}
@@ -69,15 +69,11 @@ class Client {
 			DataOutputStream dos = new DataOutputStream(os);
 
 			while (true)
-				dos.writeUTF("Hello server");
+				dos.writeUTF("Hello server1");
 			// String str = dis.readUTF();
 			// System.out.println("Client receive from srever:" + str);
 
-		} catch (UnknownHostException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}

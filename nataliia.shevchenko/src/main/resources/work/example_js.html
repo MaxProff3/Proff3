@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .container{
+            display: block;
+            width: 1000px;
+            margin: 10px auto;
+            color: aqua;
+        }
+         .blocks{
+            width: 96px;
+            height: 33px;
+            border: 2px solid grey;
+            border-radius: 25px;  
+            margin: 20px auto;
+            background: pink;
+            font-size: 18px;
+            font-weight: bold;
+            padding-top: 13px;
+            text-align: center;
+            
+        }
+        .blocks:hover{
+            color: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        }
+        #text {
+            margin: 20px;
+            width: 100px;
+             height: 50px;   
+            border: 2px solid teal;
+        }
+    </style>
+    <script type="text/javascript" src="/js/jquery.min.js"></script>
+    <script>
+        function myFuncOldVersion(num){
+            document.getElementById("block"+num).style.background = "teal";    
+        }
+        function myFunc(num){
+            $("#block"+num).css("background", "red");
+            $("#text").html("Круто "+num);                        
+        }
+    </script>
+</head>
+<body>// alert('') console.log('sdsd')
+   <div class="container">
+        <div class="blocks" id="block1" onclick="myFunc(1)" >1</div>
+        <div class="blocks" id="block2" onclick='myFunc(2)' >2</div>
+        <div id="text"></div>
+    </div>
+</body>
+</html>

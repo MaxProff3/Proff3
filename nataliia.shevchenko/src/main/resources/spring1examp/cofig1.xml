@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd
+http://www.springframework.org/schema/context
+http://www.springframework.org/schema/context/spring-context.xsd">
+
+	<bean id="idCarModel" class="spring1examp.Car">
+		<constructor-arg value="BMW 7" />		
+	</bean>
+	
+	<bean id="idHumanName" class="spring1examp.Human">
+		<constructor-arg value="Severov Semen Semenovich" />		
+	</bean>
+	
+	<bean id="idCompany" class="spring1examp.Company">
+		<constructor-arg value="Lastochka Enterprise company" />	
+		<property name="linkCar" ref="idCarModel"/>	
+		<property name="linkHuman" ref="idHumanName"/>
+	</bean>
+	
+</beans>

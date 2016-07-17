@@ -1,0 +1,190 @@
+2016-06-04 13:16:47,563 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-06-04 13:16:47,578 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {4.3.8.Final}
+2016-06-04 13:16:47,578 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2016-06-04 13:16:47,595 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2016-06-04 13:16:47,642 [main] INFO  org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: hibernate.cfg.xml
+2016-06-04 13:16:47,642 [main] INFO  org.hibernate.cfg.Configuration - HHH000040: Configuration resource: hibernate.cfg.xml
+2016-06-04 13:17:41,119 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-06-04 13:17:41,134 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {4.3.8.Final}
+2016-06-04 13:17:41,134 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2016-06-04 13:17:41,150 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2016-06-04 13:17:41,197 [main] INFO  org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: hibernate.cfg.xml
+2016-06-04 13:17:41,197 [main] INFO  org.hibernate.cfg.Configuration - HHH000040: Configuration resource: hibernate.cfg.xml
+2016-06-04 13:17:41,353 [main] INFO  org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
+2016-06-04 13:17:41,603 [main] INFO  org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-06-04 13:17:41,603 [main] INFO  org.hibernate.cfg.Configuration - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-06-04 13:17:41,603 [main] INFO  org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
+2016-06-04 13:17:41,619 [main] WARN  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-06-04 13:17:41,650 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/proff3]
+2016-06-04 13:17:41,650 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000046: Connection properties: {user=root, password=****}
+2016-06-04 13:17:41,650 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000006: Autocommit mode: false
+2016-06-04 13:17:41,650 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+2016-06-04 13:17:42,976 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-06-04 13:17:43,430 [main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-06-04 13:17:43,476 [main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
+2016-06-04 13:17:43,664 [main] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.1.3.Final
+2016-06-04 13:17:44,693 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2016-06-04 13:17:44,693 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000102: Fetching database metadata
+2016-06-04 13:17:44,693 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000396: Updating schema
+2016-06-04 13:17:44,803 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3.employees
+2016-06-04 13:17:44,803 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [name, id, salary]
+2016-06-04 13:17:44,803 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+2016-06-04 13:17:44,803 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [primary]
+2016-06-04 13:17:44,803 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000232: Schema update complete
+2016-06-04 13:17:45,256 [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 1048, SQLState: 23000
+2016-06-04 13:17:45,256 [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Column 'name' cannot be null
+2016-06-04 13:17:45,256 [main] INFO  org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl - HHH000010: On release of batch it still contained JDBC statements
+2016-06-04 13:17:45,271 [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 1048, SQLState: 23000
+2016-06-04 13:17:45,271 [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Column 'name' cannot be null
+2016-06-04 13:17:45,271 [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 1105, SQLState: HY000
+2016-06-04 13:17:45,271 [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Unknown error
+2016-06-04 13:17:45,271 [main] ERROR action11.MainEmployeeExtract - Transaction failed
+2016-06-04 13:32:57,764 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-06-04 13:32:57,780 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {4.3.8.Final}
+2016-06-04 13:32:57,780 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2016-06-04 13:32:57,780 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2016-06-04 13:32:57,843 [main] INFO  org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: hibernate.cfg.xml
+2016-06-04 13:32:57,843 [main] INFO  org.hibernate.cfg.Configuration - HHH000040: Configuration resource: hibernate.cfg.xml
+2016-06-04 13:32:57,984 [main] INFO  org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
+2016-06-04 13:32:58,155 [main] INFO  org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-06-04 13:32:58,155 [main] INFO  org.hibernate.cfg.Configuration - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-06-04 13:32:58,155 [main] INFO  org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
+2016-06-04 13:32:58,171 [main] WARN  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-06-04 13:32:58,186 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/proff3]
+2016-06-04 13:32:58,186 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000046: Connection properties: {user=root, password=****}
+2016-06-04 13:32:58,186 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000006: Autocommit mode: false
+2016-06-04 13:32:58,186 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+2016-06-04 13:32:58,686 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-06-04 13:32:58,982 [main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-06-04 13:32:58,982 [main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
+2016-06-04 13:32:59,092 [main] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.1.3.Final
+2016-06-04 13:32:59,701 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2016-06-04 13:32:59,701 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000102: Fetching database metadata
+2016-06-04 13:32:59,701 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000396: Updating schema
+2016-06-04 13:32:59,747 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3.employees
+2016-06-04 13:32:59,747 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [name, id, salary]
+2016-06-04 13:32:59,747 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+2016-06-04 13:32:59,747 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [primary]
+2016-06-04 13:32:59,747 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000232: Schema update complete
+2016-06-04 13:33:00,279 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000030: Cleaning up connection pool [jdbc:mysql://localhost/proff3]
+2016-06-04 13:34:18,538 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-06-04 13:34:18,554 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {4.3.8.Final}
+2016-06-04 13:34:18,569 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2016-06-04 13:34:18,569 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2016-06-04 13:34:18,616 [main] INFO  org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: hibernate.cfg.xml
+2016-06-04 13:34:18,616 [main] INFO  org.hibernate.cfg.Configuration - HHH000040: Configuration resource: hibernate.cfg.xml
+2016-06-04 13:34:18,756 [main] INFO  org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
+2016-06-04 13:34:18,928 [main] INFO  org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-06-04 13:34:18,928 [main] INFO  org.hibernate.cfg.Configuration - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-06-04 13:34:18,944 [main] INFO  org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
+2016-06-04 13:34:18,960 [main] WARN  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-06-04 13:34:18,960 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/proff3]
+2016-06-04 13:34:18,960 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000046: Connection properties: {user=root, password=****}
+2016-06-04 13:34:18,960 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000006: Autocommit mode: false
+2016-06-04 13:34:18,976 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+2016-06-04 13:34:19,463 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-06-04 13:34:19,759 [main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-06-04 13:34:19,775 [main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
+2016-06-04 13:34:19,884 [main] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.1.3.Final
+2016-06-04 13:34:20,477 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2016-06-04 13:34:20,477 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000102: Fetching database metadata
+2016-06-04 13:34:20,477 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000396: Updating schema
+2016-06-04 13:34:20,509 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3.employees
+2016-06-04 13:34:20,509 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [name, id, salary]
+2016-06-04 13:34:20,509 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+2016-06-04 13:34:20,509 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [primary]
+2016-06-04 13:34:20,525 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000232: Schema update complete
+2016-06-04 13:34:20,946 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000030: Cleaning up connection pool [jdbc:mysql://localhost/proff3]
+2016-06-05 12:52:50,402 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-06-05 12:52:50,432 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {4.3.8.Final}
+2016-06-05 12:52:50,457 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2016-06-05 12:52:50,460 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2016-06-05 12:52:50,559 [main] INFO  org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: hibernate.cfg.xml
+2016-06-05 12:52:50,559 [main] INFO  org.hibernate.cfg.Configuration - HHH000040: Configuration resource: hibernate.cfg.xml
+2016-06-05 12:52:50,860 [main] INFO  org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
+2016-06-05 12:52:51,177 [main] INFO  org.hibernate.cfg.Configuration - HHH000043: Configuring from resource: /hibernate.cfg.xml
+2016-06-05 12:52:51,177 [main] INFO  org.hibernate.cfg.Configuration - HHH000040: Configuration resource: /hibernate.cfg.xml
+2016-06-05 12:52:51,186 [main] INFO  org.hibernate.cfg.Configuration - HHH000041: Configured SessionFactory: null
+2016-06-05 12:52:51,224 [main] WARN  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-06-05 12:52:51,275 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/proff3]
+2016-06-05 12:52:51,276 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000046: Connection properties: {user=root, password=****}
+2016-06-05 12:52:51,276 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000006: Autocommit mode: false
+2016-06-05 12:52:51,281 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+2016-06-05 12:52:52,366 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-06-05 12:52:52,971 [main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-06-05 12:52:53,006 [main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
+2016-06-05 12:52:53,285 [main] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.1.3.Final
+2016-06-05 12:52:54,634 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+2016-06-05 12:52:54,634 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000102: Fetching database metadata
+2016-06-05 12:52:54,646 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000396: Updating schema
+2016-06-05 12:52:54,731 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3.employees
+2016-06-05 12:52:54,731 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [name, id, salary]
+2016-06-05 12:52:54,731 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+2016-06-05 12:52:54,732 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [primary]
+2016-06-05 12:52:54,733 [main] INFO  java.sql.DatabaseMetaData - HHH000262: Table not found: product
+2016-06-05 12:52:54,754 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3.roles
+2016-06-05 12:52:54,754 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [name, comment, id]
+2016-06-05 12:52:54,754 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+2016-06-05 12:52:54,754 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [primary]
+2016-06-05 12:52:54,764 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3.roles_users
+2016-06-05 12:52:54,764 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [role_id, user_id]
+2016-06-05 12:52:54,764 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+2016-06-05 12:52:54,765 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: []
+2016-06-05 12:52:54,776 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000261: Table found: proff3.users
+2016-06-05 12:52:54,776 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [pass, employee_id, name, id, login]
+2016-06-05 12:52:54,776 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+2016-06-05 12:52:54,776 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [primary]
+2016-06-05 12:52:54,778 [main] INFO  java.sql.DatabaseMetaData - HHH000262: Table not found: product
+2016-06-05 12:52:54,779 [main] INFO  java.sql.DatabaseMetaData - HHH000262: Table not found: product
+2016-06-05 12:52:55,992 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000388: Unsuccessful: alter table users add constraint FK_d1s31g1a7ilra77m65xmka3ei foreign key (employee_id) references employees (id)
+2016-06-05 12:52:55,992 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaUpdate - Cannot add or update a child row: a foreign key constraint fails (`proff3`.<result 2 when explaining filename '#sql-914_3'>, CONSTRAINT `FK_d1s31g1a7ilra77m65xmka3ei` FOREIGN KEY (`employee_id`) REFERENCES `employees` (`id`))
+2016-06-05 12:52:55,992 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate - HHH000232: Schema update complete
+2016-06-05 12:52:56,594 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000030: Cleaning up connection pool [jdbc:mysql://localhost/proff3]
+2016-07-10 11:12:46,803 [main] INFO  org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@81f4dc: startup date [Sun Jul 10 11:12:46 EEST 2016]; root of context hierarchy
+2016-07-10 11:12:47,060 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [action18/config1.xml]
+2016-07-10 11:13:03,327 [main] INFO  org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@81f4dc: startup date [Sun Jul 10 11:13:03 EEST 2016]; root of context hierarchy
+2016-07-10 11:13:03,426 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring1examp/config1.xml]
+2016-07-10 11:17:34,941 [main] INFO  org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@81f4dc: startup date [Sun Jul 10 11:17:34 EEST 2016]; root of context hierarchy
+2016-07-10 11:17:35,040 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring1examp/cofig1.xml]
+2016-07-10 11:18:21,200 [main] INFO  org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@81f4dc: startup date [Sun Jul 10 11:18:21 EEST 2016]; root of context hierarchy
+2016-07-10 11:18:21,298 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring1examp/cofig1.xml]
+2016-07-10 11:20:12,557 [main] INFO  org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@81f4dc: startup date [Sun Jul 10 11:20:12 EEST 2016]; root of context hierarchy
+2016-07-10 11:20:12,656 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [action18/config1.xml]
+2016-07-10 11:20:22,451 [main] INFO  org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@81f4dc: startup date [Sun Jul 10 11:20:22 EEST 2016]; root of context hierarchy
+2016-07-10 11:20:22,550 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring1examp/cofig1.xml]
+2016-07-10 11:31:37,967 [main] INFO  org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@81f4dc: startup date [Sun Jul 10 11:31:37 EEST 2016]; root of context hierarchy
+2016-07-10 11:31:38,069 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [action18SpringAop1/config.xml]
+2016-07-10 12:08:11,879 [main] INFO  org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@81f4dc: startup date [Sun Jul 10 12:08:11 EEST 2016]; root of context hierarchy
+2016-07-10 12:08:11,979 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring2examp/config.xml]
+2016-07-10 12:16:52,023 [main] INFO  org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@81f4dc: startup date [Sun Jul 10 12:16:52 EEST 2016]; root of context hierarchy
+2016-07-10 12:16:52,124 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring2examp/config.xml]
+2016-07-10 12:17:03,134 [main] INFO  org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@81f4dc: startup date [Sun Jul 10 12:17:03 EEST 2016]; root of context hierarchy
+2016-07-10 12:17:03,240 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring2examp/config.xml]
+2016-07-10 12:17:06,758 [main] INFO  org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@81f4dc: startup date [Sun Jul 10 12:17:06 EEST 2016]; root of context hierarchy
+2016-07-10 12:17:06,857 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring2examp/config.xml]
+2016-07-10 12:20:54,217 [main] INFO  org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@81f4dc: startup date [Sun Jul 10 12:20:54 EEST 2016]; root of context hierarchy
+2016-07-10 12:20:54,316 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring2examp/config.xml]
+2016-07-10 12:23:43,085 [main] INFO  org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@81f4dc: startup date [Sun Jul 10 12:23:43 EEST 2016]; root of context hierarchy
+2016-07-10 12:23:43,225 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring2examp/config.xml]
+2016-07-10 12:26:40,982 [main] INFO  org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@81f4dc: startup date [Sun Jul 10 12:26:40 EEST 2016]; root of context hierarchy
+2016-07-10 12:26:41,082 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [action18SpringAop1/config.xml]
+2016-07-10 12:28:07,624 [main] INFO  org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@81f4dc: startup date [Sun Jul 10 12:28:07 EEST 2016]; root of context hierarchy
+2016-07-10 12:28:07,726 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring2examp/config.xml]
+2016-07-10 12:31:41,137 [main] INFO  org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@81f4dc: startup date [Sun Jul 10 12:31:41 EEST 2016]; root of context hierarchy
+2016-07-10 12:31:41,241 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring2examp/config.xml]
+2016-07-10 12:34:28,040 [main] INFO  org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@81f4dc: startup date [Sun Jul 10 12:34:28 EEST 2016]; root of context hierarchy
+2016-07-10 12:34:28,149 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring2examp/config.xml]
+2016-07-10 12:35:13,999 [main] INFO  org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@81f4dc: startup date [Sun Jul 10 12:35:13 EEST 2016]; root of context hierarchy
+2016-07-10 12:35:14,102 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring2examp/config.xml]
+2016-07-10 12:37:30,319 [main] INFO  org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@81f4dc: startup date [Sun Jul 10 12:37:30 EEST 2016]; root of context hierarchy
+2016-07-10 12:37:30,418 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring2examp/config.xml]
+2016-07-10 12:38:42,704 [main] INFO  org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@81f4dc: startup date [Sun Jul 10 12:38:42 EEST 2016]; root of context hierarchy
+2016-07-10 12:38:42,802 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring2examp/config.xml]
+2016-07-10 12:40:56,991 [main] INFO  org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@81f4dc: startup date [Sun Jul 10 12:40:56 EEST 2016]; root of context hierarchy
+2016-07-10 12:40:57,108 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring2examp/config.xml]
+2016-07-10 12:45:00,290 [main] INFO  org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@81f4dc: startup date [Sun Jul 10 12:45:00 EEST 2016]; root of context hierarchy
+2016-07-10 12:45:00,393 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring2examp/config.xml]
+2016-07-10 12:45:43,358 [main] INFO  org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@81f4dc: startup date [Sun Jul 10 12:45:43 EEST 2016]; root of context hierarchy
+2016-07-10 12:45:43,459 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [action18SpringAop1/config.xml]
+2016-07-10 13:36:32,587 [main] INFO  org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@81f4dc: startup date [Sun Jul 10 13:36:32 EEST 2016]; root of context hierarchy
+2016-07-10 13:36:32,801 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [action18SpringAop1/config.xml]

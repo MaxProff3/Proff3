@@ -1,0 +1,36 @@
+
+.row div {
+    border: 2px solid rgb(0, 255, 0); // #00FF00 // #FF00FF00
+    background-color: bisque;
+}
+
+.mainContainer {
+    height: 500px;
+}
+
+.container {
+    width: 900px;
+}
+
+
+.block{
+    background: green;
+}
+div{
+    
+}
+
+#block1 {
+    background: pink;
+}
+
+#block2 {
+    background: maroon;
+}
+
+.table{
+    border: 2px solid red;
+}
+.table:nth-child{
+    color: red;
+}
