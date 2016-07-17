@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+  <Button
+      android:id="@+id/button1"
+      android:layout_width="25dp"
+      android:layout_height="wrap_content"
+      android:onClick="myClickBtn2"
+      android:text="@string/nameBtn1" />
+
+   <Button
+        android:id="@+id/button2"
+        android:layout_width="25dp"
+        android:onClick="myClickBtn2"
+        android:layout_height="wrap_content"
+        android:text="@string/nameBtn2" />
+
+   <CheckBox
+       android:id="@+id/checkBox1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentBottom="true"
+       android:layout_alignParentRight="true"
+       android:text="CheckBox" />
+
+   <RadioButton
+       android:id="@+id/radioButton1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentBottom="true"
+       android:layout_alignParentRight="true"
+       android:text="RadioButton" />
+
+</RelativeLayout>

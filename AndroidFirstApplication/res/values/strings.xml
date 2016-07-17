@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">AndroidFirstApplication</string>
+    <string name="nameBtn1">opa pa 1</string>
+    <string name="nameBtn2">opa pa 2</string>
+    <string name="nameShowBtnAdd">Включение добавлятора</string>
+    <string name="nameBtnAdd">Добавлятор</string>
+
+</resources>
